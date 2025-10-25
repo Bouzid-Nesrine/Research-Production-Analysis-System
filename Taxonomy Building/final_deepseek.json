@@ -1,0 +1,675 @@
+{
+  "metadata": {
+    "version": "2.0",
+    "description": "Unified hierarchical research taxonomy integrating ACM CCS, UNESCO FOS, OECD Frascati, and multiple AI-generated taxonomies",
+    "sources": ["ACM CCS 2012", "UNESCO Fields of Science", "OECD Frascati 2015", "Claude Taxonomy", "DeepSeek Taxonomy", "GPT Taxonomy", "Qwen Taxonomy"],
+    "last_updated": "2025-10-25",
+    "total_domains": 7,
+    "hierarchy_levels": "Variable (3-6 levels depending on field specificity)"
+  },
+  
+  "taxonomy": {
+    "Natural Science": {
+      "Mathematics (1.01)": {
+        "Pure Mathematics": {
+          "Algebra": ["Abstract Algebra", "Linear Algebra", "Commutative Algebra", "Homological Algebra", "Representation Theory"],
+          "Analysis": ["Real Analysis", "Complex Analysis", "Functional Analysis", "Harmonic Analysis", "Fourier Analysis"],
+          "Geometry and Topology": ["Differential Geometry", "Algebraic Geometry", "Computational Geometry", "Topology", "Metric Geometry"],
+          "Number Theory": ["Analytic Number Theory", "Algebraic Number Theory", "Computational Number Theory"],
+          "Logic and Foundation": ["Mathematical Logic", "Set Theory", "Category Theory", "Proof Theory", "Model Theory"],
+          "Combinatorics": ["Enumerative Combinatorics", "Algebraic Combinatorics", "Graph Theory", "Combinatorial Optimization"]
+        },
+        "Applied Mathematics": {
+          "Numerical Analysis": ["Numerical Linear Algebra", "Numerical Differential Equation", "Numerical Optimization", "Approximation Theory"],
+          "Optimization": ["Linear Programming", "Nonlinear Optimization", "Convex Optimization", "Stochastic Optimization", "Multi-objective Optimization"],
+          "Operation Research": ["Mathematical Programming", "Network Optimization", "Scheduling Theory"],
+          "Mathematical Modeling": ["Computational Mathematics", "Scientific Computing", "Mathematical Physics"],
+          "Dynamical System": ["Chaos Theory", "Bifurcation Theory", "Ergodic Theory"]
+        },
+        "Statistics and Probability": {
+          "Probability Theory": ["Stochastic Process", "Markov Process", "Martingale Theory", "Random Matrix"],
+          "Statistical Inference": ["Hypothesis Testing", "Estimation Theory", "Bayesian Statistics", "Frequentist Statistics"],
+          "Statistical Methodology": ["Multivariate Analysis", "Time Series Analysis", "Nonparametric Statistics", "Spatial Statistics"],
+          "Applied Statistics": ["Biostatistics", "Econometrics", "Environmental Statistics", "Social Statistics"]
+        }
+      },
+      
+      "Computer and Information Science (1.02)": {
+        "Artificial Intelligence": {
+          "Machine Learning": {
+            "Supervised Learning": ["Classification", "Regression", "Ensemble Method", "Sequence Learning"],
+            "Unsupervised Learning": ["Clustering", "Dimensionality Reduction", "Density Estimation", "Association Rule Learning"],
+            "Reinforcement Learning": ["Model-Free Reinforcement Learning", "Model-Based Reinforcement Learning", "Multi-Agent Reinforcement Learning", "Inverse Reinforcement Learning"],
+            "Deep Learning": {
+              "Neural Network Architecture": ["Feedforward Network", "Convolutional Neural Network", "Recurrent Neural Network", "Transformer Network", "Graph Neural Network"],
+              "Training Technique": ["Backpropagation", "Optimization Algorithm", "Regularization", "Transfer Learning", "Few-Shot Learning"],
+              "Generative Model": ["Generative Adversarial Network", "Variational Autoencoder", "Diffusion Model", "Flow-Based Model"]
+            },
+            "Representation Learning": ["Feature Learning", "Metric Learning", "Contrastive Learning", "Autoencoder"],
+            "Meta-Learning": ["Learning to Learn", "Neural Architecture Search", "Hyperparameter Optimization"],
+            "Federated and Distributed Learning": ["Privacy-Preserving Machine Learning", "Distributed Learning"],
+            "Explainable Artificial Intelligence": ["Interpretable Model", "Feature Importance", "Model Explanation", "Algorithmic Transparency"]
+          },
+          "Natural Language Processing": {
+            "Language Understanding": ["Semantic Analysis", "Pragmatics", "Discourse Analysis", "Coreference Resolution"],
+            "Language Generation": ["Text Generation", "Neural Language Model", "Controlled Generation", "Text Summarization"],
+            "Machine Translation": ["Statistical Machine Translation", "Neural Machine Translation", "Multilingual Model"],
+            "Information Extraction": ["Named Entity Recognition", "Relation Extraction", "Event Extraction", "Knowledge Graph Construction"],
+            "Question Answering": ["Open-Domain Question Answering", "Reading Comprehension", "Conversational Question Answering"],
+            "Text Classification": ["Sentiment Analysis", "Topic Modeling", "Document Classification"],
+            "Speech Processing": ["Speech Recognition", "Speech Synthesis", "Speaker Recognition", "Emotion Recognition"],
+            "Large Language Model": ["Transformer Architecture", "Pre-training", "Prompt Engineering", "In-Context Learning", "Chain-of-Thought Reasoning"]
+          },
+          "Computer Vision": {
+            "Image Understanding": ["Object Detection", "Semantic Segmentation", "Image Classification", "Scene Understanding"],
+            "Video Analysis": ["Action Recognition", "Video Object Detection", "Temporal Modeling", "Video Captioning"],
+            "3D Vision": ["Depth Estimation", "3D Reconstruction", "Simultaneous Localization and Mapping", "Point Cloud Processing", "Neural Radiance Field"],
+            "Generative Vision": ["Image Generation", "Style Transfer", "Image-to-Image Translation", "Text-to-Image Generation"],
+            "Visual Recognition": ["Face Recognition", "Biometric System", "Object Tracking", "Re-identification"]
+          },
+          "Knowledge Representation and Reasoning": {
+            "Ontology": ["Ontology Engineering", "Semantic Web", "Knowledge Graph", "Web Ontology Language", "Resource Description Framework"],
+            "Logic-Based Artificial Intelligence": ["Description Logic", "First-Order Logic", "Temporal Logic", "Modal Logic"],
+            "Reasoning System": ["Automated Reasoning", "Probabilistic Reasoning", "Causal Reasoning", "Commonsense Reasoning"],
+            "Semantic Network": ["Concept Graph", "Spreading Activation"]
+          },
+          "Planning and Control": {
+            "Automated Planning": ["Planning for Deterministic Action", "Planning under Uncertainty", "Multi-Agent Planning"],
+            "Motion Planning": ["Robot Motion Planning", "Trajectory Optimization"],
+            "Search and Optimization": ["Heuristic Search", "Evolutionary Algorithm", "Constraint Optimization", "Meta-heuristic"]
+          },
+          "Robotics and Autonomous System": {
+            "Robot Control": ["Motion Planning", "Trajectory Optimization", "Manipulation", "Locomotion"],
+            "Robot Perception": ["Sensor Fusion", "Object Recognition", "Environmental Mapping"],
+            "Human-Robot Interaction": ["Natural Language Interface", "Gesture Recognition", "Collaborative Robotics"],
+            "Autonomous Vehicle": ["Self-Driving Car", "Drone", "Navigation System"],
+            "Swarm Robotics": ["Multi-Robot System", "Distributed Control"]
+          },
+          "Multi-Agent System": ["Agent Architecture", "Coordination", "Negotiation", "Emergent Behavior", "Game Theory"],
+          "Artificial Intelligence Safety and Alignment": ["Robustness and Adversarial Machine Learning", "Interpretability and Explainability", "Value Alignment", "Algorithmic Fairness"]
+        },
+        
+        "Data Science and Analytics": {
+          "Data Mining and Knowledge Discovery": ["Pattern Discovery", "Frequent Pattern Mining", "Sequential Pattern Mining", "Anomaly Detection"],
+          "Big Data Analytics": ["MapReduce", "Apache Spark", "Stream Processing", "Distributed Analytics", "Data Lake"],
+          "Data Visualization": ["Information Visualization", "Visual Analytics", "Scientific Visualization", "Interactive Dashboard"],
+          "Business Intelligence": ["Online Analytical Processing", "Data Warehousing", "Extract Transform Load Process", "Reporting"],
+          "Predictive Analytics": ["Forecasting Model", "Risk Analysis", "Churn Prediction"],
+          "Text Analytics": ["Text Mining", "Opinion Mining", "Document Clustering"],
+          "Statistical Learning": ["Regression Analysis", "Classification Method", "Dimensionality Reduction", "Bayesian Method", "Time Series Analysis"]
+        },
+        
+        "Software Engineering": {
+          "Software Development": {
+            "Requirement Engineering": ["Requirement Elicitation", "Requirement Specification", "Requirement Validation"],
+            "Software Design": ["Design Pattern", "Architectural Design", "Object-Oriented Design", "Domain-Driven Design"],
+            "Software Construction": ["Coding Standard", "Code Review", "Refactoring"],
+            "Software Testing": ["Unit Testing", "Integration Testing", "System Testing", "Test-Driven Development", "Continuous Testing"],
+            "Software Maintenance": ["Bug Fixing", "Software Evolution", "Legacy System"]
+          },
+          "Software Architecture": ["Microservice", "Service-Oriented Architecture", "Event-Driven Architecture", "Layered Architecture"],
+          "DevOps and Continuous Integration": ["Continuous Integration and Continuous Delivery Pipeline", "Infrastructure as Code", "Container Orchestration", "Monitoring and Logging"],
+          "Agile Method": ["Scrum", "Kanban", "Extreme Programming", "Lean Software Development"],
+          "Software Quality": ["Code Quality Metric", "Technical Debt", "Software Reliability"],
+          "Software Project Management": ["Effort Estimation", "Risk Management", "Resource Allocation"]
+        },
+        
+        "Computer System": {
+          "Operating System": ["Process Management", "Memory Management", "File System", "Device Driver", "Virtualization"],
+          "Distributed System": ["Distributed Algorithm", "Consensus Protocol", "Fault Tolerance", "Cloud Computing"],
+          "Parallel Computing": ["Parallel Architecture", "Graphics Processing Unit Computing", "High-Performance Computing"],
+          "Embedded System": ["Real-Time System", "Embedded Software", "System-on-Chip"],
+          "Computer Architecture": ["Processor Design", "Memory Hierarchy", "Instruction Set Architecture"]
+        },
+        
+        "Computer Network": {
+          "Network Architecture": ["Open Systems Interconnection Model", "Transmission Control Protocol and Internet Protocol", "Network Protocol", "Software-Defined Networking"],
+          "Wireless Network": ["Mobile Network", "5G and 6G", "WiFi", "Sensor Network", "Ad Hoc Network"],
+          "Network Security": ["Firewall", "Intrusion Detection", "Virtual Private Network", "Network Forensics"],
+          "Internet of Thing": ["Internet of Thing Protocol", "Edge Computing", "Smart Device"],
+          "Network Performance": ["Quality of Service", "Traffic Engineering", "Network Optimization"]
+        },
+        
+        "Database System": {
+          "Database Management": ["Relational Database", "NoSQL Database", "Graph Database", "Time-Series Database"],
+          "Query Processing": ["Query Optimization", "Indexing", "Join Algorithm"],
+          "Transaction Management": ["Atomicity Consistency Isolation Durability Property", "Concurrency Control", "Recovery System"],
+          "Distributed Database": ["Distributed Transaction", "Replication", "Sharding", "Consistency Model"],
+          "Data Modeling": ["Entity-Relationship Model", "Normalization", "Schema Design"]
+        },
+        
+        "Human-Computer Interaction": {
+          "Interaction Design": ["User Interface Design", "User Experience Design", "Interaction Paradigm"],
+          "Usability": ["Usability Testing", "Heuristic Evaluation", "Accessibility"],
+          "Visualization": ["Data Visualization", "Information Graphic", "Visual Design"],
+          "Virtual and Augmented Reality": ["Virtual Reality System", "Augmented Reality Application", "Mixed Reality"],
+          "Social Computing": ["Social Network", "Crowdsourcing", "Online Community"]
+        },
+        
+        "Information System": {
+          "Information Retrieval": ["Search Engine", "Ranking Algorithm", "Query Processing", "Relevance Feedback"],
+          "Recommender System": ["Collaborative Filtering", "Content-Based Filtering", "Hybrid Method"],
+          "Digital Library": ["Metadata Management", "Preservation", "Digital Archive"],
+          "Web Information System": ["Web Mining", "Web Service", "Semantic Web"]
+        },
+        
+        "Computer Security and Privacy": {
+          "Security Engineering": ["Secure Software Design", "Threat Modeling", "Security Testing"],
+          "Cryptographic Application": ["Digital Signature", "Key Management", "Secure Protocol"],
+          "Privacy Technology": ["Differential Privacy", "Anonymization", "Privacy-Preserving Computation"],
+          "Malware Analysis": ["Virus Detection", "Reverse Engineering", "Sandbox Analysis"],
+          "Access Control": ["Authentication", "Authorization", "Identity Management"]
+        },
+        
+        "Theory of Computation": {
+          "Computational Complexity": ["Complexity Class", "NP-Completeness", "Computational Hardness"],
+          "Algorithm and Data Structure": ["Algorithm Design", "Graph Algorithm", "Approximation Algorithm", "Advanced Data Structure"],
+          "Automata Theory": ["Formal Language", "Computability Theory", "Automaton"],
+          "Logic in Computer Science": ["Mathematical Logic", "Program Verification", "Formal Method"]
+        },
+        
+        "Computer Graphics": ["Rendering", "Modeling", "Animation", "Computational Photography"],
+        "Programming Language and Compiler": ["Language Design", "Type System", "Compiler Construction", "Runtime System"],
+        "Bioinformatics and Computational Biology": ["Sequence Analysis", "Genomics", "Proteomics", "System Biology", "Computational Biology"]
+      },
+      
+      "Physical Science (1.03)": {
+        "Physics": {
+          "Theoretical Physics": ["Quantum Mechanics", "Quantum Field Theory", "String Theory", "General Relativity", "Statistical Mechanics"],
+          "Particle Physics": ["Standard Model", "High Energy Physics", "Neutrino Physics", "Particle Accelerator"],
+          "Condensed Matter Physics": ["Solid State Physics", "Superconductivity", "Quantum Material", "Nanophysics"],
+          "Atomic and Molecular Physics": ["Atomic Structure", "Molecular Spectroscopy", "Laser Physics", "Quantum Optics"],
+          "Nuclear Physics": ["Nuclear Structure", "Nuclear Reaction", "Radioactivity", "Nuclear Energy"],
+          "Fluid and Plasma Physics": ["Fluid Dynamics", "Plasma Physics", "Fusion Physics"],
+          "Optics and Photonics": ["Geometrical Optics", "Wave Optics", "Quantum Optics", "Photonics"],
+          "Acoustics": ["Acoustical Engineering", "Ultrasonics", "Psychoacoustics"]
+        },
+        "Astronomy and Astrophysics": {
+          "Observational Astronomy": ["Optical Astronomy", "Radio Astronomy", "Infrared Astronomy", "X-ray Astronomy"],
+          "Theoretical Astrophysics": ["Stellar Physics", "Galactic Astronomy", "Extragalactic Astronomy"],
+          "Cosmology": ["Big Bang Theory", "Dark Matter and Dark Energy", "Gravitational Wave", "Cosmic Microwave Background"],
+          "Planetary Science": ["Planetary Geology", "Astrobiology", "Comparative Planetology"]
+        },
+        "Material Science": ["Metal and Alloy", "Ceramic", "Polymer", "Composite", "Nanomaterial"]
+      },
+      
+      "Chemical Science (1.04)": {
+        "Organic Chemistry": ["Synthesis", "Reaction Mechanism", "Natural Product", "Organometallic Chemistry"],
+        "Inorganic Chemistry": ["Coordination Chemistry", "Solid State Chemistry", "Bioinorganic Chemistry"],
+        "Physical Chemistry": ["Quantum Chemistry", "Thermodynamics", "Chemical Kinetics", "Spectroscopy", "Electrochemistry"],
+        "Analytical Chemistry": ["Chromatography", "Mass Spectrometry", "Nuclear Magnetic Resonance", "Sensor"],
+        "Polymer Chemistry": ["Polymer Synthesis", "Polymer Characterization", "Polymer Physics"],
+        "Computational Chemistry": ["Molecular Modeling", "Density Functional Theory", "Molecular Dynamics"],
+        "Green Chemistry": ["Sustainable Synthesis", "Catalysis", "Renewable Resource"]
+      },
+      
+      "Earth and Environmental Science (1.05)": {
+        "Geology": ["Mineralogy", "Petrology", "Structural Geology", "Sedimentology", "Geochemistry"],
+        "Geophysics": ["Seismology", "Geomagnetism", "Gravity Study", "Geodynamics"],
+        "Atmospheric Science": {
+          "Meteorology": ["Weather Forecasting", "Atmospheric Dynamics", "Cloud Physics"],
+          "Climatology": ["Climate Modeling", "Climate Change", "Paleoclimatology"],
+          "Atmospheric Chemistry": ["Air Quality", "Aerosol", "Ozone Depletion"]
+        },
+        "Oceanography": ["Physical Oceanography", "Marine Chemistry", "Marine Biology", "Ocean Modeling"],
+        "Hydrology": ["Surface Water", "Groundwater", "Water Resource Management"],
+        "Environmental Science": {
+          "Environmental Monitoring": ["Remote Sensing", "Environmental Sensor", "Geographic Information System Application"],
+          "Pollution Study": ["Air Pollution", "Water Pollution", "Soil Contamination"],
+          "Ecosystem Science": ["Ecosystem Modeling", "Biodiversity", "Ecosystem Service"],
+          "Sustainability Science": ["Sustainable Development", "Circular Economy", "Life Cycle Assessment"]
+        }
+      },
+      
+      "Biological Science (1.06)": {
+        "Molecular Biology": ["Deoxyribonucleic Acid and Ribonucleic Acid", "Gene Expression", "Protein Synthesis", "Epigenetics"],
+        "Cell Biology": ["Cell Structure", "Cell Signaling", "Cell Cycle", "Apoptosis"],
+        "Genetics": ["Population Genetics", "Evolutionary Genetics", "Quantitative Genetics", "Genomics"],
+        "Biochemistry": ["Enzyme Mechanism", "Metabolic Pathway", "Structural Biochemistry"],
+        "Bioinformatics and Computational Biology": {
+          "Sequence Analysis": ["Genome Assembly", "Gene Prediction", "Sequence Alignment"],
+          "System Biology": ["Metabolic Network", "Gene Regulatory Network", "Protein Interaction Network"],
+          "Structural Bioinformatics": ["Protein Structure Prediction", "Molecular Docking", "Drug Design"],
+          "Phylogenetics": ["Evolutionary Tree", "Molecular Evolution"]
+        },
+        "Microbiology": ["Bacteriology", "Virology", "Mycology", "Microbial Ecology"],
+        "Plant Biology": ["Plant Physiology", "Plant Genetics", "Plant Development"],
+        "Zoology": ["Animal Physiology", "Animal Behavior", "Entomology", "Ornithology"],
+        "Ecology": ["Community Ecology", "Population Ecology", "Ecosystem Ecology", "Conservation Biology"],
+        "Evolutionary Biology": ["Natural Selection", "Speciation", "Macroevolution", "Molecular Evolution"],
+        "Neuroscience": ["Cognitive Neuroscience", "Behavioral Neuroscience", "Molecular Neuroscience", "Neuroimaging", "Neuroplasticity"],
+        "Developmental Biology": ["Embryology", "Morphogenesis", "Stem Cell Biology"]
+      }
+    },
+    
+    "Engineering and Technology": {
+      "Civil Engineering (2.01)": {
+        "Structural Engineering": ["Steel Structure", "Concrete Structure", "Bridge Engineering", "Earthquake Engineering"],
+        "Geotechnical Engineering": ["Soil Mechanics", "Foundation Engineering", "Slope Stability"],
+        "Transportation Engineering": ["Highway Engineering", "Railway Engineering", "Traffic Engineering", "Urban Transportation"],
+        "Hydraulic Engineering": ["Water Resource", "Dam Engineering", "Coastal Engineering"],
+        "Construction Engineering": ["Construction Management", "Building Material", "Construction Technology"],
+        "Urban Planning": ["City Planning", "Land Use Planning", "Sustainable City"]
+      },
+      
+      "Electrical and Information Engineering (2.02)": {
+        "Electrical Engineering": ["Power System", "Power Electronics", "Electric Machine", "Smart Grid", "Renewable Energy System"],
+        "Electronics": ["Analog Electronics", "Digital Electronics", "Microelectronics", "Very-Large-Scale Integration Design"],
+        "Telecommunication": ["Wireless Communication", "Optical Communication", "Signal Processing", "Communication Network"],
+        "Control Engineering": ["Control System", "Robotics Control", "Process Control", "Optimal Control"],
+        "Instrumentation": ["Sensor and Transducer", "Measurement System", "Industrial Instrumentation"]
+      },
+      
+      "Mechanical Engineering (2.03)": {
+        "Solid Mechanics": ["Continuum Mechanics", "Fracture Mechanics", "Computational Mechanics"],
+        "Fluid Mechanics": ["Computational Fluid Dynamics", "Turbulence", "Aerodynamics"],
+        "Thermodynamics": ["Heat Transfer", "Combustion", "Heating Ventilation and Air Conditioning System"],
+        "Manufacturing": ["Computer-Aided Design and Computer-Aided Manufacturing", "Computer Numerical Control Machining", "Additive Manufacturing", "Precision Engineering"],
+        "Mechanical Design": ["Machine Design", "Mechanism Design", "Finite Element Analysis"],
+        "Mechatronics": ["Robotics", "Automation", "Embedded Control System"],
+        "Energy System": ["Renewable Energy", "Energy Conversion", "Energy Storage"]
+      },
+      
+      "Chemical Engineering (2.04)": {
+        "Process Engineering": ["Unit Operation", "Chemical Reactor", "Separation Process"],
+        "Process Control": ["Process Dynamics", "Advanced Process Control", "Process Optimization"],
+        "Biochemical Engineering": ["Bioprocess Engineering", "Fermentation Technology", "Downstream Processing"],
+        "Material Processing": ["Polymer Processing", "Ceramic Processing", "Composite Material"],
+        "Petroleum Engineering": ["Oil Recovery", "Reservoir Engineering", "Refining"]
+      },
+      
+      "Material Engineering (2.05)": {
+        "Material Science": ["Metal and Alloy", "Ceramic", "Polymer", "Composite", "Nanomaterial"],
+        "Material Characterization": ["Microscopy", "Spectroscopy", "Diffraction Technique"],
+        "Material Processing": ["Casting", "Welding", "Heat Treatment", "Surface Engineering"],
+        "Biomaterial": ["Tissue Engineering Material", "Biocompatibility", "Drug Delivery System"]
+      },
+      
+      "Medical Engineering (2.06)": {
+        "Biomedical Engineering": {
+          "Medical Imaging": ["Magnetic Resonance Imaging", "Computed Tomography Imaging", "Ultrasound", "Image Processing"],
+          "Biomedical Instrumentation": ["Diagnostic Device", "Therapeutic Device", "Monitoring System"],
+          "Biomechanics": ["Orthopedic Biomechanics", "Cardiovascular Biomechanics", "Tissue Biomechanics"],
+          "Neural Engineering": ["Brain-Computer Interface", "Neuroprosthetics", "Neural Stimulation"],
+          "Rehabilitation Engineering": ["Assistive Technology", "Prosthetics", "Orthotics"]
+        },
+        "Clinical Engineering": ["Medical Device Management", "Healthcare Technology Assessment"]
+      },
+      
+      "Environmental Engineering (2.07)": {
+        "Water and Wastewater Treatment": ["Water Purification", "Wastewater Treatment", "Membrane Technology"],
+        "Air Pollution Control": ["Emission Control", "Air Quality Management"],
+        "Solid Waste Management": ["Waste Treatment", "Recycling", "Landfill Engineering"],
+        "Environmental Remediation": ["Soil Remediation", "Groundwater Remediation"],
+        "Sustainable Engineering": ["Green Building", "Sustainable Infrastructure", "Environmental Impact Assessment"]
+      },
+      
+      "Environmental Biotechnology (2.08)": {
+        "Bioremediation": ["Microbial Degradation", "Phytoremediation"],
+        "Biofuel": ["Bioethanol", "Biodiesel", "Algae-Based Fuel"],
+        "Waste Biotechnology": ["Composting", "Anaerobic Digestion", "Biogas Production"]
+      },
+      
+      "Industrial Biotechnology (2.09)": {
+        "Bioprocessing": ["Fermentation", "Cell Culture Technology", "Protein Production"],
+        "Metabolic Engineering": ["Pathway Engineering", "Synthetic Biology"],
+        "Biocatalysis": ["Enzyme Technology", "Biocatalytic Process"]
+      },
+      
+      "Nanotechnology (2.10)": {
+        "Nanomaterial": ["Carbon Nanotube", "Quantum Dot", "Nanocomposite", "Two-Dimensional Material"],
+        "Nanofabrication": ["Lithography", "Self-Assembly", "Molecular Manufacturing"],
+        "Nanoelectronics": ["Molecular Electronics", "Spintronics", "Quantum Computing"],
+        "Nanomedicine": ["Drug Delivery", "Diagnostic Nanodevice", "Theranostics"],
+        "Nano-optics": ["Plasmonics", "Metamaterial", "Photonic Crystal"]
+      },
+      
+      "Aerospace Engineering": ["Aircraft Design", "Propulsion", "Space System", "Avionics"],
+      "Marine Engineering": ["Ship Design", "Naval Architecture", "Ocean Engineering"],
+      "Nuclear Engineering": ["Reactor Design", "Nuclear Safety", "Radiation Protection"],
+      "Mining Engineering": ["Mineral Processing", "Mining Operation", "Mine Safety"],
+      "Food Technology": ["Food Processing", "Food Safety", "Food Chemistry"],
+      "Textile Technology": ["Fiber Science", "Textile Manufacturing", "Smart Textile"]
+    },
+    
+    "Medical and Health Science": {
+      "Basic Medicine (3.01)": {
+        "Anatomy": ["Gross Anatomy", "Histology", "Neuroanatomy", "Embryology"],
+        "Physiology": ["Human Physiology", "Pathophysiology", "Exercise Physiology"],
+        "Pharmacology": ["Drug Discovery", "Pharmacokinetics", "Pharmacodynamics", "Toxicology"],
+        "Immunology": ["Innate Immunity", "Adaptive Immunity", "Immunotherapy", "Vaccine"],
+        "Pathology": ["Cellular Pathology", "Molecular Pathology", "Forensic Pathology"],
+        "Medical Genetics": ["Clinical Genetics", "Genetic Counseling", "Gene Therapy"]
+      },
+      
+      "Clinical Medicine (3.02)": {
+        "Internal Medicine": ["Cardiology", "Gastroenterology", "Endocrinology", "Nephrology", "Pulmonology"],
+        "Surgery": ["General Surgery", "Orthopedic Surgery", "Neurosurgery", "Cardiovascular Surgery"],
+        "Oncology": ["Medical Oncology", "Radiation Oncology", "Surgical Oncology", "Cancer Biology"],
+        "Pediatrics": ["Neonatology", "Pediatric Cardiology", "Developmental Pediatrics"],
+        "Obstetrics and Gynecology": ["Maternal-Fetal Medicine", "Reproductive Medicine", "Gynecologic Oncology"],
+        "Psychiatry": ["Clinical Psychiatry", "Psychopharmacology", "Child Psychiatry"],
+        "Neurology": ["Movement Disorder", "Epilepsy", "Stroke", "Neurodegenerative Disease"],
+        "Radiology": ["Diagnostic Radiology", "Interventional Radiology", "Nuclear Medicine"],
+        "Anesthesiology": ["Pain Management", "Critical Care", "Perioperative Medicine"],
+        "Emergency Medicine": ["Trauma Care", "Acute Care", "Disaster Medicine"],
+        "Dermatology": ["Clinical Dermatology", "Cosmetic Dermatology", "Dermatopathology"]
+      },
+      
+      "Health Science (3.03)": {
+        "Public Health": {
+          "Epidemiology": ["Disease Surveillance", "Outbreak Investigation", "Chronic Disease Epidemiology"],
+          "Health Policy": ["Healthcare System", "Health Economics", "Global Health Policy"],
+          "Environmental Health": ["Occupational Health", "Toxicology", "Environmental Epidemiology"],
+          "Health Promotion": ["Disease Prevention", "Health Education", "Wellness Program"]
+        },
+        "Nursing": ["Clinical Nursing", "Nursing Education", "Nursing Administration"],
+        "Nutrition and Dietetics": ["Clinical Nutrition", "Community Nutrition", "Sports Nutrition"],
+        "Pharmacy": ["Clinical Pharmacy", "Pharmaceutical Care", "Pharmacy Administration"],
+        "Rehabilitation Science": ["Physical Therapy", "Occupational Therapy", "Speech Therapy"],
+        "Dentistry": ["Oral Surgery", "Orthodontics", "Periodontics", "Prosthodontics"],
+        "Veterinary Medicine": ["Small Animal Medicine", "Large Animal Medicine", "Veterinary Surgery"],
+        "Mental Health": ["Clinical Psychology", "Counseling", "Psychotherapy"]
+      },
+      
+      "Medical Biotechnology (3.04)": {
+        "Medical Genomics": ["Precision Medicine", "Pharmacogenomics", "Cancer Genomics", "Genome Editing"],
+        "Regenerative Medicine": ["Stem Cell Therapy", "Tissue Engineering", "Organ Regeneration"],
+        "Diagnostic Technology": ["Molecular Diagnostics", "Point-of-Care Testing", "Biosensor"],
+        "Therapeutic Technology": ["Monoclonal Antibody", "Cell Therapy", "Ribonucleic Acid Therapeutics"],
+        "Bioinformatics in Healthcare": ["Clinical Bioinformatics", "Medical Imaging Analysis", "Healthcare Data Analytics"]
+      }
+    },
+    
+    "Agricultural Science": {
+      "Agriculture Forestry and Fisheries (4.01)": {
+        "Agronomy": {
+          "Crop Science": ["Crop Production", "Crop Physiology", "Crop Breeding", "Seed Science"],
+          "Soil Science": ["Soil Chemistry", "Soil Physics", "Soil Microbiology", "Soil Fertility"],
+          "Plant Protection": ["Pest Management", "Plant Pathology", "Weed Science", "Integrated Pest Management"],
+          "Precision Agriculture": ["Smart Farming", "Agricultural Sensor", "Drone Technology", "Variable Rate Technology"]
+        },
+        "Horticulture": ["Vegetable Production", "Fruit Production", "Ornamental Horticulture", "Post-Harvest Technology"],
+        "Forestry": {
+          "Forest Management": ["Silviculture", "Forest Inventory", "Sustainable Forestry"],
+          "Forest Ecology": ["Forest Biodiversity", "Forest Conservation", "Climate Change Impact"],
+          "Wood Science": ["Wood Property", "Wood Processing", "Biomass Utilization"]
+        },
+        "Fishery": ["Aquaculture", "Fish Biology", "Fisheries Management", "Marine Resource"],
+        "Agricultural Engineering": ["Farm Machinery", "Irrigation System", "Agricultural Structure", "Post-Harvest Engineering"],
+        "Agroecology": ["Sustainable Agriculture", "Organic Farming", "Permaculture", "Agroforestry"]
+      },
+      
+      "Animal and Dairy Science (4.02)": {
+        "Animal Science": ["Animal Nutrition", "Animal Breeding", "Animal Reproduction", "Animal Behavior"],
+        "Livestock Production": ["Cattle Production", "Swine Production", "Poultry Production", "Sheep and Goat Production"],
+        "Dairy Science": ["Milk Production", "Dairy Technology", "Dairy Microbiology"],
+        "Animal Health": ["Disease Prevention", "Animal Welfare", "Livestock Epidemiology"]
+      },
+      
+      "Veterinary Science (4.03)": {
+        "Veterinary Medicine": ["Companion Animal Medicine", "Food Animal Medicine", "Equine Medicine"],
+        "Veterinary Surgery": ["Soft Tissue Surgery", "Orthopedic Surgery", "Emergency Surgery"],
+        "Veterinary Pathology": ["Anatomic Pathology", "Clinical Pathology", "Veterinary Toxicology"],
+        "Veterinary Public Health": ["Zoonotic Disease", "Food Safety", "One Health"]
+      },
+      
+      "Agricultural Biotechnology (4.04)": {
+        "Plant Biotechnology": ["Genetic Engineering", "Molecular Marker", "Plant Tissue Culture", "Clustered Regularly Interspaced Short Palindromic Repeats in Plant"],
+        "Animal Biotechnology": ["Transgenic Animal", "Cloning", "Molecular Breeding"],
+        "Microbial Biotechnology": ["Biofertilizer", "Biopesticide", "Microbial Inoculant"],
+        "Agricultural Genomics": ["Crop Genomics", "Livestock Genomics", "Comparative Genomics"]
+      }
+    },
+    
+    "Social Science": {
+      "Psychology and Cognitive Science (5.01)": {
+        "Cognitive Psychology": ["Memory", "Attention", "Perception", "Decision Making", "Language Processing"],
+        "Developmental Psychology": ["Child Development", "Adolescent Psychology", "Aging", "Lifespan Development"],
+        "Social Psychology": ["Social Cognition", "Group Dynamics", "Prejudice and Stereotyping", "Interpersonal Relation"],
+        "Clinical Psychology": ["Psychotherapy", "Psychological Assessment", "Mental Disorder", "Behavior Therapy"],
+        "Behavioral Neuroscience": ["Brain-Behavior Relationship", "Neuropsychology", "Psychopharmacology"],
+        "Industrial and Organizational Psychology": ["Workplace Behavior", "Personnel Psychology", "Organizational Development"],
+        "Educational Psychology": ["Learning Theory", "Motivation", "Assessment and Evaluation"],
+        "Health Psychology": ["Stress and Coping", "Health Behavior", "Chronic Illness"],
+        "Experimental Psychology": ["Psychophysics", "Learning and Conditioning", "Behavioral Analysis"]
+      },
+      
+      "Economics and Business (5.02)": {
+        "Economics": {
+          "Microeconomics": ["Consumer Theory", "Producer Theory", "Market Structure", "Game Theory"],
+          "Macroeconomics": ["Economic Growth", "Inflation", "Unemployment", "Monetary Policy", "Fiscal Policy"],
+          "Econometrics": ["Time Series Analysis", "Panel Data Method", "Causal Inference"],
+          "International Economics": ["International Trade", "Exchange Rate", "Global Finance"],
+          "Development Economics": ["Poverty", "Inequality", "Economic Development Strategy"],
+          "Labor Economics": ["Employment", "Wage Determination", "Human Capital"],
+          "Environmental Economics": ["Natural Resource Economics", "Climate Economics", "Ecological Economics"],
+          "Behavioral Economics": ["Bounded Rationality", "Prospect Theory", "Nudging"]
+        },
+        "Business and Management": {
+          "Strategic Management": ["Corporate Strategy", "Competitive Analysis", "Strategic Planning"],
+          "Marketing": ["Consumer Behavior", "Digital Marketing", "Brand Management", "Market Research"],
+          "Finance": ["Corporate Finance", "Investment Analysis", "Financial Market", "Risk Management", "Financial Technology"],
+          "Accounting": ["Financial Accounting", "Management Accounting", "Auditing", "Tax Accounting"],
+          "Operation Management": ["Supply Chain Management", "Quality Management", "Logistics", "Operation Research"],
+          "Human Resource Management": ["Talent Management", "Compensation", "Training and Development"],
+          "Entrepreneurship": ["Startup Management", "Innovation Management", "Venture Capital"],
+          "International Business": ["Global Strategy", "Cross-Cultural Management", "International Marketing"],
+          "Business Analytics": ["Data-Driven Decision Making", "Predictive Modeling", "Business Intelligence"]
+        }
+      },
+      
+      "Educational Science (5.03)": {
+        "Pedagogy": ["Teaching Method", "Curriculum Development", "Instructional Design", "Assessment"],
+        "Educational Technology": ["E-Learning", "Learning Management System", "Educational Game", "Artificial Intelligence in Education"],
+        "Educational Administration": ["School Leadership", "Educational Policy", "Education Management"],
+        "Special Education": ["Learning Disability", "Inclusive Education", "Gifted Education"],
+        "Higher Education": ["University Teaching", "Academic Development", "Higher Education Policy"],
+        "Science Technology Engineering and Mathematics Education": ["Science Education", "Mathematics Education", "Technology Education"],
+        "Language Education": ["Second Language Acquisition", "Bilingual Education", "Literacy"]
+      },
+      
+      "Sociology (5.04)": {
+        "Social Theory": ["Classical Theory", "Contemporary Theory", "Critical Theory"],
+        "Social Stratification": ["Social Class", "Social Mobility", "Inequality"],
+        "Family Sociology": ["Family Structure", "Marriage", "Parenting", "Divorce"],
+        "Urban Sociology": ["Urbanization", "Community Study", "Gentrification"],
+        "Rural Sociology": ["Rural Community", "Agricultural Society", "Rural Development"],
+        "Sociology of Education": ["Educational Inequality", "School and Society"],
+        "Sociology of Religion": ["Religious Institution", "Secularization", "Religious Identity"],
+        "Medical Sociology": ["Health and Illness", "Healthcare System", "Social Epidemiology"],
+        "Environmental Sociology": ["Environmental Movement", "Sustainability", "Human-Environment Interaction"],
+        "Cultural Sociology": ["Culture and Identity", "Cultural Production", "Popular Culture"],
+        "Social Movement": ["Collective Action", "Protest", "Social Change"]
+      },
+      
+      "Law (5.05)": {
+        "Constitutional Law": ["Civil Right", "Separation of Powers", "Federalism"],
+        "Criminal Law": ["Criminal Procedure", "Sentencing", "Criminal Justice"],
+        "Civil Law": ["Contract Law", "Tort Law", "Property Law"],
+        "International Law": ["International Humanitarian Law", "Human Right Law", "International Trade Law"],
+        "Commercial Law": ["Corporate Law", "Securities Law", "Banking Law"],
+        "Environmental Law": ["Environmental Regulation", "Climate Law", "Conservation Law"],
+        "Intellectual Property Law": ["Patent Law", "Copyright Law", "Trademark Law"],
+        "Labor Law": ["Employment Law", "Union Law", "Workplace Right"],
+        "Tax Law": ["Income Tax", "Corporate Tax", "International Tax"]
+      },
+      
+      "Political Science (5.06)": {
+        "Political Theory": ["Democratic Theory", "Justice", "Political Philosophy"],
+        "Comparative Politics": ["Political System", "Democratization", "Authoritarianism"],
+        "International Relations": ["International Security", "Diplomacy", "International Organization", "Conflict Resolution"],
+        "Public Administration": ["Public Policy", "Governance", "Bureaucracy", "E-Government"],
+        "Political Behavior": ["Voting Behavior", "Public Opinion", "Political Participation"],
+        "Political Economy": ["State and Market", "Development Politics", "Globalization"]
+      },
+      
+      "Social and Economic Geography (5.07)": {
+        "Human Geography": ["Population Geography", "Migration Study", "Settlement Geography"],
+        "Economic Geography": ["Industrial Location", "Regional Development", "Globalization"],
+        "Urban Geography": ["Urban Planning", "Urban Morphology", "Smart City"],
+        "Political Geography": ["Geopolitics", "Border", "Territory"],
+        "Cultural Geography": ["Landscape Study", "Place and Identity", "Geography of Religion"],
+        "Geographic Information System": ["Spatial Analysis", "Remote Sensing", "Cartography", "Geospatial Data Science"]
+      },
+      
+      "Media and Communication (5.08)": {
+        "Mass Communication": ["Journalism", "Broadcasting", "Media Effect", "News Media"],
+        "Digital Media": ["Social Media", "Online Community", "Digital Culture", "Platform Study"],
+        "Communication Theory": ["Interpersonal Communication", "Organizational Communication", "Rhetoric"],
+        "Media Study": ["Film Study", "Television Study", "Media Industry", "Media History"],
+        "Advertising and Public Relations": ["Advertising Strategy", "Brand Communication", "Crisis Communication"],
+        "Telecommunication": ["Telecommunication Policy", "Network Technology", "Mobile Communication"]
+      }
+    },
+    
+    "Humanity and Art": {
+      "History and Archaeology (6.01)": {
+        "General History": ["Ancient History", "Medieval History", "Modern History", "Contemporary History"],
+        "Specialized History": {
+          "Social History": ["Labor History", "Gender History", "Family History"],
+          "Economic History": ["Business History", "Financial History", "Trade History"],
+          "Political History": ["Diplomatic History", "Military History", "Constitutional History"],
+          "Cultural History": ["Intellectual History", "History of Idea", "Cultural Heritage"],
+          "History of Science and Technology": ["History of Medicine", "History of Computing", "History of Engineering"]
+        },
+        "Regional History": ["European History", "Asian History", "African History", "American History", "Middle Eastern History"],
+        "Archaeology": {
+          "Archaeological Method": ["Excavation", "Dating Technique", "Archaeological Survey", "Archaeometry"],
+          "Prehistoric Archaeology": ["Paleolithic", "Neolithic", "Bronze Age", "Iron Age"],
+          "Classical Archaeology": ["Greek Archaeology", "Roman Archaeology"],
+          "Historical Archaeology": ["Medieval Archaeology", "Industrial Archaeology"],
+          "Archaeological Specialization": ["Maritime Archaeology", "Urban Archaeology", "Landscape Archaeology"]
+        },
+        "Heritage Study": ["Cultural Heritage Management", "Museum Study", "Conservation"]
+      },
+      
+      "Language and Literature (6.02)": {
+        "Linguistics": {
+          "Theoretical Linguistics": ["Syntax", "Semantics", "Phonology", "Morphology"],
+          "Applied Linguistics": ["Second Language Acquisition", "Language Teaching", "Translation Study"],
+          "Sociolinguistics": ["Language Variation", "Language Policy", "Multilingualism"],
+          "Psycholinguistics": ["Language Processing", "Language Development", "Neurolinguistics"],
+          "Computational Linguistics": ["Natural Language Processing", "Corpus Linguistics", "Language Technology"],
+          "Historical Linguistics": ["Language Change", "Etymology", "Comparative Linguistics"]
+        },
+        "Literature": {
+          "Literary Theory": ["Narrative Theory", "Postcolonial Theory", "Feminist Literary Theory", "Critical Theory"],
+          "Comparative Literature": ["World Literature", "Translation Study", "Intertextuality"],
+          "National Literature": ["English Literature", "French Literature", "German Literature", "Spanish Literature", "Chinese Literature"],
+          "Genre Study": ["Poetry", "Drama", "Fiction", "Non-Fiction"],
+          "Period Study": ["Medieval Literature", "Renaissance Literature", "Modernism", "Postmodernism"]
+        },
+        "Philology": ["Classical Philology", "Medieval Philology", "Textual Criticism"]
+      },
+      
+      "Philosophy Ethics and Religion (6.03)": {
+        "Philosophy": {
+          "Metaphysics": ["Ontology", "Philosophy of Mind", "Free Will", "Causation"],
+          "Epistemology": ["Theory of Knowledge", "Skepticism", "Rationalism and Empiricism"],
+          "Logic": ["Formal Logic", "Modal Logic", "Philosophy of Logic"],
+          "Ethics": ["Normative Ethics", "Meta-Ethics", "Applied Ethics", "Moral Psychology"],
+          "Political Philosophy": ["Justice", "Right", "Democracy", "Liberalism"],
+          "Aesthetics": ["Philosophy of Art", "Beauty", "Artistic Expression"],
+          "Philosophy of Science": ["Scientific Method", "Causation", "Explanation"],
+          "Philosophy of Language": ["Meaning", "Reference", "Pragmatics"],
+          "History of Philosophy": ["Ancient Philosophy", "Medieval Philosophy", "Modern Philosophy", "Contemporary Philosophy"]
+        },
+        "Religious Study": {
+          "Theology": ["Christian Theology", "Islamic Theology", "Jewish Theology", "Buddhist Study"],
+          "Comparative Religion": ["World Religion", "Religious Pluralism"],
+          "History of Religion": ["Religious Movement", "Religious Reform"],
+          "Philosophy of Religion": ["Arguments for God's Existence", "Problem of Evil", "Faith and Reason"],
+          "Religious Text": ["Biblical Study", "Quranic Study", "Scriptural Interpretation"]
+        },
+        "Applied Ethics": ["Bioethics", "Business Ethics", "Environmental Ethics", "Artificial Intelligence Ethics", "Research Ethics"]
+      },
+      
+      "Art (6.04)": {
+        "Visual Art": {
+          "Fine Art": ["Painting", "Sculpture", "Drawing", "Printmaking"],
+          "Art History": ["Renaissance Art", "Modern Art", "Contemporary Art", "Art Criticism"],
+          "Digital Art": ["Digital Painting", "Three-Dimensional Modeling", "Animation", "Interactive Art"],
+          "Photography": ["Photographic Theory", "Documentary Photography", "Fine Art Photography"],
+          "Graphic Design": ["Typography", "Brand Identity", "Visual Communication"]
+        },
+        "Performing Art": {
+          "Theatre": ["Acting", "Directing", "Playwriting", "Theatre History", "Performance Study"],
+          "Dance": ["Choreography", "Dance History", "Contemporary Dance", "Ballet"],
+          "Music": {
+            "Musicology": ["Music History", "Music Theory", "Ethnomusicology"],
+            "Performance": ["Instrumental Performance", "Vocal Performance", "Conducting"],
+            "Composition": ["Classical Composition", "Film Scoring", "Electronic Music"],
+            "Music Technology": ["Music Production", "Sound Engineering", "Music Informatics"]
+          },
+          "Film and Cinema": ["Film Theory", "Film History", "Cinematography", "Film Production", "Screenwriting"]
+        },
+        "Architecture": ["Architectural Design", "Architectural History", "Urban Design", "Landscape Architecture", "Sustainable Architecture"],
+        "Design": ["Industrial Design", "Fashion Design", "Interior Design", "User Experience Design"]
+      }
+    },
+    
+    "Interdisciplinary Field": {
+      "Sustainability and Climate Science": {
+        "Climate Science": ["Climate Modeling", "Climate Impact", "Climate Adaptation", "Climate Mitigation"],
+        "Sustainability Study": ["Sustainable Development Goal", "Circular Economy", "Corporate Sustainability"],
+        "Renewable Energy": ["Solar Energy", "Wind Energy", "Hydroelectric Power", "Geothermal Energy", "Bioenergy"],
+        "Environmental Policy": ["Climate Policy", "Environmental Governance", "Sustainability Transition"]
+      },
+      
+      "Data Science and Analytics": {
+        "Data Science Foundation": ["Statistical Learning", "Data Mining and Knowledge Discovery", "Big Data Technology", "Data Visualization", "Data Ethics and Privacy"],
+        "Applied Data Science": ["Business Analytics", "Healthcare Analytics", "Social Media Analytics", "Scientific Data Analysis", "Sports Analytics"]
+      },
+      
+      "Cognitive Science and Artificial Intelligence": {
+        "Cognitive Modeling": ["Computational Cognitive Model", "Neural Network as Cognitive Model"],
+        "Consciousness Study": ["Philosophy of Mind", "Neural Correlate of Consciousness"],
+        "Human-Artificial Intelligence Interaction": ["Explainable Artificial Intelligence", "Artificial Intelligence Safety", "Human-Centered Artificial Intelligence"],
+        "Artificial General Intelligence": ["Artificial General Intelligence Architecture", "Transfer Learning", "Meta-Learning"]
+      },
+      
+      "Complex System and Network": {
+        "Network Science": ["Social Network", "Biological Network", "Technological Network"],
+        "Complex Adaptive System": ["Agent-Based Modeling", "Self-Organization", "Emergence"],
+        "System Thinking": ["System Dynamics", "Feedback Loop", "Leverage Point"]
+      },
+      
+      "Quantum Technology": {
+        "Quantum Computing": ["Quantum Algorithm", "Quantum Error Correction", "Quantum Supremacy"],
+        "Quantum Communication": ["Quantum Cryptography", "Quantum Key Distribution"],
+        "Quantum Sensing": ["Quantum Metrology", "Quantum Imaging"]
+      },
+      
+      "Digital Society and Ethics": {
+        "Digital Ethics": ["Artificial Intelligence Ethics", "Data Ethics", "Algorithm Fairness", "Privacy"],
+        "Cybersecurity": ["Network Security", "Application Security", "Security Operation", "Incident Response"],
+        "Digital Governance": ["E-Government", "Smart City", "Digital Democracy"],
+        "Information Society": ["Digital Divide", "Digital Literacy", "Social Media Impact"]
+      },
+      
+      "Translational and Applied Research": {
+        "Translational Medicine": ["Bench to Bedside", "Clinical Translation", "Drug Development"],
+        "Innovation Study": ["Technology Transfer", "Innovation System", "Open Innovation"],
+        "Design Thinking": ["Human-Centered Design", "Service Design", "Social Innovation"]
+      },
+      
+      "Global Challenge": {
+        "Global Health": ["Pandemic Preparedness", "Tropical Disease", "Health System Strengthening"],
+        "Food Security": ["Agricultural Productivity", "Nutrition", "Food System"],
+        "Water Security": ["Water Scarcity", "Water Quality", "Integrated Water Management"],
+        "Migration and Refugee": ["Forced Migration", "Integration", "Refugee Policy"],
+        "Peace and Conflict Study": ["Conflict Resolution", "Peacebuilding", "Terrorism Study"]
+      },
+      
+      "Digital Humanity": ["Computational Text Analysis", "Digital Archive", "Cultural Heritage Digitization", "Digital Storytelling"],
+      "Computational Social Science": ["Social Network Analysis", "Computational Economics", "Digital Governance", "Behavioral Modeling"],
+      "Synthetic Biology": ["Pathway Engineering", "Genetic Circuit Design", "Minimal Genome"],
+      "Neurotechnology": ["Brain-Computer Interface", "Neural Interface", "Neuroimaging Technology"],
+      "Human Augmentation": ["Wearable Technology", "Exoskeleton", "Cognitive Enhancement"],
+      "Smart City and Urban Informatics": ["Urban Computing", "Urban Data Science", "Intelligent Transportation System"],
+      "Precision Medicine": ["Personalized Treatment", "Genomic Medicine", "Targeted Therapy"],
+      "Digital Health and Telemedicine": ["Mobile Health", "Remote Monitoring", "Telehealth Service"]
+    }
+  }
+}
