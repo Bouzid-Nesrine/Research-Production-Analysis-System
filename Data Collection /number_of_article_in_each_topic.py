@@ -19,10 +19,10 @@ batch_size = 50  # Save every 50 topics to avoid losing progress
 
 for idx, topic in enumerate(df[topic_column].dropna().unique(), 1):
     try:
-        # Use search parameter instead of filter for better compatibility
+        # Use search parameter with article type filter
         # Encode the topic properly
         encoded_topic = quote(topic)
-        url = f"https://api.openalex.org/works?search={encoded_topic}&per_page=1"
+        url = f"https://api.openalex.org/works?search={encoded_topic}&filter=type:article&per_page=1"
         
         response = requests.get(url, headers=headers, timeout=10)
         

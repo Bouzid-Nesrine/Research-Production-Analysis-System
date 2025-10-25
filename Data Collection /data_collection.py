@@ -61,7 +61,7 @@ for idx, topic in enumerate(topics, 1):
     while True:
         url = (
             f"https://api.openalex.org/works?"
-            f"search={encoded}&per-page={per_page}&cursor={cursor}&mailto={mailto}"
+            f"search={encoded}&filter=type:article&per-page={per_page}&cursor={cursor}&mailto={mailto}"
         )
 
         try:
