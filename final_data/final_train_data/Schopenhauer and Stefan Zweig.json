@@ -1,0 +1,577 @@
+[
+  {
+    "id": "https://openalex.org/W2065502096",
+    "title": "psychobiography as a method. the revival of studying lives: new perspectives in personality and creativity research",
+    "publication_date": "2011-11-29",
+    "display_name": "Psychobiography as a method. The revival of studying lives: New perspectives in personality and creativity research",
+    "authorships": [
+      {
+        "name": "Zoltán Kőváry",
+        "position": "first",
+        "institutions": [
+          "Czech Academy of Sciences, Institute of Psychology",
+          "University of Szeged"
+        ],
+        "countries": [
+          "CZ",
+          "HU"
+        ],
+        "is_corresponding": true
+      }
+    ],
+    "cited_by_count": 117,
+    "referenced_works": [
+      "https://openalex.org/W6634897479",
+      "https://openalex.org/W6702263466",
+      "https://openalex.org/W6718725509",
+      "https://openalex.org/W2094668697",
+      "https://openalex.org/W2416602098",
+      "https://openalex.org/W2416258394",
+      "https://openalex.org/W6679261760",
+      "https://openalex.org/W6634238339",
+      "https://openalex.org/W6601177697",
+      "https://openalex.org/W1964597139",
+      "https://openalex.org/W6858450463",
+      "https://openalex.org/W2048552534",
+      "https://openalex.org/W6769410804",
+      "https://openalex.org/W6640751532",
+      "https://openalex.org/W6750922894",
+      "https://openalex.org/W6809251983",
+      "https://openalex.org/W6658791847",
+      "https://openalex.org/W2795064569",
+      "https://openalex.org/W6641357648",
+      "https://openalex.org/W6660831926",
+      "https://openalex.org/W6644878445",
+      "https://openalex.org/W6722058184",
+      "https://openalex.org/W6733857996",
+      "https://openalex.org/W7029157886",
+      "https://openalex.org/W6789482294",
+      "https://openalex.org/W6617861996",
+      "https://openalex.org/W6604175644",
+      "https://openalex.org/W6654786244",
+      "https://openalex.org/W2013232907",
+      "https://openalex.org/W6774981491",
+      "https://openalex.org/W6761791296",
+      "https://openalex.org/W6628925567",
+      "https://openalex.org/W6630786199",
+      "https://openalex.org/W6631600885",
+      "https://openalex.org/W90618236",
+      "https://openalex.org/W3123516181",
+      "https://openalex.org/W2981971773",
+      "https://openalex.org/W103506927",
+      "https://openalex.org/W4300472102",
+      "https://openalex.org/W2798734679",
+      "https://openalex.org/W3207868267",
+      "https://openalex.org/W2113915320",
+      "https://openalex.org/W1581321454",
+      "https://openalex.org/W1973992465",
+      "https://openalex.org/W4250955168",
+      "https://openalex.org/W1527968558",
+      "https://openalex.org/W4388283582",
+      "https://openalex.org/W376149106",
+      "https://openalex.org/W1579384369",
+      "https://openalex.org/W1964633509",
+      "https://openalex.org/W2151119690",
+      "https://openalex.org/W2617317615",
+      "https://openalex.org/W2321157849",
+      "https://openalex.org/W2800582313",
+      "https://openalex.org/W1998655452",
+      "https://openalex.org/W1537245717",
+      "https://openalex.org/W594594726",
+      "https://openalex.org/W1703149081",
+      "https://openalex.org/W64685993",
+      "https://openalex.org/W4388283643",
+      "https://openalex.org/W4300433837",
+      "https://openalex.org/W1963773503",
+      "https://openalex.org/W4235964274",
+      "https://openalex.org/W2060087484",
+      "https://openalex.org/W1614549126",
+      "https://openalex.org/W28263875",
+      "https://openalex.org/W2933751218",
+      "https://openalex.org/W1517190443",
+      "https://openalex.org/W2312423040",
+      "https://openalex.org/W4388283645",
+      "https://openalex.org/W2061520168",
+      "https://openalex.org/W1483822235",
+      "https://openalex.org/W4388283585",
+      "https://openalex.org/W1484625780",
+      "https://openalex.org/W1972740774",
+      "https://openalex.org/W2128581993",
+      "https://openalex.org/W4388283590",
+      "https://openalex.org/W424712379",
+      "https://openalex.org/W1694234349",
+      "https://openalex.org/W1945524409",
+      "https://openalex.org/W2060824385",
+      "https://openalex.org/W4210561869",
+      "https://openalex.org/W3003567573",
+      "https://openalex.org/W3010919310",
+      "https://openalex.org/W3159638943",
+      "https://openalex.org/W2443921005",
+      "https://openalex.org/W1978027065",
+      "https://openalex.org/W4388283640",
+      "https://openalex.org/W2587449924",
+      "https://openalex.org/W1546350337",
+      "https://openalex.org/W2413929448",
+      "https://openalex.org/W1568238390",
+      "https://openalex.org/W2017387934",
+      "https://openalex.org/W2332818563",
+      "https://openalex.org/W1556057683",
+      "https://openalex.org/W1484152311",
+      "https://openalex.org/W4285719527",
+      "https://openalex.org/W2042137662",
+      "https://openalex.org/W337384805",
+      "https://openalex.org/W612230108",
+      "https://openalex.org/W2797318313",
+      "https://openalex.org/W2328987477",
+      "https://openalex.org/W363861098",
+      "https://openalex.org/W656074543",
+      "https://openalex.org/W2024531881",
+      "https://openalex.org/W112949365",
+      "https://openalex.org/W2788682825",
+      "https://openalex.org/W2411940102",
+      "https://openalex.org/W2486601626"
+    ],
+    "SJR": 0.719,
+    "SJR_Normalized": 0.5417427264007122,
+    "abstract": "psychobiography was invented by sigmund freud while investigating the psychological determinants of leonardo da vinci's artistic creativity. following the founder of psychoanalysis there were about 300 psychobiographic analyses published until 1960. from the 1930's psychoanalysis also influenced the unfolding personality psychology trend called personology in the usa, led by g. w. allport and henry a. murray, who also worked with life stories. however, the major methodological problems of classic psychobiography and the rising of nomothetic approaches in personality research effaced studying lives between the 1950's and the 1980's. the narrative turn in psychology made life story analysis accepted and popular again, and from the 90's we can talk about \"a renaissance of psychobiography\". the new endeavors encompass psychoanalytical and personological traditions and also integrate narrative perspectives. contemporary psychobiography is constantly widening its focus: not only artists, but scientists, political and historical figures are also analyzed with more explicit methodology and comparative proceedings. in addition to the fact that psychobiography is a qualitative research method, it is very useful in exploring the psychology of creativity and personality itself and hence can be used as an instrument to train psychology students and prepare them for practical activities like psychotherapy or consultations. with the application of psychobiography the knowledge about human functioning and self-awareness is deepening, since it can be viewed as a practical realization of hermeneutical dialogue leading to the understanding of the human mind.",
+    "publication_info": {
+      "host_organization_name": "PsychOpen",
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "classification_path": "Humanity and Art > Philosophy Ethics and Religion > Philosophy > Metaphysics > Philosophy of Mind"
+  },
+  {
+    "id": "https://openalex.org/W2522306961",
+    "title": "las ideas pedag gicas de tolstoi y tagore en el proyecto vasconcelista de educaci n, 1921-1964",
+    "publication_date": "2016-01-02",
+    "display_name": "Las ideas pedagógicas de Tolstoi y Tagore en el proyecto vasconcelista de educación, 1921-1964",
+    "authorships": [
+      {
+        "name": "Fabio Moraga Valle",
+        "position": "first",
+        "institutions": [
+          "Universidad Nacional Autónoma de México"
+        ],
+        "countries": [
+          "MX"
+        ],
+        "is_corresponding": true
+      }
+    ],
+    "cited_by_count": 4,
+    "referenced_works": [
+      "https://openalex.org/W2043826664",
+      "https://openalex.org/W36271884",
+      "https://openalex.org/W656404867",
+      "https://openalex.org/W6625114317",
+      "https://openalex.org/W1481306244",
+      "https://openalex.org/W2068836933",
+      "https://openalex.org/W1427110620",
+      "https://openalex.org/W1587911766",
+      "https://openalex.org/W1546312343",
+      "https://openalex.org/W2506961409",
+      "https://openalex.org/W2046219161",
+      "https://openalex.org/W6640209109",
+      "https://openalex.org/W125614432",
+      "https://openalex.org/W577143673",
+      "https://openalex.org/W1509776463",
+      "https://openalex.org/W172296615",
+      "https://openalex.org/W2488843279",
+      "https://openalex.org/W634640983",
+      "https://openalex.org/W940186950",
+      "https://openalex.org/W2186493091",
+      "https://openalex.org/W592377055",
+      "https://openalex.org/W2097652009",
+      "https://openalex.org/W193826389",
+      "https://openalex.org/W2278422369",
+      "https://openalex.org/W2521614600",
+      "https://openalex.org/W1915817054",
+      "https://openalex.org/W1599862600",
+      "https://openalex.org/W1570813392"
+    ],
+    "SJR": 0.189,
+    "SJR_Normalized": 0.17311261770864478,
+    "abstract": "la historia de la educaci n en m xico ha planteado que, a partir de 1920, en el sistema educativo mexicano primaron dos influencias ideol gicas dis miles: el ejemplo ruso y la pedagog a de dewey . estas interpretaciones no han reparado en que el proyecto educativo liderado por el fil sofo jos vasconcelos no estaba inspirado precisamente en el modelo sovi tico y era absolutamente refractario a cualquier influencia de los estados unidos. este art culo analiza dos fuentes ideol gicas fundamentales en el proyecto vasconcelista de educaci n : el pensamiento pedag gico del escritor anarquista ruso le n tolstoi y el poeta y artista bengal rabindranath tagore, cuya influencia se puede extender hasta la d cada de 1960.",
+    "publication_info": {
+      "host_organization_name": "El Colegio de México",
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "classification_path": "Humanity and Art > Philosophy Ethics and Religion > Philosophy > Metaphysics > Philosophy of Mind"
+  },
+  {
+    "id": "https://openalex.org/W2892068549",
+    "title": "por dentro do caleidosc pio: hist ria e mem ria pol tico-cultural em manh cinzenta, de olney s o paulo",
+    "publication_date": "2018-09-12",
+    "display_name": "Por dentro do caleidoscópio: história e memória político-cultural em Manhã cinzenta, de Olney São Paulo",
+    "authorships": [
+      {
+        "name": "Antônia Cristina de Alencar Pires",
+        "position": "first",
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false
+      },
+      {
+        "name": "Gustavo Tanus",
+        "position": "middle",
+        "institutions": [
+          "Universidade Federal do Rio Grande do Norte"
+        ],
+        "countries": [
+          "BR"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Filipe Schettini",
+        "position": "last",
+        "institutions": [
+          "Centro Universitário Una"
+        ],
+        "countries": [
+          "BR"
+        ],
+        "is_corresponding": false
+      }
+    ],
+    "cited_by_count": 1,
+    "referenced_works": [
+      "https://openalex.org/W7014132163",
+      "https://openalex.org/W7004724016"
+    ],
+    "SJR": 0.1,
+    "SJR_Normalized": 0.09531017980432487,
+    "abstract": "neste tempo presente, n o h como dissociar arte e pol tica, que se realizam nos mesmos pontos dos textos: na forma ou no conte do, ou em ambos. manh cinzenta (1969), m dia-metragem do cineasta baiano olney s o paulo, significativo em rela o aos engajamentos art sticos e pol ticos, sendo um dos mais importantes filmes da resist ncia contra a ditadura civil-militar de 1964, por realizar uma leitura e interpreta o do contexto hist rico no momento de seu acontecimento, sendo tamb m uma esp cie de met fora da vida do pr prio cineasta, afigurando-se como uma ferida em seu corpo estilha ado pela tortura. embasamos nossa leitura e an lise nos pressupostos te ricos de marc ferro (1971; 1992) e de robert rosenstone (2010) de que os filmes e os arquivos f lmicos podem suprir a aus ncia dos documentos oficiais tradicionais, dos quais a hist ria lan a m o para construir seu discurso, sendo, portanto, em sentido derridiano, suplementares para a constru o historiogr fica, podendo ser fontes para a compreens o de contextos e de acontecimentos hist ricos.",
+    "publication_info": {
+      "host_organization_name": null,
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "classification_path": "Humanity and Art > Philosophy Ethics and Religion > Philosophy > Metaphysics > Philosophy of Mind"
+  },
+  {
+    "id": "https://openalex.org/W2101690261",
+    "title": "the intellectual and cultural scene in the dual monarchy",
+    "publication_date": "2007-06-01",
+    "display_name": "The intellectual and cultural scene in the Dual Monarchy",
+    "authorships": [
+      {
+        "name": "Mihály Szegedy-Maszák",
+        "position": "first",
+        "institutions": [
+          "Eötvös Loránd University"
+        ],
+        "countries": [
+          "HU"
+        ],
+        "is_corresponding": true
+      }
+    ],
+    "cited_by_count": 0,
+    "referenced_works": [
+      "https://openalex.org/W6640337693",
+      "https://openalex.org/W1945685483",
+      "https://openalex.org/W2025372805",
+      "https://openalex.org/W1548746057",
+      "https://openalex.org/W645351833",
+      "https://openalex.org/W1528186923",
+      "https://openalex.org/W2324693893",
+      "https://openalex.org/W1543555181",
+      "https://openalex.org/W574029151",
+      "https://openalex.org/W4251395411",
+      "https://openalex.org/W2048468320",
+      "https://openalex.org/W1927122694",
+      "https://openalex.org/W2075882265",
+      "https://openalex.org/W1891479826",
+      "https://openalex.org/W1535486473",
+      "https://openalex.org/W1504373933",
+      "https://openalex.org/W1601617333",
+      "https://openalex.org/W1576527800",
+      "https://openalex.org/W2041921321",
+      "https://openalex.org/W2987174795",
+      "https://openalex.org/W2409849918",
+      "https://openalex.org/W4242138384",
+      "https://openalex.org/W4322499406",
+      "https://openalex.org/W1945760079",
+      "https://openalex.org/W597680408",
+      "https://openalex.org/W1507913505"
+    ],
+    "SJR": 0.1,
+    "SJR_Normalized": 0.09531017980432487,
+    "abstract": "&quot;ersch tternd ist der untergang des geschlechts.&quot; (&quot;shocking is the decline of mankind. &quot; georg trakl: heliari) the intellectual and artistic culture of the dual monarchy was marked by a diversity and richness that was inseparable from the multi-ethnic and multilingual nauire of the habsburg territories. as attempts to integrate the variety of cultural products of the monarchy into a coherent identity run the risk of oversimplification, the follow ing article offers a discussion of the works of several individual authors, artists, composers, philosophers, and scientists, locating these works within often divergent intellectual and artistic trends the broad range of which may be the single most con spicuous feature of the cultural identity of the habsburg empire. it presents the leg acy of the dual monarchy as one rich in diverse contributions to the cultures of eu rope and the world.",
+    "publication_info": {
+      "host_organization_name": "Akadémiai Kiadó",
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "classification_path": "Humanity and Art > Philosophy Ethics and Religion > Philosophy > Metaphysics > Philosophy of Mind"
+  },
+  {
+    "id": "https://openalex.org/W373961997",
+    "title": "birformulatzaile laburbiltzaileen balio diskurtsiboen azterketa corpusean oinarrituta",
+    "publication_date": "2019-10-22",
+    "display_name": "Birformulatzaile laburbiltzaileen balio diskurtsiboen azterketa corpusean oinarrituta",
+    "authorships": [
+      {
+        "name": "Ma Jesús Aranzabe Urruzola",
+        "position": "first",
+        "institutions": [
+          "University of the Basque Country"
+        ],
+        "countries": [
+          "ES"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "José Ma Arriola Egurrola",
+        "position": "last",
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false
+      }
+    ],
+    "cited_by_count": 0,
+    "referenced_works": [
+      "https://openalex.org/W2250009423",
+      "https://openalex.org/W949888946",
+      "https://openalex.org/W73997751",
+      "https://openalex.org/W4297681630",
+      "https://openalex.org/W2096182451",
+      "https://openalex.org/W2260362140",
+      "https://openalex.org/W322464600",
+      "https://openalex.org/W2165553688",
+      "https://openalex.org/W350080510"
+    ],
+    "SJR": 0.109,
+    "SJR_Normalized": 0.10345870836822998,
+    "abstract": "artikulu honetan gaur egungo corpusa oinarri harturik, birformulatzaile laburbiltzaileak izan ditugu aztergai. bereziki, balio diskurtsiboak zehaztu nahi izan ditugu. izan ere, bi balio nagusi bereizten dira literaturan, batetik, laburbiltzailea, eta, bestetik, berraztertzailea. hala ere, gure hipotesia da balio diskurtsibo nagusi horietan badirela aztertu beharreko abardurak eta, horrez gain, zenbait kasutan balio horien arteko mugak ere ez direla erabat garbiak. lan honetarako birformulatzaile hauek aztertu ditugu: azken batean, azken buruan, azken finean, hitz batean, hitz bitan esateko, hitz gutxitan, laburbilduz, labur esanda.",
+    "publication_info": {
+      "host_organization_name": "Institución Príncipe de Viana",
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "classification_path": "Humanity and Art > Philosophy Ethics and Religion > Philosophy > Metaphysics > Philosophy of Mind"
+  },
+  {
+    "id": "https://openalex.org/W4253858577",
+    "title": "rezensionen",
+    "publication_date": "2010-12-30",
+    "display_name": "Rezensionen",
+    "authorships": [
+      {
+        "name": "Stefan H. Kaszyński",
+        "position": "first",
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false
+      },
+      {
+        "name": "Marta Wimmer",
+        "position": "middle",
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false
+      },
+      {
+        "name": "Agnieszka Kudełka",
+        "position": "middle",
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false
+      },
+      {
+        "name": "Sławomir Piontek",
+        "position": "middle",
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false
+      },
+      {
+        "name": "Izabela Działak",
+        "position": "middle",
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false
+      },
+      {
+        "name": "Jürgen Joachimsthaler",
+        "position": "middle",
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false
+      },
+      {
+        "name": "Magdalena Dudzińska",
+        "position": "middle",
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false
+      },
+      {
+        "name": "Daniel Krause",
+        "position": "middle",
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false
+      },
+      {
+        "name": "Anna Urban",
+        "position": "middle",
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false
+      },
+      {
+        "name": "Tomasz Lis",
+        "position": "middle",
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false
+      },
+      {
+        "name": "Gero Lietz",
+        "position": "middle",
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false
+      },
+      {
+        "name": "Waldemar Czachur",
+        "position": "middle",
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false
+      },
+      {
+        "name": "Czesława Schatte",
+        "position": "middle",
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false
+      },
+      {
+        "name": "Magdalena Lisiecka-Czop",
+        "position": "last",
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false
+      }
+    ],
+    "cited_by_count": 0,
+    "referenced_works": [
+      "https://openalex.org/W7036889653",
+      "https://openalex.org/W1982112582",
+      "https://openalex.org/W3134661773",
+      "https://openalex.org/W3137122895"
+    ],
+    "SJR": 0.101,
+    "SJR_Normalized": 0.09621885774054292,
+    "abstract": "bia ek, edward / nowakowska, katarzyna (eds.) (2009): literatura austriacka w polsce w latach 1980-2008. bibliografia odnotowana. [ sterreichische literatur in polen in den jahren 1980-2008. eine kommentierte bibliographie]. wroc aw: oficyna wydawnicza atut wroc awskie wydawnictwo o wiatowe. 517 s. bombitz, attilla / cornejo, renata / piontek, s awomir / ringlerpascu, eleonora (eds.) (2009): sterreichische literatur ohne grenzen. gedenkschrift f r wendelin schmidt-dengler. wien: praesens verlag. 525 s. borzyszkowska-szewczyk, mi os awa (2009): pami dla przysz o ci. literatura wspomnieniowa potomk w szlachty pruskiej z pomorza zachodniego i prus wschodnich po 1945. [erinnerung f r die zukunft. erinnerungsliteratur von nachkommen des preu ischen adels aus pommern und ostpreu en nach 1945]. wroc aw: oficyna wydawnicza atut wroc awskie wydawnictwo o wiatowe. 320 s. hrdli kov , jana (2008): es sieht schlimm aus in der welt. der moralische appell in den h rspielen von marie luise kaschnitz. st nad labem: univerzita j.e. purkyn . 260 s. moser, doris / kupczy ska, kalina (eds.) (2009): die lust im text. eros in sprache und literatur. wien: praesens verlag. 438 s. loew, peter oliver (2009): das literarische danzig 1793 bis 1945. bausteine f r eine lokale kulturgeschichte. frankfurt (m.)/berlin/ bern u. a.: peter lang verlag (=danziger beitr ge zur germanistik 25). 350 s. sch wer, martin (2008): wie comics erz hlen. grundriss einer intermedialen erz hltheorie der grafischen literatur. trier: wissenschaftlicher verlag trier. 574 s. sprengel, peter (2009): der dichter stand auf hoher k ste gerhart hauptmann im dritten reich. berlin: propyl en verlag. 382 s. donalies, elke (2009): basiswissen deutsche phraseologie. t bingen / basel: francke verlag. 126 s. frederking, volker / krommer, axel / maiwald, klaus (2008): mediendidaktik deutsch. eine einf hrung. berlin: erich schmidt verlag. 319 s. krech, eva-maria / stock, eberhard / hirschfeld, ursula / anders, lutz christian (2009): deutsches aussprachew rterbuch. mit beitr gen von walter haas, ingrid hove, peter wiesinger. berlin/new york: walter de gruyter. 1076 s. (+ 1 audio-dvd). lewandowska, anna (2008): sprichwort-gebrauch heute. ein interkulturell-kontrastiver vergleich von sprichw rtern anhand polnischer und deutscher printmedien. frankfurt (m.)/berlin/bern u. a.: peter lang verlag. 366 s. m ller, hans-georg (2009): adleraug und luchsenohr. deutsche zwillingsformeln und ihr gebrauch. frankfurt (m.)/berlin/bern u. a.: peter lang verlag. 579 s. szczodrowski, marian (2009): fremdsprachliche lehr-lern-vorg nge im kodematischen blickfeld. gda sk: wydawnictwo uniwersytetu gda skiego. 225 s.",
+    "publication_info": {
+      "host_organization_name": "De Gruyter Open",
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "classification_path": "Humanity and Art > Philosophy Ethics and Religion > Philosophy > Metaphysics > Philosophy of Mind"
+  },
+  {
+    "id": "https://openalex.org/W3194682137",
+    "title": "sobre el arribo del concepto del mundo-de-la-vida (lebenswelt) a los estudios literarios",
+    "publication_date": "2021-06-28",
+    "display_name": "Sobre el arribo del concepto del mundo-de-la-vida (Lebenswelt) a los estudios literarios",
+    "authorships": [
+      {
+        "name": "Gerardo Argüelles",
+        "position": "first",
+        "institutions": [
+          "Autonomous University of Queretaro"
+        ],
+        "countries": [
+          "MX"
+        ],
+        "is_corresponding": true
+      }
+    ],
+    "cited_by_count": 0,
+    "referenced_works": [
+      "https://openalex.org/W6625007093",
+      "https://openalex.org/W6617094319",
+      "https://openalex.org/W6791067631",
+      "https://openalex.org/W1572289355",
+      "https://openalex.org/W6632357800",
+      "https://openalex.org/W566996812",
+      "https://openalex.org/W7020383397",
+      "https://openalex.org/W4243727744",
+      "https://openalex.org/W6633740716",
+      "https://openalex.org/W6845897438",
+      "https://openalex.org/W2983283659",
+      "https://openalex.org/W71326977",
+      "https://openalex.org/W2077918107",
+      "https://openalex.org/W627069435",
+      "https://openalex.org/W6724688857",
+      "https://openalex.org/W629858654",
+      "https://openalex.org/W1608885842",
+      "https://openalex.org/W2506089770",
+      "https://openalex.org/W955452138",
+      "https://openalex.org/W4243728078",
+      "https://openalex.org/W4242699854",
+      "https://openalex.org/W1548522638",
+      "https://openalex.org/W3130353951",
+      "https://openalex.org/W4213240503"
+    ],
+    "SJR": 0.133,
+    "SJR_Normalized": 0.12486898204586927,
+    "abstract": "el concepto mundo-de-la-vida (lebenswelt) ha influido en una importante serie de an lisis en las ciencias sociales y humanas. sin embargo, faltan a n contribuciones que se ocupen de su potencial relevancia con miras a instalarlo dentro de los estudios literarios. mundo-de-la-vida indica el mbito cotidiano del ser humano en su estado de cosas m s genuino, antes de cualquier intervenci n por parte de los discursos cient ficos. en la literatura, parece que el bosquejo del mundo responde a ese mismo principio ontol gico, al servir ste como una esfera natural en donde la experiencia humana comparece sin previsiones ni justificaciones te ricas. el objetivo que persigue este texto es el an lisis de este concepto de mundo-de-la-vida en sus t rminos fenomenol gicos m s b sicos y su gradual incorporaci n a los estudios literarios.",
+    "publication_info": {
+      "host_organization_name": null,
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "classification_path": "Humanity and Art > Philosophy Ethics and Religion > Philosophy > Metaphysics > Philosophy of Mind"
+  },
+  {
+    "id": "https://openalex.org/W4391827778",
+    "title": "la representaci n del dolor en la narrativa familiar colombiana",
+    "publication_date": "2023-12-20",
+    "display_name": "La representación del dolor en la narrativa familiar colombiana",
+    "authorships": [
+      {
+        "name": "José Manuel Camacho Delgado",
+        "position": "first",
+        "institutions": [
+          "Universidad de Sevilla"
+        ],
+        "countries": [
+          "ES"
+        ],
+        "is_corresponding": true
+      }
+    ],
+    "cited_by_count": 0,
+    "referenced_works": [
+      "https://openalex.org/W2579311030",
+      "https://openalex.org/W132679578",
+      "https://openalex.org/W2329435750",
+      "https://openalex.org/W157028608",
+      "https://openalex.org/W2243828255",
+      "https://openalex.org/W4255682976",
+      "https://openalex.org/W3097063877",
+      "https://openalex.org/W1947879710",
+      "https://openalex.org/W6635936255",
+      "https://openalex.org/W2943680889",
+      "https://openalex.org/W1935178706"
+    ],
+    "SJR": 0.153,
+    "SJR_Normalized": 0.14236724128692196,
+    "abstract": "el presente art culo explora la importancia que tiene el concepto de familia en todo tipo de metag neros narrativos colombianos desde el siglo xix hasta la actualidad. las tres obras analizadas morir con pap (1997) de scar collazos, c mo mat a mi padre (2020) de sara jaramillo klinkert y del otro lado del jard n (2009) de carlos framb son una muestra evidente de c mo la violencia sicaresca, el dolor inmenso ante la p rdida familiar y la angustia provocada por el abismo del suicidio son marcas habituales en este tipo de literatura, que impacta de una manera directa en la conciencia del lector.",
+    "publication_info": {
+      "host_organization_name": "Servicio de Publicaciones",
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "classification_path": "Humanity and Art > Philosophy Ethics and Religion > Philosophy > Metaphysics > Philosophy of Mind"
+  }
+]

@@ -1,0 +1,4740 @@
+[
+  {
+    "id": "https://openalex.org/W2148827382",
+    "title": "contact pathway of coagulation and inflammation",
+    "publication_date": "2015-04-01",
+    "display_name": "Contact pathway of coagulation and inflammation",
+    "authorships": [
+      {
+        "name": "Yi Wu",
+        "position": "first",
+        "institutions": [
+          "Temple University"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true
+      }
+    ],
+    "cited_by_count": 194,
+    "referenced_works": [
+      "https://openalex.org/W143880323",
+      "https://openalex.org/W2029647603",
+      "https://openalex.org/W2024523907",
+      "https://openalex.org/W2098224485",
+      "https://openalex.org/W2330698677",
+      "https://openalex.org/W2083884362",
+      "https://openalex.org/W2321831964",
+      "https://openalex.org/W1880784068",
+      "https://openalex.org/W2047144211",
+      "https://openalex.org/W2003695991",
+      "https://openalex.org/W2136200675",
+      "https://openalex.org/W1965258345",
+      "https://openalex.org/W2008240281",
+      "https://openalex.org/W2033971590",
+      "https://openalex.org/W2108394146",
+      "https://openalex.org/W2133732550",
+      "https://openalex.org/W2097100989",
+      "https://openalex.org/W2279412500",
+      "https://openalex.org/W1968242078",
+      "https://openalex.org/W2044188821",
+      "https://openalex.org/W2037085512",
+      "https://openalex.org/W2461049682",
+      "https://openalex.org/W2036655503",
+      "https://openalex.org/W2107916818",
+      "https://openalex.org/W2063706685",
+      "https://openalex.org/W2142809579",
+      "https://openalex.org/W2137447704",
+      "https://openalex.org/W2078094108",
+      "https://openalex.org/W1988437478",
+      "https://openalex.org/W1969886260",
+      "https://openalex.org/W1621550101",
+      "https://openalex.org/W1989883128",
+      "https://openalex.org/W2172191543",
+      "https://openalex.org/W2032158286",
+      "https://openalex.org/W1979083993",
+      "https://openalex.org/W2154156356",
+      "https://openalex.org/W2021870789",
+      "https://openalex.org/W2004721076",
+      "https://openalex.org/W1757375456",
+      "https://openalex.org/W2121139943",
+      "https://openalex.org/W2110565343",
+      "https://openalex.org/W2006951698",
+      "https://openalex.org/W2102003586",
+      "https://openalex.org/W2144011835",
+      "https://openalex.org/W2068989897",
+      "https://openalex.org/W2071499605",
+      "https://openalex.org/W2215414784",
+      "https://openalex.org/W2144901303",
+      "https://openalex.org/W2028324779",
+      "https://openalex.org/W2111322263",
+      "https://openalex.org/W2153727085",
+      "https://openalex.org/W2005583421",
+      "https://openalex.org/W1970668637",
+      "https://openalex.org/W1998073621",
+      "https://openalex.org/W2064503743",
+      "https://openalex.org/W2016836925",
+      "https://openalex.org/W2158858343",
+      "https://openalex.org/W4242336023",
+      "https://openalex.org/W2148880961",
+      "https://openalex.org/W2051475922",
+      "https://openalex.org/W2135457409",
+      "https://openalex.org/W2117899830",
+      "https://openalex.org/W2133288261",
+      "https://openalex.org/W2120994495",
+      "https://openalex.org/W4238300447",
+      "https://openalex.org/W1992041647",
+      "https://openalex.org/W1983969090"
+    ],
+    "SJR": 0.663,
+    "SJR_Normalized": 0.5086232002107907,
+    "abstract": "the contact system, also named as plasma kallikrein-kinin system, consists of three serine proteinases: coagulation factors xii (fxii) and xi (fxi), and plasma prekallikrein (pk), and the nonenzymatic cofactor high molecular weight kininogen (hk). this system has been investigated actively for more than 50 years. the components of this system and their interactions have been elucidated from in vitro experiments, which indicates that this system is prothrombotic by activating intrinsic pathway, and proinflammatory by producing bioactive peptide bradykinin. although the activation of the contact system have been implicated in various types of human disease, in only a few instances is its role clearly defined. in the last 10 years, our understanding of the contact system, particularly its biology and (patho)physiology has greatly increased through investigations using gene-modified animal models. in this review we will describe a revitalized view of the contact system as a critical (patho)physiologic mediator of coagulation and inflammation.",
+    "publication_info": {
+      "host_organization_name": "BioMed Central",
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "classification_path": "Medical and Health Science > Clinical Medicine > Internal Medicine > Cardiology"
+  },
+  {
+    "id": "https://openalex.org/W1900104791",
+    "title": "defective glycosylation of coagulation factor xii underlies hereditary angioedema type iii",
+    "publication_date": "2015-07-19",
+    "display_name": "Defective glycosylation of coagulation factor XII underlies hereditary angioedema type III",
+    "authorships": [
+      {
+        "name": "Jenny Björkqvist",
+        "position": "first",
+        "institutions": [
+          "University Medical Center Hamburg-Eppendorf",
+          "Universität Hamburg",
+          "Karolinska Institutet",
+          "Karolinska University Hospital"
+        ],
+        "countries": [
+          "DE",
+          "SE"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Steven de Maat",
+        "position": "middle",
+        "institutions": [
+          "University Medical Center Utrecht"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Urs Lewandrowski",
+        "position": "middle",
+        "institutions": [
+          "Leibniz Institute for Analytical Sciences - ISAS"
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Antonio Di Gennaro",
+        "position": "middle",
+        "institutions": [
+          "Karolinska Institutet",
+          "Karolinska University Hospital"
+        ],
+        "countries": [
+          "SE"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Chris Oschatz",
+        "position": "middle",
+        "institutions": [
+          "Karolinska Institutet",
+          "Karolinska University Hospital"
+        ],
+        "countries": [
+          "SE"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Kai Schönig",
+        "position": "middle",
+        "institutions": [
+          "Heidelberg University",
+          "University Hospital Heidelberg"
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Markus M. Nöthen",
+        "position": "middle",
+        "institutions": [
+          "Life & Brain (Germany)",
+          "University of Bonn",
+          "Institute of Human Genetics"
+        ],
+        "countries": [
+          "DE",
+          "PL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Christian Drouet",
+        "position": "middle",
+        "institutions": [
+          "Centre National de la Recherche Scientifique",
+          "Université Joseph Fourier"
+        ],
+        "countries": [
+          "FR"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Hal Braley",
+        "position": "middle",
+        "institutions": [
+          "CSL (Australia)"
+        ],
+        "countries": [
+          "AU"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Marc W. Nolte",
+        "position": "middle",
+        "institutions": [
+          "Behringwerke (Germany)"
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Albert Sickmann",
+        "position": "middle",
+        "institutions": [
+          "Leibniz Institute for Analytical Sciences - ISAS"
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Con Panousis",
+        "position": "middle",
+        "institutions": [
+          "CSL (Australia)"
+        ],
+        "countries": [
+          "AU"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Coen Maas",
+        "position": "middle",
+        "institutions": [
+          "University Medical Center Utrecht"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Thomas Renné",
+        "position": "last",
+        "institutions": [
+          "University Medical Center Hamburg-Eppendorf",
+          "Universität Hamburg",
+          "Karolinska Institutet",
+          "Karolinska University Hospital"
+        ],
+        "countries": [
+          "DE",
+          "SE"
+        ],
+        "is_corresponding": true
+      }
+    ],
+    "cited_by_count": 152,
+    "referenced_works": [
+      "https://openalex.org/W50187013",
+      "https://openalex.org/W1973740388",
+      "https://openalex.org/W1986207725",
+      "https://openalex.org/W2340244022",
+      "https://openalex.org/W1983010160",
+      "https://openalex.org/W2115565372",
+      "https://openalex.org/W2077024547",
+      "https://openalex.org/W1971042333",
+      "https://openalex.org/W2151429375",
+      "https://openalex.org/W2025267980",
+      "https://openalex.org/W2093701093",
+      "https://openalex.org/W2164980913",
+      "https://openalex.org/W1987529569",
+      "https://openalex.org/W2125474642",
+      "https://openalex.org/W2313107232",
+      "https://openalex.org/W1947012397",
+      "https://openalex.org/W1564822583",
+      "https://openalex.org/W1996136104",
+      "https://openalex.org/W1982170684",
+      "https://openalex.org/W2003266341",
+      "https://openalex.org/W1485381400",
+      "https://openalex.org/W2092800556",
+      "https://openalex.org/W2099127967",
+      "https://openalex.org/W2047425163",
+      "https://openalex.org/W1992251016",
+      "https://openalex.org/W2036655503",
+      "https://openalex.org/W2089961321",
+      "https://openalex.org/W2081334010",
+      "https://openalex.org/W2064514230",
+      "https://openalex.org/W1522956225",
+      "https://openalex.org/W2163505092",
+      "https://openalex.org/W2113720308",
+      "https://openalex.org/W2065599201",
+      "https://openalex.org/W2079221176",
+      "https://openalex.org/W247310062",
+      "https://openalex.org/W2128921599",
+      "https://openalex.org/W2143914653",
+      "https://openalex.org/W2012160462",
+      "https://openalex.org/W2067354269",
+      "https://openalex.org/W2105301485",
+      "https://openalex.org/W2014314228",
+      "https://openalex.org/W1988437478",
+      "https://openalex.org/W2134463696",
+      "https://openalex.org/W2142964320",
+      "https://openalex.org/W2020160101",
+      "https://openalex.org/W2152338078",
+      "https://openalex.org/W1998811679",
+      "https://openalex.org/W2074269298",
+      "https://openalex.org/W2059684863",
+      "https://openalex.org/W2276599878",
+      "https://openalex.org/W2027158958",
+      "https://openalex.org/W2228741158",
+      "https://openalex.org/W2330698677",
+      "https://openalex.org/W2149853382",
+      "https://openalex.org/W2413038113",
+      "https://openalex.org/W2024545582",
+      "https://openalex.org/W2085233691",
+      "https://openalex.org/W1981415884",
+      "https://openalex.org/W2166268582",
+      "https://openalex.org/W2081848037",
+      "https://openalex.org/W2134114878",
+      "https://openalex.org/W2083884362",
+      "https://openalex.org/W1983969090",
+      "https://openalex.org/W2127370427",
+      "https://openalex.org/W2312544893",
+      "https://openalex.org/W1993916452",
+      "https://openalex.org/W1556501884",
+      "https://openalex.org/W2078094108",
+      "https://openalex.org/W2129582005",
+      "https://openalex.org/W2048115021",
+      "https://openalex.org/W2072242577",
+      "https://openalex.org/W2066963861",
+      "https://openalex.org/W2106607972",
+      "https://openalex.org/W1543284954"
+    ],
+    "SJR": 4.721,
+    "SJR_Normalized": 1.7441436152863918,
+    "abstract": "hereditary angioedema type iii (haeiii) is a rare inherited swelling disorder that is associated with point mutations in the gene encoding the plasma protease factor xii (fxii). here, we demonstrate that haeiii-associated mutant fxii, derived either from haeiii patients or recombinantly produced, is defective in mucin-type thr309-linked glycosylation. loss of glycosylation led to increased contact-mediated autoactivation of zymogen fxii, resulting in excessive activation of the bradykinin-forming kallikrein-kinin pathway. in contrast, both fxii-driven coagulation and the ability of c1-esterase inhibitor to bind and inhibit activated fxii were not affected by the mutation. intravital laser-scanning microscopy revealed that, compared with control animals, both f12-/- mice reconstituted with recombinant mutant forms of fxii and humanized haeiii mouse models with inducible liver-specific expression of thr309lys-mutated fxii exhibited increased contact-driven microvascular leakage. an fxii-neutralizing antibody abolished bradykinin generation in haeiii patient plasma and blunted edema in haeiii mice. together, the results of this study characterize the mechanism of haeiii and establish fxii inhibition as a potential therapeutic strategy to interfere with excessive vascular leakage in haeiii and potentially alleviate edema due to other causes.",
+    "publication_info": {
+      "host_organization_name": "American Society for Clinical Investigation",
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "classification_path": "Medical and Health Science > Clinical Medicine > Internal Medicine > Cardiology"
+  },
+  {
+    "id": "https://openalex.org/W2565710406",
+    "title": "polyphosphate nanoparticles on the platelet surface trigger contact system activation",
+    "publication_date": "2017-01-03",
+    "display_name": "Polyphosphate nanoparticles on the platelet surface trigger contact system activation",
+    "authorships": [
+      {
+        "name": "J. Verhoef",
+        "position": "first",
+        "institutions": [
+          "Utrecht University"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": true
+      },
+      {
+        "name": "Arjan D. Barendrecht",
+        "position": "middle",
+        "institutions": [
+          "University Medical Center Utrecht"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": true
+      },
+      {
+        "name": "Katrin F. Nickel",
+        "position": "middle",
+        "institutions": [
+          "University Medical Center Hamburg-Eppendorf",
+          "Universität Hamburg",
+          "Karolinska Institutet",
+          "Karolinska University Hospital"
+        ],
+        "countries": [
+          "DE",
+          "SE"
+        ],
+        "is_corresponding": true
+      },
+      {
+        "name": "Kim Dijkxhoorn",
+        "position": "middle",
+        "institutions": [
+          "University Medical Center Utrecht"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Ellinor Kenne",
+        "position": "middle",
+        "institutions": [
+          "Karolinska Institutet",
+          "Karolinska University Hospital"
+        ],
+        "countries": [
+          "SE"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Linda Labberton",
+        "position": "middle",
+        "institutions": [
+          "Karolinska Institutet",
+          "Karolinska University Hospital"
+        ],
+        "countries": [
+          "SE"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Owen J. T. McCarty",
+        "position": "middle",
+        "institutions": [
+          "Oregon Health & Science University"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Raymond M. Schiffelers",
+        "position": "middle",
+        "institutions": [
+          "University Medical Center Utrecht"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Harry F.G. Heijnen",
+        "position": "middle",
+        "institutions": [
+          "University Medical Center Utrecht"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Antoni P. A. Hendrickx",
+        "position": "middle",
+        "institutions": [
+          "University Medical Center Utrecht"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Huub Schellekens",
+        "position": "middle",
+        "institutions": [
+          "Utrecht University"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Marcel H.A.M. Fens",
+        "position": "middle",
+        "institutions": [
+          "University Medical Center Utrecht"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Steven de Maat",
+        "position": "middle",
+        "institutions": [
+          "University Medical Center Utrecht"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Thomas Renné",
+        "position": "middle",
+        "institutions": [
+          "University Medical Center Hamburg-Eppendorf",
+          "Universität Hamburg",
+          "Karolinska Institutet",
+          "Karolinska University Hospital"
+        ],
+        "countries": [
+          "DE",
+          "SE"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Coen Maas",
+        "position": "last",
+        "institutions": [
+          "University Medical Center Utrecht"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      }
+    ],
+    "cited_by_count": 148,
+    "referenced_works": [
+      "https://openalex.org/W2113351822",
+      "https://openalex.org/W1986541440",
+      "https://openalex.org/W1816831867",
+      "https://openalex.org/W1555699381",
+      "https://openalex.org/W1933778251",
+      "https://openalex.org/W2474916704",
+      "https://openalex.org/W2065880897",
+      "https://openalex.org/W2073707438",
+      "https://openalex.org/W2040318972",
+      "https://openalex.org/W2533833743",
+      "https://openalex.org/W2046971159",
+      "https://openalex.org/W2033458237",
+      "https://openalex.org/W2265447718",
+      "https://openalex.org/W2509112979",
+      "https://openalex.org/W2127370427",
+      "https://openalex.org/W2078094108",
+      "https://openalex.org/W1989883128",
+      "https://openalex.org/W2036655503",
+      "https://openalex.org/W2028677471",
+      "https://openalex.org/W2059949430",
+      "https://openalex.org/W2039848332",
+      "https://openalex.org/W1967121801",
+      "https://openalex.org/W2083884362",
+      "https://openalex.org/W1506314131",
+      "https://openalex.org/W2042466479",
+      "https://openalex.org/W2102090574",
+      "https://openalex.org/W2021808024",
+      "https://openalex.org/W2317045510",
+      "https://openalex.org/W2410532786",
+      "https://openalex.org/W2003709444",
+      "https://openalex.org/W2029691070",
+      "https://openalex.org/W2002586970",
+      "https://openalex.org/W2386081449",
+      "https://openalex.org/W2016501141",
+      "https://openalex.org/W2045819100",
+      "https://openalex.org/W2079132877",
+      "https://openalex.org/W2002225522",
+      "https://openalex.org/W2077832653",
+      "https://openalex.org/W2469540754",
+      "https://openalex.org/W2414960009",
+      "https://openalex.org/W2003285078",
+      "https://openalex.org/W2108237409",
+      "https://openalex.org/W2072804533",
+      "https://openalex.org/W2064514230",
+      "https://openalex.org/W2047425163",
+      "https://openalex.org/W1968468186"
+    ],
+    "SJR": 5.823,
+    "SJR_Normalized": 1.9202992578332867,
+    "abstract": "key points activated platelets expose insoluble membrane-associated polyphosphate nanoparticles that are complexed with divalent metal ions. platelet polyphosphate nanoparticles, but not soluble polyphosphate polymers, activate the contact system.",
+    "publication_info": {
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "classification_path": "Medical and Health Science > Clinical Medicine > Internal Medicine > Cardiology"
+  },
+  {
+    "id": "https://openalex.org/W2014314228",
+    "title": "reduced thrombosis in klkb1 / mice is mediated by increased mas receptor, prostacyclin, sirt1, and klf4 and decreased tissue factor",
+    "publication_date": "2014-10-23",
+    "display_name": "Reduced thrombosis in Klkb1−/− mice is mediated by increased Mas receptor, prostacyclin, Sirt1, and KLF4 and decreased tissue factor",
+    "authorships": [
+      {
+        "name": "Evi X. Stavrou",
+        "position": "first",
+        "institutions": [
+          "Case Western Reserve University",
+          "Louis Stokes Cleveland VA Medical Center"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Chao Fang",
+        "position": "middle",
+        "institutions": [
+          "Case Western Reserve University"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Alona Merkulova",
+        "position": "middle",
+        "institutions": [
+          "Case Western Reserve University"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Omar Alhalabi",
+        "position": "middle",
+        "institutions": [
+          "Case Western Reserve University"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Nadja Grobe",
+        "position": "middle",
+        "institutions": [
+          "Wright State University"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Silvio Antoniak",
+        "position": "middle",
+        "institutions": [
+          "University of North Carolina at Chapel Hill"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Nigel Mackman",
+        "position": "middle",
+        "institutions": [
+          "University of North Carolina at Chapel Hill"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Alvin H. Schmaier",
+        "position": "last",
+        "institutions": [
+          "Case Western Reserve University"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      }
+    ],
+    "cited_by_count": 83,
+    "referenced_works": [
+      "https://openalex.org/W2018497009",
+      "https://openalex.org/W2123522234",
+      "https://openalex.org/W2046090148",
+      "https://openalex.org/W2059991147",
+      "https://openalex.org/W1777003282",
+      "https://openalex.org/W2096590542",
+      "https://openalex.org/W2411125548",
+      "https://openalex.org/W2007737411",
+      "https://openalex.org/W2065583843",
+      "https://openalex.org/W79103623",
+      "https://openalex.org/W2071817594",
+      "https://openalex.org/W4252939281",
+      "https://openalex.org/W186287176",
+      "https://openalex.org/W2078094108",
+      "https://openalex.org/W2137447704",
+      "https://openalex.org/W283964944",
+      "https://openalex.org/W1966026137",
+      "https://openalex.org/W1980434555",
+      "https://openalex.org/W2003695991",
+      "https://openalex.org/W2134463696",
+      "https://openalex.org/W2036655503",
+      "https://openalex.org/W2083884362",
+      "https://openalex.org/W1990819855",
+      "https://openalex.org/W1989232305",
+      "https://openalex.org/W1988437478",
+      "https://openalex.org/W2105161414",
+      "https://openalex.org/W17887271",
+      "https://openalex.org/W2152299939",
+      "https://openalex.org/W2162364577",
+      "https://openalex.org/W2055678219",
+      "https://openalex.org/W2152406009",
+      "https://openalex.org/W2066502432",
+      "https://openalex.org/W1556501884",
+      "https://openalex.org/W2417441396",
+      "https://openalex.org/W2077024547",
+      "https://openalex.org/W6716566567",
+      "https://openalex.org/W6604245942",
+      "https://openalex.org/W2124512894",
+      "https://openalex.org/W2035872133",
+      "https://openalex.org/W1504118827",
+      "https://openalex.org/W2040222397",
+      "https://openalex.org/W2078720314",
+      "https://openalex.org/W2140925956",
+      "https://openalex.org/W2070114011",
+      "https://openalex.org/W2024004480",
+      "https://openalex.org/W2092330685",
+      "https://openalex.org/W2481188226",
+      "https://openalex.org/W105146002",
+      "https://openalex.org/W2014162693",
+      "https://openalex.org/W1971042333"
+    ],
+    "SJR": 5.823,
+    "SJR_Normalized": 1.9202992578332867,
+    "abstract": "key points the reduced thrombosis in klkb1 / mice is not by defective contact activation. overexpressed renal mas with elevated plasma prostacyclin increases aortic sirt1 and klf4 and reduces aortic tf protecting klkb1 / mice.",
+    "publication_info": {
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "classification_path": "Medical and Health Science > Clinical Medicine > Internal Medicine > Cardiology"
+  },
+  {
+    "id": "https://openalex.org/W2771382062",
+    "title": "kallikrein cleaves c3 and activates complement",
+    "publication_date": "2017-12-13",
+    "display_name": "Kallikrein Cleaves C3 and Activates Complement",
+    "authorships": [
+      {
+        "name": "Sarah Irmscher",
+        "position": "first",
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false
+      },
+      {
+        "name": "Nadia Döring",
+        "position": "middle",
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false
+      },
+      {
+        "name": "Luke D. Halder",
+        "position": "middle",
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false
+      },
+      {
+        "name": "Emeraldo A.H. Jo",
+        "position": "middle",
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false
+      },
+      {
+        "name": "Isabell Kopka",
+        "position": "middle",
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false
+      },
+      {
+        "name": "Christine Dunker",
+        "position": "middle",
+        "institutions": [
+          "Leibniz-Institut für Naturstoff-Forschung und Infektionsbiologie e. V. - Hans-Knöll-Institut (HKI)"
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Ilse D. Jacobsen",
+        "position": "middle",
+        "institutions": [
+          "Leibniz-Institut für Naturstoff-Forschung und Infektionsbiologie e. V. - Hans-Knöll-Institut (HKI)"
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Shanshan Luo",
+        "position": "middle",
+        "institutions": [
+          "Xiamen University"
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Hortense Slevogt",
+        "position": "middle",
+        "institutions": [
+          "Jena University Hospital"
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Stefan Lorkowski",
+        "position": "middle",
+        "institutions": [
+          "Schiller International University"
+        ],
+        "countries": [
+          "FR"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Niklas Beyersdorf",
+        "position": "middle",
+        "institutions": [
+          "University of Würzburg"
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Peter F. Zipfel",
+        "position": "middle",
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false
+      },
+      {
+        "name": "Christine Skerka",
+        "position": "last",
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false
+      }
+    ],
+    "cited_by_count": 136,
+    "referenced_works": [
+      "https://openalex.org/W6602725483",
+      "https://openalex.org/W94191212",
+      "https://openalex.org/W1983969090",
+      "https://openalex.org/W2060721894",
+      "https://openalex.org/W2317300891",
+      "https://openalex.org/W2050217807",
+      "https://openalex.org/W2074459763",
+      "https://openalex.org/W1980895202",
+      "https://openalex.org/W2136648677",
+      "https://openalex.org/W2055963173",
+      "https://openalex.org/W2113038626",
+      "https://openalex.org/W1969726211",
+      "https://openalex.org/W2055474534",
+      "https://openalex.org/W1907959623",
+      "https://openalex.org/W2170809792",
+      "https://openalex.org/W2009484634",
+      "https://openalex.org/W1483707658",
+      "https://openalex.org/W2169437650",
+      "https://openalex.org/W2330698677",
+      "https://openalex.org/W1606415249",
+      "https://openalex.org/W2097802875",
+      "https://openalex.org/W2121139943",
+      "https://openalex.org/W2123920960",
+      "https://openalex.org/W1983010160",
+      "https://openalex.org/W2144278357",
+      "https://openalex.org/W2171155970",
+      "https://openalex.org/W2070635810",
+      "https://openalex.org/W1998336764",
+      "https://openalex.org/W2270810037",
+      "https://openalex.org/W1966820620",
+      "https://openalex.org/W2541189331",
+      "https://openalex.org/W4205741291",
+      "https://openalex.org/W2316655979",
+      "https://openalex.org/W2065583843",
+      "https://openalex.org/W1996723128",
+      "https://openalex.org/W2067488428",
+      "https://openalex.org/W1984443867",
+      "https://openalex.org/W2003564377",
+      "https://openalex.org/W2560978777",
+      "https://openalex.org/W1984727301",
+      "https://openalex.org/W2151962457",
+      "https://openalex.org/W2588821388",
+      "https://openalex.org/W2471800028",
+      "https://openalex.org/W2089553546"
+    ],
+    "SJR": 1.2,
+    "SJR_Normalized": 0.7884573603642702,
+    "abstract": "the human plasma contact system is an immune surveillance system activated by the negatively charged surfaces of bacteria and fungi and includes the kallikrein-kinin, the coagulation, and the fibrinolytic systems. previous work shows that the contact system also activates complement, and that plasma enzymes like kallikrein, plasmin, thrombin, and fxii are involved in the activation process. here, we show for the first time that kallikrein cleaves the central complement component c3 directly to yield active components c3b and c3a. the cleavage site within c3 is identical to that recognized by the c3 convertase. also, kallikrein-generated c3b forms c3 convertases, which trigger the c3 amplification loop. since kallikrein also cleaves factor b to yield bb and ba, kallikrein alone can trigger complement activation. kallikrein-generated c3 convertases are inhibited by factor h; thus, the kallikrein activation pathway merges with the amplification loop of the alternative pathway. taken together, these data suggest that activation of the contact system locally enhances complement activation on cell surfaces. the human pathogenic microbe candida albicans activates the contact system in normal human serum. however, c. albicans immediately recruits factor h to the surface, thereby evading the alternative and likely kallikrein-mediated complement pathways.",
+    "publication_info": {
+      "host_organization_name": "Karger Publishers",
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "classification_path": "Medical and Health Science > Clinical Medicine > Internal Medicine > Cardiology"
+  },
+  {
+    "id": "https://openalex.org/W2917214053",
+    "title": "inhibition of contact-mediated activation of factor xi protects baboons against s aureus induced organ damage and death",
+    "publication_date": "2019-02-26",
+    "display_name": "Inhibition of contact-mediated activation of factor XI protects baboons against S aureus–induced organ damage and death",
+    "authorships": [
+      {
+        "name": "Robert Silasi‐Mansat",
+        "position": "first",
+        "institutions": [
+          "Oklahoma Medical Research Foundation"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true
+      },
+      {
+        "name": "Ravi S. Keshari",
+        "position": "middle",
+        "institutions": [
+          "Oklahoma Medical Research Foundation"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true
+      },
+      {
+        "name": "Cristina Lupu",
+        "position": "middle",
+        "institutions": [
+          "Oklahoma Medical Research Foundation"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Walter J. Janse van Rensburg",
+        "position": "middle",
+        "institutions": [
+          "University of the Free State"
+        ],
+        "countries": [
+          "ZA"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Hala Chaaban",
+        "position": "middle",
+        "institutions": [
+          "University of Oklahoma Health Sciences Center"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Girija Regmi",
+        "position": "middle",
+        "institutions": [
+          "Oklahoma Medical Research Foundation"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Aleksandr Shamanaev",
+        "position": "middle",
+        "institutions": [
+          "Vanderbilt University Medical Center"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Joseph J. Shatzel",
+        "position": "middle",
+        "institutions": [
+          "Oregon Health & Science University"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Cristina Puy",
+        "position": "middle",
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false
+      },
+      {
+        "name": "Christina U. Lorentz",
+        "position": "middle",
+        "institutions": [
+          "Aronora (United States)"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Erik I. Tucker",
+        "position": "middle",
+        "institutions": [
+          "Aronora (United States)"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "David Gailani",
+        "position": "middle",
+        "institutions": [
+          "Vanderbilt University Medical Center"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "András Gruber",
+        "position": "middle",
+        "institutions": [
+          "Aronora (United States)",
+          "Oregon Health & Science University"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Owen J. T. McCarty",
+        "position": "middle",
+        "institutions": [
+          "Oregon Health & Science University"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true
+      },
+      {
+        "name": "Florea Lupu",
+        "position": "last",
+        "institutions": [
+          "Institute of Cell Biology",
+          "Oklahoma Medical Research Foundation",
+          "University of Oklahoma Health Sciences Center"
+        ],
+        "countries": [
+          "UA",
+          "US"
+        ],
+        "is_corresponding": true
+      }
+    ],
+    "cited_by_count": 71,
+    "referenced_works": [
+      "https://openalex.org/W2160388336",
+      "https://openalex.org/W2884190658",
+      "https://openalex.org/W2004772364",
+      "https://openalex.org/W2408341557",
+      "https://openalex.org/W2004721076",
+      "https://openalex.org/W1739754559",
+      "https://openalex.org/W220308926",
+      "https://openalex.org/W1984763915",
+      "https://openalex.org/W2106478756",
+      "https://openalex.org/W2313919223",
+      "https://openalex.org/W2071053657",
+      "https://openalex.org/W1706591859",
+      "https://openalex.org/W2104825124",
+      "https://openalex.org/W2322121630",
+      "https://openalex.org/W2305612787",
+      "https://openalex.org/W2883230403",
+      "https://openalex.org/W1536015903",
+      "https://openalex.org/W2065894262",
+      "https://openalex.org/W2557564387",
+      "https://openalex.org/W2612936688",
+      "https://openalex.org/W2806817043",
+      "https://openalex.org/W2795509604",
+      "https://openalex.org/W2161771297",
+      "https://openalex.org/W2164990391",
+      "https://openalex.org/W2955652692",
+      "https://openalex.org/W2063706685",
+      "https://openalex.org/W6758643406",
+      "https://openalex.org/W2025589620",
+      "https://openalex.org/W2075369004",
+      "https://openalex.org/W2737872184",
+      "https://openalex.org/W2105301485",
+      "https://openalex.org/W2117944864",
+      "https://openalex.org/W2170285826",
+      "https://openalex.org/W2115339089",
+      "https://openalex.org/W2781213254",
+      "https://openalex.org/W1969165345",
+      "https://openalex.org/W2350361926",
+      "https://openalex.org/W1968518179",
+      "https://openalex.org/W2073707438",
+      "https://openalex.org/W2809067157",
+      "https://openalex.org/W2031677121",
+      "https://openalex.org/W2064932000",
+      "https://openalex.org/W2747603657",
+      "https://openalex.org/W2887942280",
+      "https://openalex.org/W2540103448",
+      "https://openalex.org/W2386081449",
+      "https://openalex.org/W2005305179",
+      "https://openalex.org/W2607222622",
+      "https://openalex.org/W2164751506",
+      "https://openalex.org/W2104629425",
+      "https://openalex.org/W2142137540",
+      "https://openalex.org/W2912137362"
+    ],
+    "SJR": 2.901,
+    "SJR_Normalized": 1.3612329305245194,
+    "abstract": "abstract staphylococcus aureus infections can produce systemic bacteremia and inflammation in humans, which may progress to severe sepsis or septic shock, even with appropriate antibiotic treatment. sepsis may be associated with disseminated intravascular coagulation and consumptive coagulopathy. in some types of mouse infection models, the plasma coagulation protein factor xi (fxi) contributes to the pathogenesis of sepsis. we hypothesize that fxi also contributes to the pathogenesis of sepsis in primates, and that pharmacological interference with fxi will alter the outcome of staphylococcus aureus induced lethality in a baboon model. pretreatment of baboons with the anti-fxi antibody 3g3, a humanized variant of the murine monoclonal 14e11 that blocks fxi activation by fxiia, substantially reduced the activation of coagulation, as reflected by clotting times and plasma complexes of coagulation proteases (fxiia, fxia, fixa, fxa, fviia, and thrombin) with serpins (antithrombin or c1 inhibitor) following infusion of heat-inactivated s aureus. 3g3 treatment reduced fibrinogen and platelet consumption, fibrin deposition in tissues, neutrophil activation and accumulation in tissues, cytokine production, kininogen cleavage, cell death, and complement activation. overall, 3g3 infusion protected the structure and function of multiple vital organs, including lung, heart, liver, and kidney. all treated animals reached the end point survival (7 days), whereas all nontreated animals developed terminal organ failure within 28 hours. we conclude that fxi plays a role in the pathogenesis of s aureus induced disseminated intravascular coagulation and lethality in baboons. the results provide proof of concept for future therapeutic interventions that may prevent sepsis-induced organ failure and save lives in certain forms of sepsis.",
+    "publication_info": {
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "classification_path": "Medical and Health Science > Clinical Medicine > Internal Medicine > Cardiology"
+  },
+  {
+    "id": "https://openalex.org/W1897147442",
+    "title": "comprehensive study into the activation of the plasma enzyme systems during attacks of hereditary angioedema due to c1-inhibitor deficiency",
+    "publication_date": "2015-10-09",
+    "display_name": "Comprehensive study into the activation of the plasma enzyme systems during attacks of hereditary angioedema due to C1-inhibitor deficiency",
+    "authorships": [
+      {
+        "name": "Dorottya Csuka",
+        "position": "first",
+        "institutions": [
+          "Semmelweis University"
+        ],
+        "countries": [
+          "HU"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Nóra Veszeli",
+        "position": "middle",
+        "institutions": [
+          "Semmelweis University"
+        ],
+        "countries": [
+          "HU"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Éva Imreh",
+        "position": "middle",
+        "institutions": [
+          "Semmelweis University"
+        ],
+        "countries": [
+          "HU"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Zsuzsanna Zotter",
+        "position": "middle",
+        "institutions": [
+          "Semmelweis University"
+        ],
+        "countries": [
+          "HU"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Judit Skopál",
+        "position": "middle",
+        "institutions": [
+          "Semmelweis University"
+        ],
+        "countries": [
+          "HU"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Zoltán Prohászka",
+        "position": "middle",
+        "institutions": [
+          "Semmelweis University"
+        ],
+        "countries": [
+          "HU"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Lilian Varga",
+        "position": "middle",
+        "institutions": [
+          "Semmelweis University"
+        ],
+        "countries": [
+          "HU"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Henriette Farkas",
+        "position": "last",
+        "institutions": [
+          "Semmelweis University"
+        ],
+        "countries": [
+          "HU"
+        ],
+        "is_corresponding": false
+      }
+    ],
+    "cited_by_count": 48,
+    "referenced_works": [
+      "https://openalex.org/W2316655979",
+      "https://openalex.org/W2418890709",
+      "https://openalex.org/W2410031417",
+      "https://openalex.org/W2404266606",
+      "https://openalex.org/W1505900720",
+      "https://openalex.org/W2067716683",
+      "https://openalex.org/W2166268582",
+      "https://openalex.org/W1968468186",
+      "https://openalex.org/W2083884362",
+      "https://openalex.org/W1964494436",
+      "https://openalex.org/W122173477",
+      "https://openalex.org/W2109816135",
+      "https://openalex.org/W2048489629",
+      "https://openalex.org/W2405529609",
+      "https://openalex.org/W1977766283",
+      "https://openalex.org/W2426180170",
+      "https://openalex.org/W2014585326",
+      "https://openalex.org/W191316805",
+      "https://openalex.org/W2047425163",
+      "https://openalex.org/W1975727747",
+      "https://openalex.org/W2141019187",
+      "https://openalex.org/W2111297233",
+      "https://openalex.org/W2025562266",
+      "https://openalex.org/W1980895202",
+      "https://openalex.org/W2403806198",
+      "https://openalex.org/W2117343102",
+      "https://openalex.org/W2416180338",
+      "https://openalex.org/W1975801854",
+      "https://openalex.org/W1987140649",
+      "https://openalex.org/W2165736621",
+      "https://openalex.org/W1978039741",
+      "https://openalex.org/W2012160462",
+      "https://openalex.org/W2024447051",
+      "https://openalex.org/W1489080798",
+      "https://openalex.org/W2051962479",
+      "https://openalex.org/W2027093124",
+      "https://openalex.org/W2411172952",
+      "https://openalex.org/W2092249430",
+      "https://openalex.org/W2069678140"
+    ],
+    "SJR": 1.269,
+    "SJR_Normalized": 0.8193392057977047,
+    "abstract": "comparing a large number of paired samples from symptom-free periods or from edematous episodes allowed accurate appraisal of the changes occurring during attacks. moreover, our study pointed out that individual episodes may be characterized by different marker patterns.",
+    "publication_info": {
+      "host_organization_name": "BioMed Central",
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "classification_path": "Medical and Health Science > Clinical Medicine > Internal Medicine > Cardiology"
+  },
+  {
+    "id": "https://openalex.org/W3002887022",
+    "title": "red blood cell microvesicles activate the contact system, leading to factor ix activation via 2 independent pathways",
+    "publication_date": "2020-01-23",
+    "display_name": "Red blood cell microvesicles activate the contact system, leading to factor IX activation via 2 independent pathways",
+    "authorships": [
+      {
+        "name": "Denis F. Noubouossie",
+        "position": "first",
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false
+      },
+      {
+        "name": "Michael W. Henderson",
+        "position": "middle",
+        "institutions": [
+          "University of North Carolina at Chapel Hill"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Micah J. Mooberry",
+        "position": "middle",
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false
+      },
+      {
+        "name": "Anton Ilich",
+        "position": "middle",
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false
+      },
+      {
+        "name": "Patrick Ellsworth",
+        "position": "middle",
+        "institutions": [
+          "University of North Carolina at Chapel Hill"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Mark Piegore",
+        "position": "middle",
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false
+      },
+      {
+        "name": "Sarah Skinner",
+        "position": "middle",
+        "institutions": [
+          "University of North Carolina at Chapel Hill"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Rafał Pawliński",
+        "position": "middle",
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false
+      },
+      {
+        "name": "Ian J. Welsby",
+        "position": "middle",
+        "institutions": [
+          "Duke University"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Thomas Renné",
+        "position": "middle",
+        "institutions": [
+          "University Medical Center Hamburg-Eppendorf",
+          "Universität Hamburg"
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Maureane Hoffman",
+        "position": "middle",
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false
+      },
+      {
+        "name": "Dougald M. Monroe",
+        "position": "middle",
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false
+      },
+      {
+        "name": "Nigel S. Key",
+        "position": "last",
+        "institutions": [
+          "University of North Carolina at Chapel Hill"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      }
+    ],
+    "cited_by_count": 86,
+    "referenced_works": [
+      "https://openalex.org/W1986321004",
+      "https://openalex.org/W2149818940",
+      "https://openalex.org/W2111925820",
+      "https://openalex.org/W1661767063",
+      "https://openalex.org/W2188901027",
+      "https://openalex.org/W2792846893",
+      "https://openalex.org/W1621550101",
+      "https://openalex.org/W2045460009",
+      "https://openalex.org/W2129790170",
+      "https://openalex.org/W2808189564",
+      "https://openalex.org/W1992447975",
+      "https://openalex.org/W2019033308",
+      "https://openalex.org/W2766283957",
+      "https://openalex.org/W2512894868",
+      "https://openalex.org/W1747884623",
+      "https://openalex.org/W2900869394",
+      "https://openalex.org/W2775203257",
+      "https://openalex.org/W2137048009",
+      "https://openalex.org/W1986516374",
+      "https://openalex.org/W110545565",
+      "https://openalex.org/W2509112979",
+      "https://openalex.org/W2041397478",
+      "https://openalex.org/W2119768870",
+      "https://openalex.org/W2580462625",
+      "https://openalex.org/W2046551990",
+      "https://openalex.org/W2042466479",
+      "https://openalex.org/W66228568",
+      "https://openalex.org/W1817123886",
+      "https://openalex.org/W2591927717",
+      "https://openalex.org/W2019589994",
+      "https://openalex.org/W2129464080",
+      "https://openalex.org/W2755230309",
+      "https://openalex.org/W2014277394",
+      "https://openalex.org/W2098224485",
+      "https://openalex.org/W2046090148",
+      "https://openalex.org/W2218778980",
+      "https://openalex.org/W2081848037",
+      "https://openalex.org/W2033952579",
+      "https://openalex.org/W2108644172",
+      "https://openalex.org/W2112108453",
+      "https://openalex.org/W2910814638",
+      "https://openalex.org/W2745773279",
+      "https://openalex.org/W2769137700",
+      "https://openalex.org/W2003377442",
+      "https://openalex.org/W2901539492",
+      "https://openalex.org/W1895108898",
+      "https://openalex.org/W2036655503",
+      "https://openalex.org/W2127370427",
+      "https://openalex.org/W1988437478",
+      "https://openalex.org/W2137447704",
+      "https://openalex.org/W2287232940",
+      "https://openalex.org/W2015338772",
+      "https://openalex.org/W2798111298",
+      "https://openalex.org/W2546192931",
+      "https://openalex.org/W2912703689",
+      "https://openalex.org/W1485002903",
+      "https://openalex.org/W1516253947",
+      "https://openalex.org/W2890359662",
+      "https://openalex.org/W4238300447",
+      "https://openalex.org/W2475246497",
+      "https://openalex.org/W3096198658"
+    ],
+    "SJR": 5.823,
+    "SJR_Normalized": 1.9202992578332867,
+    "abstract": "abstract storage lesion induced, red cell derived microvesicles (rbc-mvs) propagate coagulation by supporting the assembly of the prothrombinase complex. it has also been reported that rbc-mvs initiate coagulation via the intrinsic pathway. to elucidate the mechanism(s) of rbc-mv induced coagulation activation, the ability of storage lesion induced rbc-mvs to activate each zymogen of the intrinsic pathway was assessed in a buffer system. simultaneously, the thrombin generation (tg) assay was used to assess their ability to initiate coagulation in plasma. rbc-mvs directly activated factor xii (fxii) or prekallikrein, but not fxi or fix. rbc-mvs initiated tg in normal pooled plasma and in fxii- or fxi-deficient plasma, but not in fix-deficient plasma, suggesting an alternate pathway that bypasses both fxii and fxi. interestingly, rbc-mvs generated fixa in a prekallikrein-dependent manner. similarly, purified kallikrein activated fix in buffer and initiated tg in normal pooled plasma, as well as fxii- or fxi-deficient plasma, but not fix-deficient plasma. dual inhibition of fxiia by corn trypsin inhibitor and kallikrein by soybean trypsin inhibitor was necessary for abolishing rbc-mv induced tg in normal pooled plasma, whereas kallikrein inhibition alone was sufficient to abolish tg in fxii- or fxi-deficient plasma. heating rbc-mvs at 60 c for 15 minutes or pretreatment with trypsin abolished tg, suggesting the presence of mv-associated proteins that are essential for contact activation. in summary, rbc-mvs activate both fxii and prekallikrein, leading to fix activation by 2 independent pathways: the classic fxiia-fxi-fix pathway and direct kallikrein activation of fix. these data suggest novel mechanisms by which rbc transfusion mediates inflammatory and/or thrombotic outcomes.",
+    "publication_info": {
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "classification_path": "Medical and Health Science > Clinical Medicine > Internal Medicine > Cardiology"
+  },
+  {
+    "id": "https://openalex.org/W2900614129",
+    "title": "an investigational rnai therapeutic targeting factor xii (aln-f12) for the treatment of hereditary angioedema",
+    "publication_date": "2018-11-21",
+    "display_name": "An investigational RNAi therapeutic targeting Factor XII (ALN-F12) for the treatment of hereditary angioedema",
+    "authorships": [
+      {
+        "name": "Jingxuan Liu",
+        "position": "first",
+        "institutions": [
+          "Alnylam Pharmaceuticals (United States)"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "June Qin",
+        "position": "middle",
+        "institutions": [
+          "Alnylam Pharmaceuticals (United States)"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Anna Borodovsky",
+        "position": "middle",
+        "institutions": [
+          "Alnylam Pharmaceuticals (United States)"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Timothy Racie",
+        "position": "middle",
+        "institutions": [
+          "Alnylam Pharmaceuticals (United States)"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Adam Castoreno",
+        "position": "middle",
+        "institutions": [
+          "Alnylam Pharmaceuticals (United States)"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Mark K. Schlegel",
+        "position": "middle",
+        "institutions": [
+          "Alnylam Pharmaceuticals (United States)"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Martin A. Maier",
+        "position": "middle",
+        "institutions": [
+          "Alnylam Pharmaceuticals (United States)"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Tracy Zimmerman",
+        "position": "middle",
+        "institutions": [
+          "Alnylam Pharmaceuticals (United States)"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Kevin Fitzgerald",
+        "position": "middle",
+        "institutions": [
+          "Alnylam Pharmaceuticals (United States)"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "James Butler",
+        "position": "middle",
+        "institutions": [
+          "Alnylam Pharmaceuticals (United States)"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Akin Akinc",
+        "position": "last",
+        "institutions": [
+          "Alnylam Pharmaceuticals (United States)"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      }
+    ],
+    "cited_by_count": 41,
+    "referenced_works": [
+      "https://openalex.org/W2588081052",
+      "https://openalex.org/W2524842930",
+      "https://openalex.org/W1556501884",
+      "https://openalex.org/W2019575635",
+      "https://openalex.org/W1900104791",
+      "https://openalex.org/W2028803931",
+      "https://openalex.org/W2341888366",
+      "https://openalex.org/W2128921599",
+      "https://openalex.org/W2129759179",
+      "https://openalex.org/W1995140683",
+      "https://openalex.org/W1987529569",
+      "https://openalex.org/W2386081449",
+      "https://openalex.org/W2622934150",
+      "https://openalex.org/W2555483953",
+      "https://openalex.org/W2781906140",
+      "https://openalex.org/W2037957399",
+      "https://openalex.org/W4252939281",
+      "https://openalex.org/W42189419",
+      "https://openalex.org/W1910638751",
+      "https://openalex.org/W2186102397",
+      "https://openalex.org/W2127370427",
+      "https://openalex.org/W2060433961",
+      "https://openalex.org/W1972306485",
+      "https://openalex.org/W2083884362",
+      "https://openalex.org/W2115789382",
+      "https://openalex.org/W2078890343",
+      "https://openalex.org/W1999733114",
+      "https://openalex.org/W2027981062",
+      "https://openalex.org/W2734498030",
+      "https://openalex.org/W204163120",
+      "https://openalex.org/W2053692752",
+      "https://openalex.org/W2163995310",
+      "https://openalex.org/W2786873277",
+      "https://openalex.org/W2039624533",
+      "https://openalex.org/W2173055315",
+      "https://openalex.org/W1977093166",
+      "https://openalex.org/W2568306867",
+      "https://openalex.org/W2026045437",
+      "https://openalex.org/W2318335616",
+      "https://openalex.org/W2318581264",
+      "https://openalex.org/W1971042333"
+    ],
+    "SJR": 2.512,
+    "SJR_Normalized": 1.2561856757728702,
+    "abstract": "hereditary angioedema (hae) is a genetic disorder mostly caused by mutations in the c1 esterase inhibitor gene (c1inh) that results in poor control of contact pathway activation and excess bradykinin generation. bradykinin increases vascular permeability and is ultimately responsible for the episodes of swelling characteristic of hae. we hypothesized that the use of rna interference (rnai) to reduce plasma factor xii (fxii), which initiates the contact pathway signaling cascade, would reduce contact pathway activation and prevent excessive bradykinin generation. a subcutaneously administered galnac-conjugated small-interfering rna (sirna) targeting f12 mrna (aln-f12) was developed, and potency was evaluated in mice, rats, and cynomolgus monkeys. the effect of fxii reduction by aln-f12 administration was evaluated in two different vascular leakage mouse models. an ex vivo assay was developed to evaluate the correlation between human plasma fxii levels and high-molecular weight kininogen (hk) cleavage. a single subcutaneous dose of aln-f12 led to potent, dose-dependent reduction of plasma fxii in mice, rats, and nhp. in cynomolgus monkeys, a single subcutaneous dose of aln-f12 at 3 mg/kg resulted in >85% reduction of plasma fxii. administration of aln-f12 resulted in dose-dependent reduction of vascular permeability in two different mouse models of bradykinin-driven vascular leakage, demonstrating that rnai-mediated reduction of fxii can potentially mitigate excess bradykinin stimulation. lastly, ex vivo human plasma hk cleavage assay indicated fxii-dependent bradykinin generation. together, these data suggest that rnai-mediated knockdown of fxii by aln-f12 is a potentially promising approach for the prophylactic treatment of hae.",
+    "publication_info": {
+      "host_organization_name": "Cold Spring Harbor Laboratory Press",
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "classification_path": "Medical and Health Science > Clinical Medicine > Internal Medicine > Cardiology"
+  },
+  {
+    "id": "https://openalex.org/W2067354269",
+    "title": "ongoing contact activation in patients with hereditary angioedema",
+    "publication_date": "2013-08-27",
+    "display_name": "Ongoing Contact Activation in Patients with Hereditary Angioedema",
+    "authorships": [
+      {
+        "name": "Joke Konings",
+        "position": "first",
+        "institutions": [
+          "Maastricht University Medical Centre"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Massimo Cugno",
+        "position": "middle",
+        "institutions": [
+          "Fondazione IRCCS Ca' Granda Ospedale Maggiore Policlinico",
+          "University of Milan"
+        ],
+        "countries": [
+          "IT"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Chiara Suffritti",
+        "position": "middle",
+        "institutions": [
+          "University of Milan"
+        ],
+        "countries": [
+          "IT"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Hugo Ten Cate",
+        "position": "middle",
+        "institutions": [
+          "Maastricht University Medical Centre"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Marco Cicardi",
+        "position": "middle",
+        "institutions": [
+          "University of Milan"
+        ],
+        "countries": [
+          "IT"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "José W.P. Govers‐Riemslag",
+        "position": "last",
+        "institutions": [
+          "Maastricht University Medical Centre"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      }
+    ],
+    "cited_by_count": 32,
+    "referenced_works": [
+      "https://openalex.org/W2163505092",
+      "https://openalex.org/W2125474642",
+      "https://openalex.org/W2059684863",
+      "https://openalex.org/W2316655979",
+      "https://openalex.org/W2418890709",
+      "https://openalex.org/W2410031417",
+      "https://openalex.org/W1505900720",
+      "https://openalex.org/W2404266606",
+      "https://openalex.org/W2303498974",
+      "https://openalex.org/W2067716683",
+      "https://openalex.org/W1968468186",
+      "https://openalex.org/W122173477",
+      "https://openalex.org/W2047425163",
+      "https://openalex.org/W1975727747",
+      "https://openalex.org/W1987140649",
+      "https://openalex.org/W2405529609",
+      "https://openalex.org/W2166268582",
+      "https://openalex.org/W2471310177",
+      "https://openalex.org/W1483804069",
+      "https://openalex.org/W2045075127",
+      "https://openalex.org/W2012160462",
+      "https://openalex.org/W1973031099",
+      "https://openalex.org/W2065956940",
+      "https://openalex.org/W2024447051",
+      "https://openalex.org/W1983279169",
+      "https://openalex.org/W1485381400",
+      "https://openalex.org/W2223433389",
+      "https://openalex.org/W2011397447",
+      "https://openalex.org/W75077106",
+      "https://openalex.org/W1973740388",
+      "https://openalex.org/W2123210321",
+      "https://openalex.org/W2018030670",
+      "https://openalex.org/W1489080798",
+      "https://openalex.org/W2046090148",
+      "https://openalex.org/W2045387793",
+      "https://openalex.org/W2020160101",
+      "https://openalex.org/W2035537561"
+    ],
+    "SJR": 0.803,
+    "SJR_Normalized": 0.5894519442211803,
+    "abstract": "hereditary angioedema (hae) is predominantly caused by a deficiency in c1 esterase inhibitor (c1inh) (hae-c1inh). c1inh inhibits activated factor xii (fxiia), activated factor xi (fxia), and kallikrein. in hae-c1inh patients the thrombotic risk is not increased even though activation of the contact system is poorly regulated. therefore, we hypothesized that contact activation preferentially leads to kallikrein formation and less to activation of the coagulation cascade in hae-c1inh patients. we measured the levels of c1inh in complex with activated contact factors in plasma samples of hae-c1inh patients (n=30, 17 during remission and 13 during acute attack) and healthy controls (n=10). we did not detect differences in enzyme-inhibitor complexes between samples of controls, patients during remission and patients during an acute attack. reconstitution with c1inh did not change this result. next, we determined the potential to form enzyme-inhibitory complexes after complete in vitro activation of the plasma samples with a fxii trigger. in all samples, enzyme-c1inh levels increased after activation even in patients during an acute attack. however, the levels of fxiia-c1inh, fxia-c1inh and kallikrein-c1inh were at least 52% lower in samples taken during remission and 70% lower in samples taken during attack compared to samples from controls (p<0.05). addition of c1inh after activation led to an increase in levels of fxiia-c1inh and fxia-c1inh (p<0.05), which were still lower than in controls (p<0.05), while the levels of kallikrein-c1inh did not change. these results are consistent with constitutive activation and attenuated depletion of the contact system and show that the ongoing activation of the contact system, which is present in hae-c1inh patients both during remission and during acute attacks, is not associated with preferential generation of kallikrein over fxia.",
+    "publication_info": {
+      "host_organization_name": "Public Library of Science",
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "classification_path": "Medical and Health Science > Clinical Medicine > Internal Medicine > Cardiology"
+  },
+  {
+    "id": "https://openalex.org/W2785490330",
+    "title": "atherothrombosis and thromboembolism: position paper from the second maastricht consensus conference on thrombosis",
+    "publication_date": "2018-01-01",
+    "display_name": "Atherothrombosis and Thromboembolism: Position Paper from the Second Maastricht Consensus Conference on Thrombosis",
+    "authorships": [
+      {
+        "name": "Henri M.H. Spronk",
+        "position": "first",
+        "institutions": [
+          "Maastricht University"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Teresa Padró",
+        "position": "middle",
+        "institutions": [
+          "Hospital de Sant Pau"
+        ],
+        "countries": [
+          "ES"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Joylene E. Siland",
+        "position": "middle",
+        "institutions": [
+          "University Medical Center Groningen"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Jürgen H. Prochaska",
+        "position": "middle",
+        "institutions": [
+          "Johannes Gutenberg University Mainz",
+          "University Medical Center of the Johannes Gutenberg University Mainz"
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Joris Winters",
+        "position": "middle",
+        "institutions": [
+          "Maastricht University"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Allard C. van der Wal",
+        "position": "middle",
+        "institutions": [
+          "University of Namur",
+          "Maastricht University"
+        ],
+        "countries": [
+          "BE",
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Jelle J. Posthuma",
+        "position": "middle",
+        "institutions": [
+          "Amsterdam UMC Location University of Amsterdam",
+          "Maastricht University"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Gordon Lowe",
+        "position": "middle",
+        "institutions": [
+          "University of Glasgow"
+        ],
+        "countries": [
+          "GB"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Elisa D’Alessandro",
+        "position": "middle",
+        "institutions": [
+          "Amsterdam UMC Location University of Amsterdam",
+          "Maastricht University"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Philip Wenzel",
+        "position": "middle",
+        "institutions": [
+          "Klinik und Poliklinik für Psychosomatische Medizin und Psychotherapie"
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Daniëlle M. Coenen",
+        "position": "middle",
+        "institutions": [
+          "Maastricht University"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Pieter H. Reitsma",
+        "position": "middle",
+        "institutions": [
+          "Leiden University Medical Center"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Wolfram Ruf",
+        "position": "middle",
+        "institutions": [
+          "Johannes Gutenberg University Mainz",
+          "University Medical Center of the Johannes Gutenberg University Mainz"
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Rick van Gorp",
+        "position": "middle",
+        "institutions": [
+          "Maastricht University"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Rory R. Koenen",
+        "position": "middle",
+        "institutions": [
+          "Maastricht University"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Tanja Vajen",
+        "position": "middle",
+        "institutions": [
+          "Maastricht University"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Nahla Alshaikh",
+        "position": "middle",
+        "institutions": [
+          "Maastricht University"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Alisa S. Wolberg",
+        "position": "middle",
+        "institutions": [
+          "University of North Carolina at Chapel Hill"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Fraser L. Macrae",
+        "position": "middle",
+        "institutions": [
+          "University of Leeds"
+        ],
+        "countries": [
+          "GB"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Nathan L. Asquith",
+        "position": "middle",
+        "institutions": [
+          "University of Leeds"
+        ],
+        "countries": [
+          "GB"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Johan W. M. Heemskerk",
+        "position": "middle",
+        "institutions": [
+          "Maastricht University"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Alexandra C.A. Heinzmann",
+        "position": "middle",
+        "institutions": [
+          "Maastricht University"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Martijn Moorlag",
+        "position": "middle",
+        "institutions": [
+          "Synapse (Netherlands)"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Nigel Mackman",
+        "position": "middle",
+        "institutions": [
+          "University of North Carolina at Chapel Hill"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Paola E. J. van der Meijden",
+        "position": "middle",
+        "institutions": [
+          "Maastricht University"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Joost C.M. Meijers",
+        "position": "middle",
+        "institutions": [
+          "Sanquin"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Marco Heestermans",
+        "position": "middle",
+        "institutions": [
+          "Leiden University Medical Center"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Thomas Renné",
+        "position": "middle",
+        "institutions": [
+          "University Medical Center Hamburg-Eppendorf",
+          "Universität Hamburg",
+          "Karolinska Institutet",
+          "Karolinska University Hospital"
+        ],
+        "countries": [
+          "DE",
+          "SE"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Sophie Dólleman",
+        "position": "middle",
+        "institutions": [
+          "Leiden University"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Walid Chayouâ",
+        "position": "middle",
+        "institutions": [
+          "Synapse (Netherlands)"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Robert A.S. Ariëns",
+        "position": "middle",
+        "institutions": [
+          "University of Leeds"
+        ],
+        "countries": [
+          "GB"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Constance C. F. M. J. Baaten",
+        "position": "middle",
+        "institutions": [
+          "Maastricht University"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Magdolna Nagy",
+        "position": "middle",
+        "institutions": [
+          "Maastricht University"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Athan Kuliopulos",
+        "position": "middle",
+        "institutions": [
+          "Tufts University"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Jens Posma",
+        "position": "middle",
+        "institutions": [
+          "Maastricht University"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Paul Harrison",
+        "position": "middle",
+        "institutions": [
+          "University of Birmingham"
+        ],
+        "countries": [
+          "GB"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Marjan de Vries",
+        "position": "middle",
+        "institutions": [
+          "Maastricht University"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Harry J. Crijns",
+        "position": "middle",
+        "institutions": [
+          "Maastricht University"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Elton Dudink",
+        "position": "middle",
+        "institutions": [
+          "Maastricht University"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Harry R. Büller",
+        "position": "middle",
+        "institutions": [
+          "Amsterdam UMC Location University of Amsterdam"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Yvonne Henskens",
+        "position": "middle",
+        "institutions": [
+          "Maastricht University"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Anders Själander",
+        "position": "middle",
+        "institutions": [
+          "Umeå University"
+        ],
+        "countries": [
+          "SE"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Suzanne Zwaveling",
+        "position": "middle",
+        "institutions": [
+          "Maastricht University",
+          "Synapse (Netherlands)"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Ömer Erküner",
+        "position": "middle",
+        "institutions": [
+          "Maastricht University"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "John W. Eikelboom",
+        "position": "middle",
+        "institutions": [
+          "McMaster University"
+        ],
+        "countries": [
+          "CA"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Anouk J. W. Gulpen",
+        "position": "middle",
+        "institutions": [
+          "Maastricht University"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Frenk Peeters",
+        "position": "middle",
+        "institutions": [
+          "Maastricht University"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Jonathan Douxfils",
+        "position": "middle",
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false
+      },
+      {
+        "name": "Robert A. Olie",
+        "position": "middle",
+        "institutions": [
+          "Maastricht University"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Trevor Baglin",
+        "position": "middle",
+        "institutions": [
+          "Addenbrooke's Hospital"
+        ],
+        "countries": [
+          "GB"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Avi Leader",
+        "position": "middle",
+        "institutions": [
+          "Rabin Medical Center",
+          "Tel Aviv University",
+          "Maastricht University"
+        ],
+        "countries": [
+          "IL",
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Ulrich Schotten",
+        "position": "middle",
+        "institutions": [
+          "Johannes Gutenberg University Mainz",
+          "University Medical Center of the Johannes Gutenberg University Mainz"
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Billy Scaf",
+        "position": "middle",
+        "institutions": [
+          "Maastricht University"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Heleen van Beusekom",
+        "position": "middle",
+        "institutions": [
+          "Erasmus MC"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Laurent O. Mosnier",
+        "position": "middle",
+        "institutions": [
+          "Scripps Research Institute"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Lisa N. van der Vorm",
+        "position": "middle",
+        "institutions": [
+          "Synapse (Netherlands)"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Paul Declerck",
+        "position": "middle",
+        "institutions": [
+          "KU Leuven"
+        ],
+        "countries": [
+          "BE"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Mayken Visser",
+        "position": "middle",
+        "institutions": [
+          "Bayer (Germany)"
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Diederik W.J. Dippel",
+        "position": "middle",
+        "institutions": [
+          "Erasmus MC",
+          "Erasmus University Rotterdam"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Viola J.F. Strijbis",
+        "position": "middle",
+        "institutions": [
+          "University of Namur",
+          "Maastricht University"
+        ],
+        "countries": [
+          "BE",
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Kartika Ratna Pertiwi",
+        "position": "middle",
+        "institutions": [
+          "Amsterdam UMC Location University of Amsterdam",
+          "University of Amsterdam"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Arina J. ten Cate‐Hoek",
+        "position": "middle",
+        "institutions": [
+          "University of Namur",
+          "Maastricht University"
+        ],
+        "countries": [
+          "BE",
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Hugo Ten Cate",
+        "position": "last",
+        "institutions": [
+          "University of Namur",
+          "Maastricht University"
+        ],
+        "countries": [
+          "BE",
+          "NL"
+        ],
+        "is_corresponding": false
+      }
+    ],
+    "cited_by_count": 56,
+    "referenced_works": [
+      "https://openalex.org/W1832728002",
+      "https://openalex.org/W2124551895",
+      "https://openalex.org/W1856857553",
+      "https://openalex.org/W1982839541",
+      "https://openalex.org/W2122368576",
+      "https://openalex.org/W2112157864",
+      "https://openalex.org/W1898093098",
+      "https://openalex.org/W2340360299",
+      "https://openalex.org/W2131110587",
+      "https://openalex.org/W7074143482",
+      "https://openalex.org/W4320301265",
+      "https://openalex.org/W2295404282",
+      "https://openalex.org/W4240697004",
+      "https://openalex.org/W2121440668",
+      "https://openalex.org/W2290898376",
+      "https://openalex.org/W2113037319",
+      "https://openalex.org/W2318662468",
+      "https://openalex.org/W2167642569",
+      "https://openalex.org/W2620594759",
+      "https://openalex.org/W2131881234",
+      "https://openalex.org/W6962757605",
+      "https://openalex.org/W1970653879",
+      "https://openalex.org/W2136650071",
+      "https://openalex.org/W6668113898",
+      "https://openalex.org/W2110239989",
+      "https://openalex.org/W2114680086",
+      "https://openalex.org/W2031047943",
+      "https://openalex.org/W2141814949",
+      "https://openalex.org/W2157280773",
+      "https://openalex.org/W2172191543",
+      "https://openalex.org/W2590431423",
+      "https://openalex.org/W2170756892",
+      "https://openalex.org/W2893616231",
+      "https://openalex.org/W2748400555",
+      "https://openalex.org/W2021280530",
+      "https://openalex.org/W2097389418",
+      "https://openalex.org/W2136188258",
+      "https://openalex.org/W2080879903",
+      "https://openalex.org/W2022101918",
+      "https://openalex.org/W6742688278",
+      "https://openalex.org/W6675623990",
+      "https://openalex.org/W2044332835",
+      "https://openalex.org/W6645295861",
+      "https://openalex.org/W2263087005",
+      "https://openalex.org/W1747884623",
+      "https://openalex.org/W2145098041",
+      "https://openalex.org/W2029983754",
+      "https://openalex.org/W1579722187",
+      "https://openalex.org/W2265081076",
+      "https://openalex.org/W2518808400",
+      "https://openalex.org/W2035211879",
+      "https://openalex.org/W2318106569",
+      "https://openalex.org/W2738593948",
+      "https://openalex.org/W2031677121",
+      "https://openalex.org/W2102719739",
+      "https://openalex.org/W2313919223",
+      "https://openalex.org/W2286759685",
+      "https://openalex.org/W2561678715",
+      "https://openalex.org/W2584678675",
+      "https://openalex.org/W2136489990",
+      "https://openalex.org/W2282129983",
+      "https://openalex.org/W1506314131",
+      "https://openalex.org/W2562372870",
+      "https://openalex.org/W2599824295",
+      "https://openalex.org/W1988437478",
+      "https://openalex.org/W1507312029",
+      "https://openalex.org/W2588081052",
+      "https://openalex.org/W1969886260",
+      "https://openalex.org/W2509112979",
+      "https://openalex.org/W2123183798",
+      "https://openalex.org/W77183089",
+      "https://openalex.org/W2050047890",
+      "https://openalex.org/W6719757082",
+      "https://openalex.org/W1517636809",
+      "https://openalex.org/W2212977094",
+      "https://openalex.org/W2109503431",
+      "https://openalex.org/W2077119068",
+      "https://openalex.org/W2040439786",
+      "https://openalex.org/W2082138797",
+      "https://openalex.org/W2054850919",
+      "https://openalex.org/W1977914106",
+      "https://openalex.org/W1973485135",
+      "https://openalex.org/W2377168363",
+      "https://openalex.org/W7075623938",
+      "https://openalex.org/W6662105673",
+      "https://openalex.org/W2113907811",
+      "https://openalex.org/W2134322421",
+      "https://openalex.org/W2142021807",
+      "https://openalex.org/W2156725039",
+      "https://openalex.org/W2308510141",
+      "https://openalex.org/W2204048255",
+      "https://openalex.org/W2074504036",
+      "https://openalex.org/W2032758261",
+      "https://openalex.org/W7075584821",
+      "https://openalex.org/W4234945284",
+      "https://openalex.org/W2145323902",
+      "https://openalex.org/W2509918966",
+      "https://openalex.org/W2071476382",
+      "https://openalex.org/W2322067317",
+      "https://openalex.org/W2123711871",
+      "https://openalex.org/W2509795914",
+      "https://openalex.org/W2520523056",
+      "https://openalex.org/W2163781421",
+      "https://openalex.org/W2295490840",
+      "https://openalex.org/W2342046766",
+      "https://openalex.org/W2605548679",
+      "https://openalex.org/W2119782111",
+      "https://openalex.org/W2303874590",
+      "https://openalex.org/W2097854437",
+      "https://openalex.org/W2166402206",
+      "https://openalex.org/W2160625453",
+      "https://openalex.org/W2063106680",
+      "https://openalex.org/W2159263330",
+      "https://openalex.org/W2205757214",
+      "https://openalex.org/W2126236742",
+      "https://openalex.org/W2000922667",
+      "https://openalex.org/W2198635349",
+      "https://openalex.org/W2475685525",
+      "https://openalex.org/W1762506800",
+      "https://openalex.org/W2001598988",
+      "https://openalex.org/W2527589302",
+      "https://openalex.org/W2582945934",
+      "https://openalex.org/W2118092611",
+      "https://openalex.org/W2130199362",
+      "https://openalex.org/W2115787552",
+      "https://openalex.org/W2162508946",
+      "https://openalex.org/W2096246254",
+      "https://openalex.org/W1570793246",
+      "https://openalex.org/W1964424199",
+      "https://openalex.org/W2036104117",
+      "https://openalex.org/W1836026258",
+      "https://openalex.org/W2126507631",
+      "https://openalex.org/W2319663405",
+      "https://openalex.org/W1997637512",
+      "https://openalex.org/W2478803093",
+      "https://openalex.org/W2119083251",
+      "https://openalex.org/W2113561246",
+      "https://openalex.org/W1891694420",
+      "https://openalex.org/W2022701034",
+      "https://openalex.org/W2086237958",
+      "https://openalex.org/W7075612172",
+      "https://openalex.org/W2139621750",
+      "https://openalex.org/W2569343362",
+      "https://openalex.org/W6673601859",
+      "https://openalex.org/W2047690653",
+      "https://openalex.org/W2016590565",
+      "https://openalex.org/W6679644911",
+      "https://openalex.org/W2153792869",
+      "https://openalex.org/W2171058244",
+      "https://openalex.org/W2143237216",
+      "https://openalex.org/W2037399775",
+      "https://openalex.org/W2277258071",
+      "https://openalex.org/W1932494896",
+      "https://openalex.org/W4406504876",
+      "https://openalex.org/W2324546810",
+      "https://openalex.org/W2258005585",
+      "https://openalex.org/W2095298843",
+      "https://openalex.org/W2288433932",
+      "https://openalex.org/W2329049508",
+      "https://openalex.org/W2059414929",
+      "https://openalex.org/W2151171807",
+      "https://openalex.org/W2544578848",
+      "https://openalex.org/W2108263007",
+      "https://openalex.org/W2153664287",
+      "https://openalex.org/W144700851",
+      "https://openalex.org/W2146582830",
+      "https://openalex.org/W2748517697",
+      "https://openalex.org/W2135313485",
+      "https://openalex.org/W2040462737",
+      "https://openalex.org/W2064351244",
+      "https://openalex.org/W2081893655",
+      "https://openalex.org/W105021832",
+      "https://openalex.org/W2112360098",
+      "https://openalex.org/W2465121937",
+      "https://openalex.org/W2070128798",
+      "https://openalex.org/W2508609171",
+      "https://openalex.org/W2121394112",
+      "https://openalex.org/W2137384427",
+      "https://openalex.org/W1879754864",
+      "https://openalex.org/W2169206499",
+      "https://openalex.org/W2084910212",
+      "https://openalex.org/W2316916592",
+      "https://openalex.org/W2092338209",
+      "https://openalex.org/W2106319388",
+      "https://openalex.org/W4300453006",
+      "https://openalex.org/W2098963770",
+      "https://openalex.org/W2325648693",
+      "https://openalex.org/W1969297996",
+      "https://openalex.org/W2065170163",
+      "https://openalex.org/W2152623033",
+      "https://openalex.org/W2784971111",
+      "https://openalex.org/W2030495476",
+      "https://openalex.org/W1979742792",
+      "https://openalex.org/W2010861397",
+      "https://openalex.org/W2604100160",
+      "https://openalex.org/W2469502808",
+      "https://openalex.org/W2345945712",
+      "https://openalex.org/W2068886931",
+      "https://openalex.org/W2088052643",
+      "https://openalex.org/W2095816459",
+      "https://openalex.org/W1995703529",
+      "https://openalex.org/W2508432438",
+      "https://openalex.org/W4240900378",
+      "https://openalex.org/W4238985368",
+      "https://openalex.org/W2083713858",
+      "https://openalex.org/W2045819100",
+      "https://openalex.org/W2131721740",
+      "https://openalex.org/W2121363227",
+      "https://openalex.org/W1547546593",
+      "https://openalex.org/W4210497544",
+      "https://openalex.org/W2098356073",
+      "https://openalex.org/W2412888170",
+      "https://openalex.org/W2022880742",
+      "https://openalex.org/W1711208506",
+      "https://openalex.org/W1991243300",
+      "https://openalex.org/W2141910805",
+      "https://openalex.org/W1497894124",
+      "https://openalex.org/W2324841714",
+      "https://openalex.org/W2109575512",
+      "https://openalex.org/W1986162817",
+      "https://openalex.org/W2068476516",
+      "https://openalex.org/W2088944564",
+      "https://openalex.org/W2149853382",
+      "https://openalex.org/W1977029484",
+      "https://openalex.org/W2012343501",
+      "https://openalex.org/W1756582968",
+      "https://openalex.org/W3021842026",
+      "https://openalex.org/W2346289199",
+      "https://openalex.org/W3030817736",
+      "https://openalex.org/W2143856136",
+      "https://openalex.org/W2064369146",
+      "https://openalex.org/W2170640128",
+      "https://openalex.org/W4245005337",
+      "https://openalex.org/W2586965858",
+      "https://openalex.org/W2022343625",
+      "https://openalex.org/W2046247859",
+      "https://openalex.org/W4210425250",
+      "https://openalex.org/W2144191166",
+      "https://openalex.org/W2084521665",
+      "https://openalex.org/W1968625689",
+      "https://openalex.org/W1978382181",
+      "https://openalex.org/W1956305767",
+      "https://openalex.org/W2158910198",
+      "https://openalex.org/W2103413070",
+      "https://openalex.org/W2127825717",
+      "https://openalex.org/W2024955418",
+      "https://openalex.org/W2045594098",
+      "https://openalex.org/W2738982624",
+      "https://openalex.org/W2979546395",
+      "https://openalex.org/W2165349656",
+      "https://openalex.org/W2163946154",
+      "https://openalex.org/W2272750820",
+      "https://openalex.org/W2105205049",
+      "https://openalex.org/W1978903726",
+      "https://openalex.org/W2121205446",
+      "https://openalex.org/W2096361927",
+      "https://openalex.org/W2527768444",
+      "https://openalex.org/W2043455739",
+      "https://openalex.org/W2090103763",
+      "https://openalex.org/W2745773279",
+      "https://openalex.org/W4252956080",
+      "https://openalex.org/W2557418394",
+      "https://openalex.org/W2131499646",
+      "https://openalex.org/W2054829194",
+      "https://openalex.org/W4243127592",
+      "https://openalex.org/W1758704097",
+      "https://openalex.org/W2539582898",
+      "https://openalex.org/W2105397247",
+      "https://openalex.org/W2402599050",
+      "https://openalex.org/W9727340",
+      "https://openalex.org/W2148827382",
+      "https://openalex.org/W2008360623",
+      "https://openalex.org/W1994291717",
+      "https://openalex.org/W2017582897",
+      "https://openalex.org/W2583673989"
+    ],
+    "SJR": 1.436,
+    "SJR_Normalized": 0.8903573498476506,
+    "abstract": "abstract atherothrombosis is a leading cause of cardiovascular mortality and long-term morbidity. platelets and coagulation proteases, interacting with circulating cells and in different vascular beds, modify several complex pathologies including atherosclerosis. in the second maastricht consensus conference on thrombosis, this theme was addressed by diverse scientists from bench to bedside. all presentations were discussed with audience members and the results of these discussions were incorporated in the final document that presents a state-of-the-art reflection of expert opinions and consensus recommendations regarding the following five topics: 1. risk factors, biomarkers and plaque instability: in atherothrombosis research, more focus on the contribution of specific risk factors like ectopic fat needs to be considered; definitions of atherothrombosis are important distinguishing different phases of disease, including plaque (in)stability; proteomic and metabolomics data are to be added to genetic information. 2. circulating cells including platelets and atherothrombosis: mechanisms of leukocyte and macrophage plasticity, migration, and transformation in murine atherosclerosis need to be considered; disease mechanism-based biomarkers need to be identified; experimental systems are needed that incorporate whole-blood flow to understand how red blood cells influence thrombus formation and stability; knowledge on platelet heterogeneity and priming conditions needs to be translated toward the in vivo situation. 3. coagulation proteases, fibrin(ogen) and thrombus formation: the role of factor (f) xi in thrombosis including the lower margins of this factor related to safe and effective antithrombotic therapy needs to be established; fxi is a key regulator in linking platelets, thrombin generation, and inflammatory mechanisms in a renin angiotensin dependent manner; however, the impact on thrombin-dependent par signaling needs further study; the fundamental mechanisms in fxiii biology and biochemistry and its impact on thrombus biophysical characteristics need to be explored; the interactions of red cells and fibrin formation and its consequences for thrombus formation and lysis need to be addressed. platelet fibrin interactions are pivotal determinants of clot formation and stability with potential therapeutic consequences. 4. preventive and acute treatment of atherothrombosis and arterial embolism; novel ways and tailoring? the role of protease-activated receptor (par)-4 vis vis par-1 as target for antithrombotic therapy merits study; ongoing trials on platelet function test-based antiplatelet therapy adjustment support development of practically feasible tests; risk scores for patients with atrial fibrillation need refinement, taking new biomarkers including coagulation into account; risk scores that consider organ system differences in bleeding may have added value; all forms of oral anticoagulant treatment require better organization, including education and emergency access; laboratory testing still needs rapidly available sensitive tests with short turnaround time. 5. pleiotropy of coagulation proteases, thrombus resolution and ischaemia reperfusion: biobanks specifically for thrombus storage and analysis are needed; further studies on novel modified activated protein c based agents are required including its cytoprotective properties; new avenues for optimizing treatment of patients with ischaemic stroke are needed, also including novel agents that modify fibrinolytic activity (aimed at plasminogen activator inhibitor-1 and thrombin activatable fibrinolysis inhibitor.",
+    "publication_info": {
+      "host_organization_name": "Thieme Medical Publishers (Germany)",
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "classification_path": "Medical and Health Science > Clinical Medicine > Internal Medicine > Cardiology"
+  },
+  {
+    "id": "https://openalex.org/W2996960670",
+    "title": "evidence for bradykinin release in chronic spontaneous urticaria",
+    "publication_date": "2020-01-03",
+    "display_name": "Evidence for bradykinin release in chronic spontaneous urticaria",
+    "authorships": [
+      {
+        "name": "Zonne L. M. Hofman",
+        "position": "first",
+        "institutions": [
+          "University Medical Center Utrecht",
+          "Utrecht University"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Mignon van den Elzen",
+        "position": "middle",
+        "institutions": [
+          "University Medical Center Utrecht",
+          "Utrecht University"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Jeffrey Kuijpers",
+        "position": "middle",
+        "institutions": [
+          "University Medical Center Utrecht",
+          "Utrecht University"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Steven de Maat",
+        "position": "middle",
+        "institutions": [
+          "University Medical Center Utrecht",
+          "Utrecht University"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "C. Erik Hack",
+        "position": "middle",
+        "institutions": [
+          "University Medical Center Utrecht",
+          "Utrecht University"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "André C. Knulst",
+        "position": "middle",
+        "institutions": [
+          "University Medical Center Utrecht",
+          "Utrecht University"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Heike Röckmann",
+        "position": "middle",
+        "institutions": [
+          "University Medical Center Utrecht",
+          "Utrecht University"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Coen Maas",
+        "position": "last",
+        "institutions": [
+          "University Medical Center Utrecht",
+          "Utrecht University"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": true
+      }
+    ],
+    "cited_by_count": 23,
+    "referenced_works": [
+      "https://openalex.org/W2753797778",
+      "https://openalex.org/W2109951782",
+      "https://openalex.org/W2121663010",
+      "https://openalex.org/W2782889067",
+      "https://openalex.org/W2102953371",
+      "https://openalex.org/W2414960009",
+      "https://openalex.org/W2098192722",
+      "https://openalex.org/W1582121419",
+      "https://openalex.org/W2292963177",
+      "https://openalex.org/W2064514230",
+      "https://openalex.org/W2047425163",
+      "https://openalex.org/W2565710406",
+      "https://openalex.org/W2334283030",
+      "https://openalex.org/W2092767133",
+      "https://openalex.org/W2172191543",
+      "https://openalex.org/W2743901383",
+      "https://openalex.org/W2037982270",
+      "https://openalex.org/W2386081449",
+      "https://openalex.org/W2058661898",
+      "https://openalex.org/W2060880548",
+      "https://openalex.org/W2105301485",
+      "https://openalex.org/W2588081052",
+      "https://openalex.org/W1976357019",
+      "https://openalex.org/W2557562448",
+      "https://openalex.org/W2810440747",
+      "https://openalex.org/W1999733114",
+      "https://openalex.org/W2736544491",
+      "https://openalex.org/W2238510836",
+      "https://openalex.org/W2591394776",
+      "https://openalex.org/W2079362551",
+      "https://openalex.org/W2010496208",
+      "https://openalex.org/W2345025767",
+      "https://openalex.org/W11153108",
+      "https://openalex.org/W1489080798",
+      "https://openalex.org/W2742981589",
+      "https://openalex.org/W2404460966",
+      "https://openalex.org/W2580011331",
+      "https://openalex.org/W2020211247",
+      "https://openalex.org/W2587262842"
+    ],
+    "SJR": 1.542,
+    "SJR_Normalized": 0.9329511727672624,
+    "abstract": "abstract background chronic spontaneous urticaria (csu) is characterized by recurrent itchy weals and/or angioedema and is believed to be driven by mast cell activation. it was shown that excessive mast cell activation during anaphylaxis initiates contact activation, resulting in bradykinin release. evidence for bradykinin release was never demonstrated in csu. objective to study biomarkers of bradykinin release in csu. methods plasma samples of csu patients were collected during routine visits at the outpatient clinic. cleaved high molecular weight kininogen (chk) was used as a biomarker for bradykinin release. chk, factor xiia c1 inhibitor (fxiia c1 inh), kallikrein c1 inh, plasmin antiplasmin (pap) complexes and soluble urokinase type plasminogen activator receptor (supar) levels were determined by elisa. clinical data and data on tryptase levels were collected from medical records. chk levels were compared to previously determined levels in hereditary angioedema (hae). results one hundred seventeen samples from 88 csu patients and 28 samples from healthy controls were analysed. median chk level in csu was 9.1% (range: 1.4% 21.5%), significantly increased compared to healthy controls (median 6.0% range: 0% 19.9%; p = .0005) and comparable to hae (n = 46, median 10.3%, range 0% 44.3%, p > .9999). chk levels normalized in patients during disease remission (median 6.5% range 1.5% 20.8%) but were not dependent on the presence of angioedema, acute angioedema attacks or response to antihistamines. surprisingly, chk levels were inversely correlated to serum tryptase ( r = 0.65 p = .0137). c1 inh complexes and supar levels were not elevated in patients compared to healthy controls. pap complex levels in patients were elevated compared to healthy controls but there was no correlation between pap complex and chk levels. conclusions chk levels are elevated in symptomatic csu patients compared to healthy controls, indicating increased bradykinin production. increased chk levels are not limited to patients with angioedema. clinical relevance if elevated bradykinin generation has clinical implications in the pathology of csu is open to debate.",
+    "publication_info": {
+      "host_organization_name": "Wiley",
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "classification_path": "Medical and Health Science > Clinical Medicine > Internal Medicine > Cardiology"
+  },
+  {
+    "id": "https://openalex.org/W2545217359",
+    "title": "regulation of complement and contact system activation via c1 inhibitor potentiation and factor xiia activity modulation by sulfated glycans structure-activity relationships",
+    "publication_date": "2016-10-26",
+    "display_name": "Regulation of Complement and Contact System Activation via C1 Inhibitor Potentiation and Factor XIIa Activity Modulation by Sulfated Glycans – Structure-Activity Relationships",
+    "authorships": [
+      {
+        "name": "Ann-Kathrin Schoenfeld",
+        "position": "first",
+        "institutions": [
+          "Christian-Albrechts-Universität zu Kiel"
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": true
+      },
+      {
+        "name": "Eric Lahrsen",
+        "position": "middle",
+        "institutions": [
+          "Christian-Albrechts-Universität zu Kiel"
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": true
+      },
+      {
+        "name": "Susanne Alban",
+        "position": "last",
+        "institutions": [
+          "Christian-Albrechts-Universität zu Kiel"
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": true
+      }
+    ],
+    "cited_by_count": 29,
+    "referenced_works": [
+      "https://openalex.org/W2017572152",
+      "https://openalex.org/W1854717184",
+      "https://openalex.org/W7075704721",
+      "https://openalex.org/W2177595732",
+      "https://openalex.org/W1970232820",
+      "https://openalex.org/W1988606065",
+      "https://openalex.org/W2119423436",
+      "https://openalex.org/W2012936598",
+      "https://openalex.org/W2172262646",
+      "https://openalex.org/W1996868603",
+      "https://openalex.org/W2319286676",
+      "https://openalex.org/W2036907245",
+      "https://openalex.org/W1996995059",
+      "https://openalex.org/W2125474642",
+      "https://openalex.org/W1987529569",
+      "https://openalex.org/W1969690978",
+      "https://openalex.org/W1964229963",
+      "https://openalex.org/W2296684136",
+      "https://openalex.org/W1531726715",
+      "https://openalex.org/W2306686291",
+      "https://openalex.org/W2096297633",
+      "https://openalex.org/W2346905242",
+      "https://openalex.org/W2222325918",
+      "https://openalex.org/W2043537777",
+      "https://openalex.org/W1501179348",
+      "https://openalex.org/W2024889997",
+      "https://openalex.org/W2083206968",
+      "https://openalex.org/W2055879245",
+      "https://openalex.org/W1525051702",
+      "https://openalex.org/W2255620603",
+      "https://openalex.org/W1971144371",
+      "https://openalex.org/W2302742252",
+      "https://openalex.org/W2086947605",
+      "https://openalex.org/W2040870627",
+      "https://openalex.org/W1980895202",
+      "https://openalex.org/W2161616631",
+      "https://openalex.org/W2019107044",
+      "https://openalex.org/W1975069509",
+      "https://openalex.org/W2092759966",
+      "https://openalex.org/W2070700334",
+      "https://openalex.org/W2148584417",
+      "https://openalex.org/W2177124431",
+      "https://openalex.org/W2112402269",
+      "https://openalex.org/W2146530952",
+      "https://openalex.org/W1980351498",
+      "https://openalex.org/W2047331060",
+      "https://openalex.org/W1975384704",
+      "https://openalex.org/W2076684617",
+      "https://openalex.org/W2474916704",
+      "https://openalex.org/W2326037099",
+      "https://openalex.org/W2036209716",
+      "https://openalex.org/W98876017",
+      "https://openalex.org/W7074103665",
+      "https://openalex.org/W2172030916",
+      "https://openalex.org/W2037190420",
+      "https://openalex.org/W1815110301",
+      "https://openalex.org/W2081848037",
+      "https://openalex.org/W2061901064",
+      "https://openalex.org/W2045131952",
+      "https://openalex.org/W1500784894",
+      "https://openalex.org/W2238214653",
+      "https://openalex.org/W38898043",
+      "https://openalex.org/W2086298451",
+      "https://openalex.org/W29687720",
+      "https://openalex.org/W2145089975"
+    ],
+    "SJR": 0.803,
+    "SJR_Normalized": 0.5894519442211803,
+    "abstract": "the serpin c1 inhibitor (c1-inh) is the only regulator of classical complement activation as well as the major regulator of the contact system. its importance is demonstrated by hereditary angioedema (hae), a severe disease with potentially life-threatening attacks due to deficiency or dysfunction of c1-inh. c1-inh replacement is the therapy of choice in hae. in addition, c1-inh showed to have beneficial effects in other diseases characterized by inappropriate complement and contact system activation. due to some limitations of its clinical application, there is a need for improving the efficacy of therapeutically applied c1-inh or to enhance the activity of endogenous c1-inh. given the known potentiating effect of heparin on c1-inh, sulfated glycans (sg) may be such candidates. the aim of this study was to characterize suitable sg by evaluating structure-activity relationships. for this, more than 40 structurally distinct sg were examined for their effects on c1-inh, c1s and fxiia. the sg turned out to potentiate the c1s inhibition by c1-inh without any direct influence on c1s. their potentiating activity proved to depend on their degree of sulfation, molecular mass as well as glycan structure. in contrast, the sg had no effect on the fxiia inhibition by c1-inh, but structure-dependently modulated the activity of fxiia. among the tested sg, -1,3-glucan sulfates with a mr 10 000 were identified as most promising lead candidates for the development of a glycan-based c1-inh amplifier. in conclusion, the obtained information on structural characteristics of sg favoring c1-inh potentiation represent an useful elementary basis for the development of compounds improving the potency of c1-inh in diseases and clinical situations characterized by inappropriate activation of complement and contact system.",
+    "publication_info": {
+      "host_organization_name": "Public Library of Science",
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "classification_path": "Medical and Health Science > Clinical Medicine > Internal Medicine > Cardiology"
+  },
+  {
+    "id": "https://openalex.org/W2990346871",
+    "title": "a mutation in the kringle domain of human factor xii that causes autoinflammation, disturbs zymogen quiescence, and accelerates activation",
+    "publication_date": "2019-11-27",
+    "display_name": "A mutation in the kringle domain of human factor XII that causes autoinflammation, disturbs zymogen quiescence, and accelerates activation",
+    "authorships": [
+      {
+        "name": "Zonne L. M. Hofman",
+        "position": "first",
+        "institutions": [
+          "University Medical Center Utrecht",
+          "Utrecht University"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Chantal C. Clark",
+        "position": "middle",
+        "institutions": [
+          "University Medical Center Utrecht",
+          "Utrecht University"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Wariya Sanrattana",
+        "position": "middle",
+        "institutions": [
+          "University Medical Center Utrecht",
+          "Utrecht University"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Aziz Nosairi",
+        "position": "middle",
+        "institutions": [
+          "University Medical Center Utrecht",
+          "Utrecht University"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Naomi M. J. Parr",
+        "position": "middle",
+        "institutions": [
+          "University Medical Center Utrecht",
+          "Utrecht University"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Minka Živkovic",
+        "position": "middle",
+        "institutions": [
+          "University Medical Center Utrecht",
+          "Utrecht University"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Karoline Krause",
+        "position": "middle",
+        "institutions": [
+          "Charité - Universitätsmedizin Berlin"
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Niklas Amadeus Mahnke",
+        "position": "middle",
+        "institutions": [
+          "Charité - Universitätsmedizin Berlin"
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Jörg Scheffel",
+        "position": "middle",
+        "institutions": [
+          "Charité - Universitätsmedizin Berlin"
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "C. Erik Hack",
+        "position": "middle",
+        "institutions": [
+          "University Medical Center Utrecht"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Marcus Maurer",
+        "position": "middle",
+        "institutions": [
+          "Charité - Universitätsmedizin Berlin"
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Steven de Maat",
+        "position": "middle",
+        "institutions": [
+          "University Medical Center Utrecht",
+          "Utrecht University"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Coen Maas",
+        "position": "last",
+        "institutions": [
+          "University Medical Center Utrecht",
+          "Utrecht University"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": true
+      }
+    ],
+    "cited_by_count": 23,
+    "referenced_works": [
+      "https://openalex.org/W2414960009",
+      "https://openalex.org/W1600284253",
+      "https://openalex.org/W2021007949",
+      "https://openalex.org/W2519582160",
+      "https://openalex.org/W2808938206",
+      "https://openalex.org/W2125474642",
+      "https://openalex.org/W2027158958",
+      "https://openalex.org/W2460596254",
+      "https://openalex.org/W2059684863",
+      "https://openalex.org/W1988365800",
+      "https://openalex.org/W2386081449",
+      "https://openalex.org/W2908200950",
+      "https://openalex.org/W2899676295",
+      "https://openalex.org/W3122179547",
+      "https://openalex.org/W2904272906",
+      "https://openalex.org/W4365412315",
+      "https://openalex.org/W2064081169",
+      "https://openalex.org/W2004593684",
+      "https://openalex.org/W2003266341",
+      "https://openalex.org/W2786873277",
+      "https://openalex.org/W2786774014",
+      "https://openalex.org/W2968033514",
+      "https://openalex.org/W1915878013",
+      "https://openalex.org/W2112319570",
+      "https://openalex.org/W2895396979",
+      "https://openalex.org/W2157956748",
+      "https://openalex.org/W2789522394",
+      "https://openalex.org/W2143914653",
+      "https://openalex.org/W2789859780",
+      "https://openalex.org/W2948028981",
+      "https://openalex.org/W2118576209",
+      "https://openalex.org/W1990300448",
+      "https://openalex.org/W2083814433",
+      "https://openalex.org/W2525391589",
+      "https://openalex.org/W2416629692",
+      "https://openalex.org/W2145089975"
+    ],
+    "SJR": 1.705,
+    "SJR_Normalized": 0.9951019122984448,
+    "abstract": "coagulation factor xii (fxii) drives production of the inflammatory peptide bradykinin. pathological mutations in the f12 gene, which encodes fxii, provoke acute tissue swelling in hereditary angioedema (hae). interestingly, a recently identified f12 mutation, causing a w268r substitution, is not associated with hae. instead, fxii-w268r carriers experience cold-inducible urticarial rash, arthralgia, fever, and fatigue. here, we aimed to investigate the molecular characteristics of the fxii-w268r variant. we expressed wild type fxii (fxii-wt), fxii-w268r, and fxii-t309r (which causes hae), as well as other fxii variants in hek293 freestyle cells. using chromogenic substrate assays, immunoblotting, and elisa, we analyzed expression media, cell lysates, and purified proteins for fxii activation. recombinant fxii-w268r forms increased amounts of intracellular cleavage products that are also present in expression medium and display enzymatic activity. the active site-incapacitated variant fxii-w268r/s544a reveals that intracellular fragmentation is largely dependent on autoactivation. purified fxii-w268r is highly sensitive to activation by plasma kallikrein and plasmin, compared with fxii-wt or fxii-t309r. furthermore, binding studies indicated that the fxii-w268r variant leads to the exposure of a plasminogen-binding site that is cryptic in fxii-wt. in plasma, recombinant fxii-w268r spontaneously triggers high-molecular-weight kininogen cleavage. our findings suggest that the w268r substitution influences fxii protein conformation and exposure of the activation loop, which is concealed in fxii-wt. this results in intracellular autoactivation and constitutive low-grade secretion of activated fxii. these findings help to explain the chronically increased contact activation in carriers of the fxii-w268r variant.",
+    "publication_info": {
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "classification_path": "Medical and Health Science > Clinical Medicine > Internal Medicine > Cardiology"
+  },
+  {
+    "id": "https://openalex.org/W2917261325",
+    "title": "current treatment of angioedema induced by ace inhibitors",
+    "publication_date": "2019-02-20",
+    "display_name": "Current Treatment of Angioedema Induced by ACE Inhibitors",
+    "authorships": [
+      {
+        "name": "Ingrid Terreehorst",
+        "position": "first",
+        "institutions": [
+          "Amsterdam University Medical Centers",
+          "University of Amsterdam"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": true
+      },
+      {
+        "name": "Sietze Reitsma",
+        "position": "middle",
+        "institutions": [
+          "Amsterdam University Medical Centers",
+          "University of Amsterdam"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Danny M. Cohn",
+        "position": "last",
+        "institutions": [
+          "Amsterdam University Medical Centers",
+          "University of Amsterdam"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      }
+    ],
+    "cited_by_count": 14,
+    "referenced_works": [
+      "https://openalex.org/W2770511986",
+      "https://openalex.org/W2738770859",
+      "https://openalex.org/W2043183344",
+      "https://openalex.org/W2891104224",
+      "https://openalex.org/W2141694111",
+      "https://openalex.org/W2050538873",
+      "https://openalex.org/W2012767544",
+      "https://openalex.org/W1987353096",
+      "https://openalex.org/W2047425163",
+      "https://openalex.org/W2166268582",
+      "https://openalex.org/W2067716683",
+      "https://openalex.org/W2083884362",
+      "https://openalex.org/W2170809792",
+      "https://openalex.org/W6692646441",
+      "https://openalex.org/W1986207725",
+      "https://openalex.org/W1972766768",
+      "https://openalex.org/W2044055632",
+      "https://openalex.org/W4245244523",
+      "https://openalex.org/W2615684303",
+      "https://openalex.org/W2119577709",
+      "https://openalex.org/W200018444",
+      "https://openalex.org/W2514985671",
+      "https://openalex.org/W2551257583",
+      "https://openalex.org/W2028863420",
+      "https://openalex.org/W2617292951",
+      "https://openalex.org/W2559617058",
+      "https://openalex.org/W2518027570",
+      "https://openalex.org/W2617017230",
+      "https://openalex.org/W1977655736",
+      "https://openalex.org/W2042078355",
+      "https://openalex.org/W1575892785",
+      "https://openalex.org/W1569639383",
+      "https://openalex.org/W2554630959",
+      "https://openalex.org/W2064172350",
+      "https://openalex.org/W2754142831",
+      "https://openalex.org/W2140055542",
+      "https://openalex.org/W2024449819",
+      "https://openalex.org/W2563333639",
+      "https://openalex.org/W1974061702",
+      "https://openalex.org/W2807254038",
+      "https://openalex.org/W2090599228",
+      "https://openalex.org/W1554256364",
+      "https://openalex.org/W2799963223",
+      "https://openalex.org/W3147175704",
+      "https://openalex.org/W2262763314",
+      "https://openalex.org/W1998245427"
+    ],
+    "SJR": 0.51,
+    "SJR_Normalized": 0.412109650826833,
+    "abstract": "purpose of review: angioedema is a well-known side effect of ace inhibitors. current knowledge shows that the underlying pathophysiological mechanism is an excess of bradykinin, most likely due to ineffective breakdown pathways. since c1 inhibitor deficiency has the same pathophysiological background, it would be logical to assume that c1 inhibitor deficiency treatments could be of use in ace inhibitor induced angioedema. the objective of this review was to evaluate the evidence for treatment of ace inhibitor induced angioedema by means of drugs intervening in the bradykinin system. recent findings: we searched in the literature for double-blind placebo-controlled trials using either inhibitors of production of kallikrein, bradykinin receptor antagonists, c1 inhibitor concentrate, or fresh frozen plasma as treatment for ace inhibitor induced angioedema. the reference list of retrieved articles was checked for articles with the same subject (snowballing). the evidence for each treatment was evaluated by it and dmc. summary: double-blind placebo-controlled trials were only found for ecallantide and icatibant. both treatments did not show superiority over conventional treatment with histamine receptor antagonists and steroids. no double-blind placebo-controlled trials were found of fresh frozen plasma or c1 inhibitor concentrate. to date, there is insufficient evidence for the use of bradykinin receptor antagonists and kallikrein production inhibitors. although case reports regarding the use of fresh frozen plasma and c1 inhibitor concentrate are positive, well-designed trials are lacking.",
+    "publication_info": {
+      "host_organization_name": "Springer Science+Business Media",
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "classification_path": "Medical and Health Science > Clinical Medicine > Internal Medicine > Cardiology"
+  },
+  {
+    "id": "https://openalex.org/W2943760355",
+    "title": "phenotype of ribonuclease 1 deficiency in mice",
+    "publication_date": "2019-05-03",
+    "display_name": "Phenotype of ribonuclease 1 deficiency in mice",
+    "authorships": [
+      {
+        "name": "Emily Garnett",
+        "position": "first",
+        "institutions": [
+          "Massachusetts Institute of Technology",
+          "University of Wisconsin–Madison"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Jo E. Lomax",
+        "position": "middle",
+        "institutions": [
+          "University of Wisconsin–Madison"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Bassem M. Mohammed",
+        "position": "middle",
+        "institutions": [
+          "Vanderbilt University Medical Center"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "David Gailani",
+        "position": "middle",
+        "institutions": [
+          "Vanderbilt University Medical Center"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "John P. Sheehan",
+        "position": "middle",
+        "institutions": [
+          "University of Wisconsin–Madison"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Ronald T. Raines",
+        "position": "last",
+        "institutions": [
+          "Massachusetts Institute of Technology",
+          "University of Wisconsin–Madison"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      }
+    ],
+    "cited_by_count": 21,
+    "referenced_works": [
+      "https://openalex.org/W2333962908",
+      "https://openalex.org/W2015882257",
+      "https://openalex.org/W2113021155",
+      "https://openalex.org/W2131610408",
+      "https://openalex.org/W2094088429",
+      "https://openalex.org/W2086237958",
+      "https://openalex.org/W1992554880",
+      "https://openalex.org/W2063706685",
+      "https://openalex.org/W2168270635",
+      "https://openalex.org/W1971912255",
+      "https://openalex.org/W2017886632",
+      "https://openalex.org/W2767009135",
+      "https://openalex.org/W2552802855",
+      "https://openalex.org/W1981168662",
+      "https://openalex.org/W2117827884",
+      "https://openalex.org/W2070288161",
+      "https://openalex.org/W2017070089",
+      "https://openalex.org/W2078840523",
+      "https://openalex.org/W4252093373",
+      "https://openalex.org/W2034995505",
+      "https://openalex.org/W2051342266",
+      "https://openalex.org/W2208105369",
+      "https://openalex.org/W2146889591",
+      "https://openalex.org/W2095267936",
+      "https://openalex.org/W1991316028",
+      "https://openalex.org/W1849446486",
+      "https://openalex.org/W2562235028",
+      "https://openalex.org/W2171643972",
+      "https://openalex.org/W2117089920",
+      "https://openalex.org/W2895260699",
+      "https://openalex.org/W2580462625",
+      "https://openalex.org/W2134463696",
+      "https://openalex.org/W1988400079",
+      "https://openalex.org/W2067716683",
+      "https://openalex.org/W83105754",
+      "https://openalex.org/W2039670099",
+      "https://openalex.org/W2486702843",
+      "https://openalex.org/W2002431523",
+      "https://openalex.org/W2140135834",
+      "https://openalex.org/W1255418244",
+      "https://openalex.org/W2151214732",
+      "https://openalex.org/W2040981235",
+      "https://openalex.org/W2031282831",
+      "https://openalex.org/W2612978844",
+      "https://openalex.org/W2801674411",
+      "https://openalex.org/W2789502013",
+      "https://openalex.org/W2091480785",
+      "https://openalex.org/W1988437478",
+      "https://openalex.org/W1645383690",
+      "https://openalex.org/W1948293628",
+      "https://openalex.org/W1506314131",
+      "https://openalex.org/W2403073930",
+      "https://openalex.org/W2129418035",
+      "https://openalex.org/W4211216439",
+      "https://openalex.org/W2910221675",
+      "https://openalex.org/W1995421389",
+      "https://openalex.org/W2054738316",
+      "https://openalex.org/W2177124431",
+      "https://openalex.org/W2114570899",
+      "https://openalex.org/W2099540110",
+      "https://openalex.org/W2157204782",
+      "https://openalex.org/W1600315463",
+      "https://openalex.org/W2118161330",
+      "https://openalex.org/W1997876444",
+      "https://openalex.org/W2091637619",
+      "https://openalex.org/W2164683872",
+      "https://openalex.org/W2171385750",
+      "https://openalex.org/W1536015903",
+      "https://openalex.org/W2345046139",
+      "https://openalex.org/W2074188037",
+      "https://openalex.org/W1583389738"
+    ],
+    "SJR": 2.512,
+    "SJR_Normalized": 1.2561856757728702,
+    "abstract": "biological roles for extracellular rna (erna) have become apparent. for example, erna can induce contact activation in blood via activation of the plasma proteases factor xii (fxii) and factor xi (fxi). we sought to reveal the biological role of the secretory enzyme ribonuclease 1 (rnase 1) in an organismal context by generating and analyzing rnase 1 knockout ( rnase1 / ) mice. we found that these mice are viable, healthy, and fertile, though larger than rnase1 +/+ mice. rnase1 / plasma contains more rna than does the plasma of rnase1 +/+ mice. moreover, the plasma of rnase1 / mice clots more rapidly than does wild-type plasma. this phenotype appeared to be due to increased levels of the active form of fxii (fxiia) in the plasma of rnase1 / mice compared to rnase1 +/+ mice, and is consistent with the known effects of erna on fxii activation. the apparent activity of fxi in the plasma of rnase1 / mice was 1000-fold higher when measured in an assay triggered by a low concentration of tissue factor than in assays based on recalcification, consistent with erna enhancing fxi activation by thrombin. these findings suggest that one of the physiological functions of rnase 1 is to degrade erna in blood plasma. loss of this function facilitates fxii and fxi activation, which could have effects on inflammation and blood coagulation. we anticipate that rnase1 / mice will be a useful tool for evaluating other hypotheses about the functions of rnase 1 and of erna in vivo.",
+    "publication_info": {
+      "host_organization_name": "Cold Spring Harbor Laboratory Press",
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "classification_path": "Medical and Health Science > Clinical Medicine > Internal Medicine > Cardiology"
+  },
+  {
+    "id": "https://openalex.org/W4206072950",
+    "title": "reliable measurement of plasma kinin peptides: importance of preanalytical variables",
+    "publication_date": "2022-01-01",
+    "display_name": "Reliable measurement of plasma kinin peptides: Importance of preanalytical variables",
+    "authorships": [
+      {
+        "name": "Tanja Gangnus",
+        "position": "first",
+        "institutions": [
+          "Heinrich Heine University Düsseldorf"
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Bjoern B. Burckhardt",
+        "position": "last",
+        "institutions": [
+          "Heinrich Heine University Düsseldorf"
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": true
+      }
+    ],
+    "cited_by_count": 11,
+    "referenced_works": [
+      "https://openalex.org/W6776796276",
+      "https://openalex.org/W3038176257",
+      "https://openalex.org/W1977877780",
+      "https://openalex.org/W2616929361",
+      "https://openalex.org/W2345025767",
+      "https://openalex.org/W2120933898",
+      "https://openalex.org/W2099283554",
+      "https://openalex.org/W2173284204",
+      "https://openalex.org/W3036601738",
+      "https://openalex.org/W6696942641",
+      "https://openalex.org/W2059906040",
+      "https://openalex.org/W2187991480",
+      "https://openalex.org/W2102953371",
+      "https://openalex.org/W2917161993",
+      "https://openalex.org/W2070695415",
+      "https://openalex.org/W2735708922",
+      "https://openalex.org/W1980365716",
+      "https://openalex.org/W6675139457",
+      "https://openalex.org/W1971070613",
+      "https://openalex.org/W3024408344",
+      "https://openalex.org/W3133668063",
+      "https://openalex.org/W3185315738",
+      "https://openalex.org/W2177124431",
+      "https://openalex.org/W2027299746",
+      "https://openalex.org/W1580103751",
+      "https://openalex.org/W2077006858",
+      "https://openalex.org/W2998663112",
+      "https://openalex.org/W2770440335",
+      "https://openalex.org/W6650295003",
+      "https://openalex.org/W2092596981",
+      "https://openalex.org/W2313838528",
+      "https://openalex.org/W2003249392",
+      "https://openalex.org/W2089332582",
+      "https://openalex.org/W1584325646",
+      "https://openalex.org/W2051244702",
+      "https://openalex.org/W2567601689",
+      "https://openalex.org/W2264053766",
+      "https://openalex.org/W2000452934",
+      "https://openalex.org/W2057870346",
+      "https://openalex.org/W2104742289",
+      "https://openalex.org/W4206072950",
+      "https://openalex.org/W2525779167",
+      "https://openalex.org/W2292537710"
+    ],
+    "SJR": 0.93,
+    "SJR_Normalized": 0.6575200029167942,
+    "abstract": "the developed procedure for blood specimen collection and handling is feasible in clinical settings and allows for determination of reliable kinin levels. it may contribute to further elucidating the role of the kallikrein-kinin system in diseases like angioedema, sepsis, or coronavirus disease 2019.",
+    "publication_info": {
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "classification_path": "Medical and Health Science > Clinical Medicine > Internal Medicine > Cardiology"
+  },
+  {
+    "id": "https://openalex.org/W3041969560",
+    "title": "a novel c1-esterase inhibitor oxygenator coating prevents fxii activation in human blood",
+    "publication_date": "2020-07-13",
+    "display_name": "A Novel C1-Esterase Inhibitor Oxygenator Coating Prevents FXII Activation in Human Blood",
+    "authorships": [
+      {
+        "name": "Katharina Gerling",
+        "position": "first",
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false
+      },
+      {
+        "name": "Sabrina Ölschläger",
+        "position": "middle",
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false
+      },
+      {
+        "name": "Meltem Avci‐Adali",
+        "position": "middle",
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false
+      },
+      {
+        "name": "Bernd Neumann",
+        "position": "middle",
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false
+      },
+      {
+        "name": "Ernst Schweizer",
+        "position": "middle",
+        "institutions": [
+          "University of Tübingen"
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Christian Schlensak",
+        "position": "middle",
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false
+      },
+      {
+        "name": "Hans-Peter Wendel",
+        "position": "middle",
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false
+      },
+      {
+        "name": "Sandra Stoppelkamp",
+        "position": "last",
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": true
+      }
+    ],
+    "cited_by_count": 14,
+    "referenced_works": [
+      "https://openalex.org/W6639463809",
+      "https://openalex.org/W1855515977",
+      "https://openalex.org/W1974389677",
+      "https://openalex.org/W2889162582",
+      "https://openalex.org/W2077626175",
+      "https://openalex.org/W4235686075",
+      "https://openalex.org/W2026046709",
+      "https://openalex.org/W6719164396",
+      "https://openalex.org/W2129239355",
+      "https://openalex.org/W2092025164",
+      "https://openalex.org/W2050087783",
+      "https://openalex.org/W2115105117",
+      "https://openalex.org/W2154728076",
+      "https://openalex.org/W2884780408",
+      "https://openalex.org/W142299751",
+      "https://openalex.org/W2005044790",
+      "https://openalex.org/W2177124431",
+      "https://openalex.org/W1983010160",
+      "https://openalex.org/W2083884362",
+      "https://openalex.org/W2056176434",
+      "https://openalex.org/W2738982624",
+      "https://openalex.org/W2804870775",
+      "https://openalex.org/W2019575635",
+      "https://openalex.org/W1739754559",
+      "https://openalex.org/W2047773026",
+      "https://openalex.org/W1981966246",
+      "https://openalex.org/W2021310172",
+      "https://openalex.org/W1966905436",
+      "https://openalex.org/W2563390568",
+      "https://openalex.org/W1636672661",
+      "https://openalex.org/W2508205924",
+      "https://openalex.org/W2005062196",
+      "https://openalex.org/W2013718333",
+      "https://openalex.org/W2042656071",
+      "https://openalex.org/W2046964913",
+      "https://openalex.org/W1693796083",
+      "https://openalex.org/W3022711894",
+      "https://openalex.org/W2400699891",
+      "https://openalex.org/W2603384895",
+      "https://openalex.org/W2592033223",
+      "https://openalex.org/W2463385858",
+      "https://openalex.org/W2904865033",
+      "https://openalex.org/W2562023704",
+      "https://openalex.org/W2058043635",
+      "https://openalex.org/W2058651179",
+      "https://openalex.org/W2096428863",
+      "https://openalex.org/W1755743558",
+      "https://openalex.org/W2093133332",
+      "https://openalex.org/W1881350476"
+    ],
+    "SJR": 1.333,
+    "SJR_Normalized": 0.8471549930392929,
+    "abstract": "the limited hemocompatibility of currently used oxygenator membranes prevents long-term use of artificial lungs in patients with lung failure. to improve hemocompatibility, we developed a novel covalent c1-esterase inhibitor (c1-inh) coating. besides complement inhibition, c1-inh also prevents fxii activation, a very early event of contact phase activation at the crossroads of coagulation and inflammation. covalently coated heparin, as the current anticoagulation gold standard, served as control. additionally, a combination of both coatings (c1-inh/heparin) was established. the coatings were tested for their hemocompatibility by dynamic incubation with freshly drawn human whole blood. the analysis of various blood and plasma parameters revealed that c1-inh-containing coatings were able to markedly reduce fxiia activity compared to heparin coating. combined c1-inh/heparin coatings yielded similarly low levels of thrombin-antithrombin iii complex formation as heparin coating. in particular, adhesion of monocytes and platelets as well as the diminished formation of fibrin networks were observed for combined coatings. we could show for the first time that a covalent coating with complement inhibitor c1-inh was able to ameliorate hemocompatibility. thus, the early inhibition of the coagulation cascade is likely to have far-reaching consequences for the other cross-reacting plasma protein pathways.",
+    "publication_info": {
+      "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "classification_path": "Medical and Health Science > Clinical Medicine > Internal Medicine > Cardiology"
+  },
+  {
+    "id": "https://openalex.org/W3203959586",
+    "title": "pharmacological inhibition of factor xiia attenuates abdominal aortic aneurysm, reduces atherosclerosis, and stabilizes atherosclerotic plaques",
+    "publication_date": "2021-10-07",
+    "display_name": "Pharmacological Inhibition of Factor XIIa Attenuates Abdominal Aortic Aneurysm, Reduces Atherosclerosis, and Stabilizes Atherosclerotic Plaques",
+    "authorships": [
+      {
+        "name": "Amy Searle",
+        "position": "first",
+        "institutions": [
+          "Baker Heart and Diabetes Institute",
+          "Monash University"
+        ],
+        "countries": [
+          "AU"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Yung‐Chih Chen",
+        "position": "middle",
+        "institutions": [
+          "Baker Heart and Diabetes Institute",
+          "Monash University",
+          "The University of Melbourne"
+        ],
+        "countries": [
+          "AU"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Maria Wallert",
+        "position": "middle",
+        "institutions": [
+          "Baker Heart and Diabetes Institute"
+        ],
+        "countries": [
+          "AU"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Xiaowei Wang",
+        "position": "middle",
+        "institutions": [
+          "Baker Heart and Diabetes Institute",
+          "Monash University",
+          "The University of Melbourne"
+        ],
+        "countries": [
+          "AU"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Hamid Hosseini",
+        "position": "middle",
+        "institutions": [
+          "Baker Heart and Diabetes Institute"
+        ],
+        "countries": [
+          "AU"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Karlheinz Peter",
+        "position": "middle",
+        "institutions": [
+          "Baker Heart and Diabetes Institute",
+          "Monash University",
+          "The Alfred Hospital",
+          "The University of Melbourne"
+        ],
+        "countries": [
+          "AU"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "James D. McFadyen",
+        "position": "middle",
+        "institutions": [
+          "Baker Heart and Diabetes Institute",
+          "Monash University",
+          "The Alfred Hospital",
+          "The University of Melbourne"
+        ],
+        "countries": [
+          "AU"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Ana Maluenda",
+        "position": "middle",
+        "institutions": [
+          "Baker Heart and Diabetes Institute"
+        ],
+        "countries": [
+          "AU"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Jonathan Noonan",
+        "position": "middle",
+        "institutions": [
+          "Baker Heart and Diabetes Institute",
+          "The University of Melbourne"
+        ],
+        "countries": [
+          "AU"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Peter Kanellakis",
+        "position": "middle",
+        "institutions": [
+          "Baker Heart and Diabetes Institute"
+        ],
+        "countries": [
+          "AU"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Maria T. K. Zaldivia",
+        "position": "middle",
+        "institutions": [
+          "Baker Heart and Diabetes Institute"
+        ],
+        "countries": [
+          "AU"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Angela Huang",
+        "position": "middle",
+        "institutions": [
+          "Baker Heart and Diabetes Institute"
+        ],
+        "countries": [
+          "AU"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Hadi Lioe",
+        "position": "middle",
+        "institutions": [
+          "CSL (Australia)"
+        ],
+        "countries": [
+          "AU"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Mark Biondo",
+        "position": "middle",
+        "institutions": [
+          "CSL (Australia)"
+        ],
+        "countries": [
+          "AU"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Marc W. Nolte",
+        "position": "middle",
+        "institutions": [
+          "Behringwerke (Germany)"
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Paolo Rossato",
+        "position": "middle",
+        "institutions": [
+          "Behringwerke (Germany)"
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Alex Bobik",
+        "position": "middle",
+        "institutions": [
+          "Baker Heart and Diabetes Institute",
+          "Monash University"
+        ],
+        "countries": [
+          "AU"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Con Panousis",
+        "position": "last",
+        "institutions": [
+          "CSL (Australia)"
+        ],
+        "countries": [
+          "AU"
+        ],
+        "is_corresponding": false
+      }
+    ],
+    "cited_by_count": 17,
+    "referenced_works": [
+      "https://openalex.org/W4211134725",
+      "https://openalex.org/W1563862491",
+      "https://openalex.org/W2068886931",
+      "https://openalex.org/W2073434079",
+      "https://openalex.org/W2543049806",
+      "https://openalex.org/W2286759685",
+      "https://openalex.org/W2791893455",
+      "https://openalex.org/W2590746963",
+      "https://openalex.org/W2083884362",
+      "https://openalex.org/W2166268582",
+      "https://openalex.org/W2172191543",
+      "https://openalex.org/W2047144211",
+      "https://openalex.org/W2968033514",
+      "https://openalex.org/W1752012283",
+      "https://openalex.org/W2099127967",
+      "https://openalex.org/W2154073422",
+      "https://openalex.org/W2461717380",
+      "https://openalex.org/W3014566317",
+      "https://openalex.org/W2901941058",
+      "https://openalex.org/W2788388528",
+      "https://openalex.org/W2767407602",
+      "https://openalex.org/W2066159264",
+      "https://openalex.org/W2567762258",
+      "https://openalex.org/W2901378137",
+      "https://openalex.org/W3042532729",
+      "https://openalex.org/W2979167769",
+      "https://openalex.org/W3043316039",
+      "https://openalex.org/W1879222445",
+      "https://openalex.org/W2890352821",
+      "https://openalex.org/W2023229209",
+      "https://openalex.org/W3016806344",
+      "https://openalex.org/W1980020427",
+      "https://openalex.org/W2150795824",
+      "https://openalex.org/W2884420067",
+      "https://openalex.org/W2786873277",
+      "https://openalex.org/W2402160868",
+      "https://openalex.org/W1840986526",
+      "https://openalex.org/W2603384895",
+      "https://openalex.org/W2166944113",
+      "https://openalex.org/W3119535672",
+      "https://openalex.org/W3116181695"
+    ],
+    "SJR": 1.436,
+    "SJR_Normalized": 0.8903573498476506,
+    "abstract": "background 3f7 is a monoclonal antibody targeting the enzymatic pocket of activated factor xii (fxiia), thereby inhibiting its catalytic activity. given the emerging role of fxiia in promoting thromboinflammation, along with its apparent redundancy for hemostasis, the selective inhibition of fxiia represents a novel and highly attractive approach targeting pathogenic processes that cause thromboinflammation-driven cardiovascular diseases. methods the effects of fxiia inhibition were investigated using three distinct mouse models of cardiovascular disease angiotensin ii-induced abdominal aortic aneurysm (aaa), an apoe / model of atherosclerosis, and a tandem stenosis model of atherosclerotic plaque instability. 3f7 or its isotype control, bm4, was administered to mice (10 mg/kg) on alternate days for 4 to 8 weeks, depending on the experimental model. mice were examined for the development and size of aaas, or the burden and instability of atherosclerosis and associated markers of inflammation. results inhibition of fxiia resulted in a reduced incidence of larger aaas, with less acute aortic ruptures and an associated fibro-protective phenotype. fxiia inhibition also decreased stable atherosclerotic plaque burden and achieved plaque stabilization associated with increased deposition of fibrous structures, a >2-fold thicker fibrous cap, increased cap-to-core ratio, and reduction in localized and systemic inflammatory markers. conclusion inhibition of fxiia attenuates disease severity across three mouse models of thromboinflammation-driven cardiovascular diseases. specifically, the fxiia-inhibiting monoclonal antibody 3f7 reduces aaa severity, inhibits the development of atherosclerosis, and stabilizes vulnerable plaques. ultimately, clinical trials in patients with cardiovascular diseases such as aaa and atherosclerosis are warranted to demonstrate the therapeutic potential of fxiia inhibition.",
+    "publication_info": {
+      "host_organization_name": "Thieme Medical Publishers (Germany)",
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "classification_path": "Medical and Health Science > Clinical Medicine > Internal Medicine > Cardiology"
+  },
+  {
+    "id": "https://openalex.org/W4391228163",
+    "title": "the bradykinin-forming cascade in anaphylaxis and ace-inhibitor induced angioedema/airway obstruction",
+    "publication_date": "2024-01-25",
+    "display_name": "The bradykinin-forming cascade in anaphylaxis and ACE-inhibitor induced angioedema/airway obstruction",
+    "authorships": [
+      {
+        "name": "Berhane Ghebrehiwet",
+        "position": "first",
+        "institutions": [
+          "Stony Brook Medicine",
+          "Stony Brook University"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Kusumam Joseph",
+        "position": "middle",
+        "institutions": [
+          "Charité - Universitätsmedizin Berlin",
+          "Hospital Universitario Fundación Jiménez Díaz",
+          "Harvard University",
+          "University of Cincinnati"
+        ],
+        "countries": [
+          "DE",
+          "ES",
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Allen P. Kaplan",
+        "position": "last",
+        "institutions": [
+          "Medical University of South Carolina"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true
+      }
+    ],
+    "cited_by_count": 6,
+    "referenced_works": [
+      "https://openalex.org/W3097625054",
+      "https://openalex.org/W6608328973",
+      "https://openalex.org/W2013482517",
+      "https://openalex.org/W83105754",
+      "https://openalex.org/W1973439231",
+      "https://openalex.org/W4294969168",
+      "https://openalex.org/W2403660964",
+      "https://openalex.org/W4246423891",
+      "https://openalex.org/W2469432046",
+      "https://openalex.org/W2559617058",
+      "https://openalex.org/W4310964496",
+      "https://openalex.org/W2413038113",
+      "https://openalex.org/W2024545582",
+      "https://openalex.org/W2001842236",
+      "https://openalex.org/W1984402172",
+      "https://openalex.org/W1970081844",
+      "https://openalex.org/W1985730263",
+      "https://openalex.org/W2042466479",
+      "https://openalex.org/W1986541440",
+      "https://openalex.org/W2996960670",
+      "https://openalex.org/W2064514230",
+      "https://openalex.org/W2047425163",
+      "https://openalex.org/W2742246395",
+      "https://openalex.org/W205522320",
+      "https://openalex.org/W2534434153",
+      "https://openalex.org/W2050517158",
+      "https://openalex.org/W1582121419",
+      "https://openalex.org/W2148856054",
+      "https://openalex.org/W2507193333",
+      "https://openalex.org/W3001375137",
+      "https://openalex.org/W4376113384",
+      "https://openalex.org/W2133803808",
+      "https://openalex.org/W2048983224",
+      "https://openalex.org/W2025267980",
+      "https://openalex.org/W2089303253",
+      "https://openalex.org/W3216996677",
+      "https://openalex.org/W3107108435",
+      "https://openalex.org/W3004913393",
+      "https://openalex.org/W1988251619",
+      "https://openalex.org/W3022395686",
+      "https://openalex.org/W2111856132",
+      "https://openalex.org/W1992029745",
+      "https://openalex.org/W6642743773",
+      "https://openalex.org/W2020413270",
+      "https://openalex.org/W2102953371",
+      "https://openalex.org/W50187013",
+      "https://openalex.org/W6661243158",
+      "https://openalex.org/W2031899989",
+      "https://openalex.org/W2055068336",
+      "https://openalex.org/W1971501265",
+      "https://openalex.org/W6692646441",
+      "https://openalex.org/W2331353594",
+      "https://openalex.org/W1954650800",
+      "https://openalex.org/W2115565372",
+      "https://openalex.org/W2016105079",
+      "https://openalex.org/W2005348762",
+      "https://openalex.org/W6720197616",
+      "https://openalex.org/W2068452649",
+      "https://openalex.org/W2030113774",
+      "https://openalex.org/W2017547967",
+      "https://openalex.org/W2114792859",
+      "https://openalex.org/W2030391290",
+      "https://openalex.org/W1994035387",
+      "https://openalex.org/W2159510225",
+      "https://openalex.org/W1965323934",
+      "https://openalex.org/W2134463696",
+      "https://openalex.org/W1481517787",
+      "https://openalex.org/W3001114080",
+      "https://openalex.org/W2262763314",
+      "https://openalex.org/W2494046793",
+      "https://openalex.org/W2133008646",
+      "https://openalex.org/W3143177651",
+      "https://openalex.org/W2343006138",
+      "https://openalex.org/W1926010020",
+      "https://openalex.org/W2744715029",
+      "https://openalex.org/W4322623088",
+      "https://openalex.org/W3092650275",
+      "https://openalex.org/W2114192906",
+      "https://openalex.org/W2159971282",
+      "https://openalex.org/W1856047782",
+      "https://openalex.org/W110411724",
+      "https://openalex.org/W2070037186",
+      "https://openalex.org/W3154937084",
+      "https://openalex.org/W4221017048",
+      "https://openalex.org/W2151429375",
+      "https://openalex.org/W2093701093",
+      "https://openalex.org/W2136174251",
+      "https://openalex.org/W2166848757",
+      "https://openalex.org/W2076116711",
+      "https://openalex.org/W2053292076",
+      "https://openalex.org/W2084666115",
+      "https://openalex.org/W6640422350",
+      "https://openalex.org/W2097489256",
+      "https://openalex.org/W2045387793",
+      "https://openalex.org/W2046090148",
+      "https://openalex.org/W2048904385",
+      "https://openalex.org/W2087322815",
+      "https://openalex.org/W2151190418",
+      "https://openalex.org/W2013328017",
+      "https://openalex.org/W1604554081",
+      "https://openalex.org/W6843519664",
+      "https://openalex.org/W4366164103",
+      "https://openalex.org/W4322697957",
+      "https://openalex.org/W4297180990",
+      "https://openalex.org/W2044055632",
+      "https://openalex.org/W1923208982"
+    ],
+    "SJR": 0.936,
+    "SJR_Normalized": 0.6606239888543853,
+    "abstract": "anaphylaxis is a potentially life-threatening multi-system allergic reaction to a biological trigger resulting in the release of potent inflammatory mediators from mast cells and basophils and causing symptoms in at least two organ systems that generally include skin, lungs, heart, or gastrointestinal tract in any combination. one exception is profound hypotension as an isolated symptom. there are two types of triggers of anaphylaxis: immunologic and non-immunologic. immunologic anaphylaxis is initiated when a foreign antigen directly binds to ige expressed on mast cells or basophils and induces the release of histamine and other inflammatory substances resulting in vasodilation, vascular leakage, decreased peripheral vascular resistance, and heart muscle depression. if left untreated, death by shock (profound hypotension) or asphyxiation (airway obstruction) can occur. the non-immunologic pathway, on the other hand, can be initiated in many ways. a foreign substance can directly bind to receptors of mast cells and basophils leading to degranulation. there can be immune complex activation of the classical complement cascade with the release of anaphylatoxins c3a and c5a with subsequent recruitment of mast cells and basophils. finally, hyperosmolar contrast agents can cause blood cell lysis, enzyme release, and complement activation, resulting in anaphylactoid (anaphylactic-like) symptoms. in this report we emphasize the recruitment of the bradykinin-forming cascade in mast cell dependent anaphylactic reactions as a potential mediator of severe hypotension, or airway compromise (asthma, laryngeal edema). we also consider airway obstruction due to inhibition of angiotensin converting enzyme with a diminished rate of endogenous bradykinin metabolism, leading not only to laryngeal edema, but massive tongue swelling with aspiration of secretions.",
+    "publication_info": {
+      "host_organization_name": "Frontiers Media",
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "classification_path": "Medical and Health Science > Clinical Medicine > Internal Medicine > Cardiology"
+  },
+  {
+    "id": "https://openalex.org/W3187574533",
+    "title": "a novel murine in vivo model for acute hereditary angioedema attacks",
+    "publication_date": "2021-08-05",
+    "display_name": "A novel murine in vivo model for acute hereditary angioedema attacks",
+    "authorships": [
+      {
+        "name": "Sujata Bupp",
+        "position": "first",
+        "institutions": [
+          "Center for Drug Evaluation and Research",
+          "United States Food and Drug Administration"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Matthew Whittaker",
+        "position": "middle",
+        "institutions": [
+          "Center for Drug Evaluation and Research",
+          "United States Food and Drug Administration"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Mari Lehtimaki",
+        "position": "middle",
+        "institutions": [
+          "Center for Drug Evaluation and Research",
+          "United States Food and Drug Administration"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "JuMe Park",
+        "position": "middle",
+        "institutions": [
+          "Center for Drug Evaluation and Research",
+          "United States Food and Drug Administration"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Jessica Dement-Brown",
+        "position": "middle",
+        "institutions": [
+          "Center for Drug Evaluation and Research",
+          "United States Food and Drug Administration"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Zhao‐Hua Zhou",
+        "position": "middle",
+        "institutions": [
+          "Center for Drug Evaluation and Research",
+          "United States Food and Drug Administration"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Steven Kozlowski",
+        "position": "last",
+        "institutions": [
+          "Center for Drug Evaluation and Research",
+          "United States Food and Drug Administration"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      }
+    ],
+    "cited_by_count": 5,
+    "referenced_works": [
+      "https://openalex.org/W2616047147",
+      "https://openalex.org/W1981415884",
+      "https://openalex.org/W4248620833",
+      "https://openalex.org/W1994222010",
+      "https://openalex.org/W2135400530",
+      "https://openalex.org/W2958866407",
+      "https://openalex.org/W2084230133",
+      "https://openalex.org/W3189761641",
+      "https://openalex.org/W1522956225",
+      "https://openalex.org/W1973439231",
+      "https://openalex.org/W2386081449",
+      "https://openalex.org/W2125474642",
+      "https://openalex.org/W2890469987",
+      "https://openalex.org/W2399213186",
+      "https://openalex.org/W30372866",
+      "https://openalex.org/W2031123437",
+      "https://openalex.org/W55266565",
+      "https://openalex.org/W1986207725",
+      "https://openalex.org/W1999733114",
+      "https://openalex.org/W2793967988",
+      "https://openalex.org/W2905117661",
+      "https://openalex.org/W2808938206",
+      "https://openalex.org/W2102953371",
+      "https://openalex.org/W2810440747",
+      "https://openalex.org/W2787815450",
+      "https://openalex.org/W2137316979",
+      "https://openalex.org/W2730843540",
+      "https://openalex.org/W1900104791",
+      "https://openalex.org/W2092039357",
+      "https://openalex.org/W4252939281",
+      "https://openalex.org/W2075082475",
+      "https://openalex.org/W2076765669",
+      "https://openalex.org/W143880323",
+      "https://openalex.org/W2255150349",
+      "https://openalex.org/W2085936091",
+      "https://openalex.org/W1966110783",
+      "https://openalex.org/W1996451885",
+      "https://openalex.org/W2065141688",
+      "https://openalex.org/W2067716683",
+      "https://openalex.org/W2166268582",
+      "https://openalex.org/W2047144211",
+      "https://openalex.org/W1968468186",
+      "https://openalex.org/W2065880897",
+      "https://openalex.org/W1965323934",
+      "https://openalex.org/W2147815638",
+      "https://openalex.org/W2166053437",
+      "https://openalex.org/W2134114878",
+      "https://openalex.org/W2621290312",
+      "https://openalex.org/W2789502013",
+      "https://openalex.org/W2148827382",
+      "https://openalex.org/W2112746815",
+      "https://openalex.org/W2330698677",
+      "https://openalex.org/W2201309601",
+      "https://openalex.org/W1902342401",
+      "https://openalex.org/W2031833672",
+      "https://openalex.org/W2009359220",
+      "https://openalex.org/W2059876577",
+      "https://openalex.org/W1977655736",
+      "https://openalex.org/W2333939081",
+      "https://openalex.org/W2609654853",
+      "https://openalex.org/W1977150737",
+      "https://openalex.org/W1997943569",
+      "https://openalex.org/W2319658883",
+      "https://openalex.org/W2007129904",
+      "https://openalex.org/W2559617058",
+      "https://openalex.org/W2885378797",
+      "https://openalex.org/W2782647502",
+      "https://openalex.org/W2299483695",
+      "https://openalex.org/W2121852315",
+      "https://openalex.org/W13804010",
+      "https://openalex.org/W2902818271",
+      "https://openalex.org/W2053827287",
+      "https://openalex.org/W1987177883",
+      "https://openalex.org/W2148418499",
+      "https://openalex.org/W2429292028",
+      "https://openalex.org/W1981947239",
+      "https://openalex.org/W1764686129",
+      "https://openalex.org/W2229357335",
+      "https://openalex.org/W4245995236",
+      "https://openalex.org/W2036130298",
+      "https://openalex.org/W2095871712",
+      "https://openalex.org/W1971042333",
+      "https://openalex.org/W1983969090"
+    ],
+    "SJR": 0.874,
+    "SJR_Normalized": 0.6280751838162304,
+    "abstract": "abstract hereditary angioedema (hae) is a rare genetic disease generally caused by deficiency or mutations in the c1-inhibitor gene, serping1, a member of the serpin family. hae results in acute attacks of edema, vasodilation, gi pain and hypotension. c1inh is a key inhibitor of enzymes controlling complement activation, fibrinolysis and the contact system. in hae patients, contact system activation leads to uncontrolled production of bradykinin, the vasodilator responsible for the characteristic symptoms of hae. in this study, we present the first physiological in vivo model to mimic acute hae attacks. we evaluate hypotension, one of the many hallmark symptoms of acute hae attacks using serping1 deficient mice (serping1 / ) and implanted telemetry. attacks were induced by iv injection of a silica nanoparticle (sinp) suspension. blood pressure was measured in real time, in conscious and untethered mice using implanted telemetry . sinp injection induced a rapid, reversible decrease in blood pressure, in the presence of angiotensin converting enzyme (ace) inhibition. we also demonstrate that an hae therapeutic, ecallantide, can prevent hae attacks in this model. the in vivo murine model described here can facilitate the understanding of acute hae attacks, support drug development and ultimately contribute to improved patient care.",
+    "publication_info": {
+      "host_organization_name": "Nature Portfolio",
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "classification_path": "Medical and Health Science > Clinical Medicine > Internal Medicine > Cardiology"
+  },
+  {
+    "id": "https://openalex.org/W4391539555",
+    "title": "potential pathways and pathophysiological implications of viral infection-driven activation of kallikrein kinin system (kks)",
+    "publication_date": "2024-02-03",
+    "display_name": "Potential Pathways and Pathophysiological Implications of Viral Infection-Driven Activation of Kallikrein–Kinin System (KKS)",
+    "authorships": [
+      {
+        "name": "Sharton Vinícius Antunes Coelho",
+        "position": "first",
+        "institutions": [
+          "Universidade Federal do Rio de Janeiro"
+        ],
+        "countries": [
+          "BR"
+        ],
+        "is_corresponding": true
+      },
+      {
+        "name": "F. Augusto",
+        "position": "middle",
+        "institutions": [
+          "Universidade Federal do Rio de Janeiro"
+        ],
+        "countries": [
+          "BR"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Luciana Barros de Arruda",
+        "position": "last",
+        "institutions": [
+          "Universidade Federal do Rio de Janeiro"
+        ],
+        "countries": [
+          "BR"
+        ],
+        "is_corresponding": true
+      }
+    ],
+    "cited_by_count": 5,
+    "referenced_works": [
+      "https://openalex.org/W6628242993",
+      "https://openalex.org/W2020008524",
+      "https://openalex.org/W2178559328",
+      "https://openalex.org/W3025200871",
+      "https://openalex.org/W3084705004",
+      "https://openalex.org/W2177124431",
+      "https://openalex.org/W2111894384",
+      "https://openalex.org/W2132828197",
+      "https://openalex.org/W2741059815",
+      "https://openalex.org/W4366090856",
+      "https://openalex.org/W2548846857",
+      "https://openalex.org/W2121139943",
+      "https://openalex.org/W2033365562",
+      "https://openalex.org/W1415644738",
+      "https://openalex.org/W2137656526",
+      "https://openalex.org/W3118638221",
+      "https://openalex.org/W2382548440",
+      "https://openalex.org/W2071499605",
+      "https://openalex.org/W3132743935",
+      "https://openalex.org/W2098224485",
+      "https://openalex.org/W2067716683",
+      "https://openalex.org/W1578609064",
+      "https://openalex.org/W2047144211",
+      "https://openalex.org/W4294953487",
+      "https://openalex.org/W2091972637",
+      "https://openalex.org/W1963862409",
+      "https://openalex.org/W3048929918",
+      "https://openalex.org/W3119880982",
+      "https://openalex.org/W3216066660",
+      "https://openalex.org/W1996282461",
+      "https://openalex.org/W2047350386",
+      "https://openalex.org/W2011713635",
+      "https://openalex.org/W4311986561",
+      "https://openalex.org/W4242355025",
+      "https://openalex.org/W2046029794",
+      "https://openalex.org/W2182674165",
+      "https://openalex.org/W1987637136",
+      "https://openalex.org/W2021174122",
+      "https://openalex.org/W2111886628",
+      "https://openalex.org/W2032054363",
+      "https://openalex.org/W2007411895",
+      "https://openalex.org/W2052898144",
+      "https://openalex.org/W2172014879",
+      "https://openalex.org/W1984207475",
+      "https://openalex.org/W2056615751",
+      "https://openalex.org/W1963791856",
+      "https://openalex.org/W2027346283",
+      "https://openalex.org/W2082659541",
+      "https://openalex.org/W2101035734",
+      "https://openalex.org/W2112208424",
+      "https://openalex.org/W2039316332",
+      "https://openalex.org/W1980302120",
+      "https://openalex.org/W2016476063",
+      "https://openalex.org/W2138545375",
+      "https://openalex.org/W6648113189",
+      "https://openalex.org/W2040371920",
+      "https://openalex.org/W2167366932",
+      "https://openalex.org/W2115565372",
+      "https://openalex.org/W2201309601",
+      "https://openalex.org/W2036655503",
+      "https://openalex.org/W2043455739",
+      "https://openalex.org/W2330698677",
+      "https://openalex.org/W2134114878",
+      "https://openalex.org/W2065257811",
+      "https://openalex.org/W2167237954",
+      "https://openalex.org/W1966224676",
+      "https://openalex.org/W3016538443",
+      "https://openalex.org/W2611509799",
+      "https://openalex.org/W4309467805",
+      "https://openalex.org/W4378905374",
+      "https://openalex.org/W4297154512",
+      "https://openalex.org/W4210487776",
+      "https://openalex.org/W2156938943",
+      "https://openalex.org/W1979948058",
+      "https://openalex.org/W2956091091",
+      "https://openalex.org/W3186672507",
+      "https://openalex.org/W2104934425",
+      "https://openalex.org/W2032158286",
+      "https://openalex.org/W2172191543",
+      "https://openalex.org/W2559847201",
+      "https://openalex.org/W2011491918",
+      "https://openalex.org/W1971749790",
+      "https://openalex.org/W2315045065",
+      "https://openalex.org/W1989872532",
+      "https://openalex.org/W2129339954",
+      "https://openalex.org/W3213600000",
+      "https://openalex.org/W3164567909",
+      "https://openalex.org/W3004361808",
+      "https://openalex.org/W1961361211",
+      "https://openalex.org/W4239155804",
+      "https://openalex.org/W3085958090",
+      "https://openalex.org/W3037020655",
+      "https://openalex.org/W2083884362",
+      "https://openalex.org/W2565710406",
+      "https://openalex.org/W2009296003",
+      "https://openalex.org/W2616539080",
+      "https://openalex.org/W3177142761",
+      "https://openalex.org/W2944712667",
+      "https://openalex.org/W3036681929",
+      "https://openalex.org/W4205281901",
+      "https://openalex.org/W4232085319",
+      "https://openalex.org/W2734817966",
+      "https://openalex.org/W2048115021",
+      "https://openalex.org/W2133732550",
+      "https://openalex.org/W4212938783",
+      "https://openalex.org/W3158654561",
+      "https://openalex.org/W3211940634",
+      "https://openalex.org/W2102613564",
+      "https://openalex.org/W2019575635",
+      "https://openalex.org/W2151429375",
+      "https://openalex.org/W4248620833",
+      "https://openalex.org/W1633360739",
+      "https://openalex.org/W3055267498",
+      "https://openalex.org/W1487936580",
+      "https://openalex.org/W2006223727",
+      "https://openalex.org/W2149146712",
+      "https://openalex.org/W1545907965",
+      "https://openalex.org/W1830082853",
+      "https://openalex.org/W2288947769",
+      "https://openalex.org/W4220857743",
+      "https://openalex.org/W2756541052",
+      "https://openalex.org/W4283799708",
+      "https://openalex.org/W2166440835",
+      "https://openalex.org/W2059802544",
+      "https://openalex.org/W2009094928",
+      "https://openalex.org/W2408531976",
+      "https://openalex.org/W2802442374",
+      "https://openalex.org/W2126569426",
+      "https://openalex.org/W3013180764",
+      "https://openalex.org/W2077774863",
+      "https://openalex.org/W2169552340",
+      "https://openalex.org/W2034036966",
+      "https://openalex.org/W3023251337",
+      "https://openalex.org/W2169764493",
+      "https://openalex.org/W2064499453",
+      "https://openalex.org/W2142180323",
+      "https://openalex.org/W2109103389",
+      "https://openalex.org/W1966252896",
+      "https://openalex.org/W2010168508",
+      "https://openalex.org/W2141092325",
+      "https://openalex.org/W2047974836",
+      "https://openalex.org/W2067518324",
+      "https://openalex.org/W3038176257",
+      "https://openalex.org/W4289890311",
+      "https://openalex.org/W4283330866",
+      "https://openalex.org/W3087093860",
+      "https://openalex.org/W3030833760",
+      "https://openalex.org/W3048430059",
+      "https://openalex.org/W2332114031",
+      "https://openalex.org/W3009912996",
+      "https://openalex.org/W1966238900",
+      "https://openalex.org/W2091671824",
+      "https://openalex.org/W3205662191",
+      "https://openalex.org/W4214871791",
+      "https://openalex.org/W3214488270",
+      "https://openalex.org/W4385741197",
+      "https://openalex.org/W3086298873",
+      "https://openalex.org/W6782193185",
+      "https://openalex.org/W3163838535",
+      "https://openalex.org/W1966300199",
+      "https://openalex.org/W2155821708",
+      "https://openalex.org/W2040900174",
+      "https://openalex.org/W2808136611",
+      "https://openalex.org/W2039562943",
+      "https://openalex.org/W4252939281",
+      "https://openalex.org/W2136174251",
+      "https://openalex.org/W2089303253",
+      "https://openalex.org/W6650258523",
+      "https://openalex.org/W2036576754",
+      "https://openalex.org/W3048915559",
+      "https://openalex.org/W3132460448",
+      "https://openalex.org/W2157520459",
+      "https://openalex.org/W3070884292",
+      "https://openalex.org/W2098261445",
+      "https://openalex.org/W1999417412",
+      "https://openalex.org/W1607135580",
+      "https://openalex.org/W2280214719",
+      "https://openalex.org/W1971042333",
+      "https://openalex.org/W83105754",
+      "https://openalex.org/W1990511095",
+      "https://openalex.org/W109784360"
+    ],
+    "SJR": 1.145,
+    "SJR_Normalized": 0.7631395523799803,
+    "abstract": "microcirculatory and coagulation disturbances commonly occur as pathological manifestations of systemic viral infections. research exploring the role of the kallikrein kinin system (kks) in flavivirus infections has recently linked microvascular dysfunctions to bradykinin (bk)-induced signaling of b2r, a g protein-coupled receptor (gpcr) constitutively expressed by endothelial cells. the relevance of kks activation as an innate response to viral infections has gained increasing attention, particularly after the reports regarding thrombogenic events during covid-19. bk receptor (b2r and b1r) signal transduction results in vascular permeability, edema formation, angiogenesis, and pain. recent findings unveiling the role of kks in viral pathogenesis include evidence of increased activation of kks with elevated levels of bk and its metabolites in both intravascular and tissue milieu, as well as reports demonstrating that virus replication stimulates bkr expression. in this review, we will discuss the mechanisms triggered by virus replication and by virus-induced inflammatory responses that may stimulate kks. we also explore how kks activation and bk signaling may impact virus pathogenesis and further discuss the potential therapeutic application of bkr antagonists in the treatment of hemorrhagic and respiratory diseases.",
+    "publication_info": {
+      "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "classification_path": "Medical and Health Science > Clinical Medicine > Internal Medicine > Cardiology"
+  },
+  {
+    "id": "https://openalex.org/W4256665161",
+    "title": "recent insights into the role of the contact pathway in thrombo-inflammatory disorders",
+    "publication_date": "2014-12-05",
+    "display_name": "Recent insights into the role of the contact pathway in thrombo-inflammatory disorders",
+    "authorships": [
+      {
+        "name": "Maurits L. van Montfoort",
+        "position": "first",
+        "institutions": [
+          "Amsterdam UMC Location University of Amsterdam",
+          "University of Amsterdam"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Joost C.M. Meijers",
+        "position": "last",
+        "institutions": [
+          "Amsterdam UMC Location University of Amsterdam",
+          "Sanquin",
+          "University of Amsterdam"
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": true
+      }
+    ],
+    "cited_by_count": 4,
+    "referenced_works": [
+      "https://openalex.org/W2124190432",
+      "https://openalex.org/W1988135328",
+      "https://openalex.org/W1996723128",
+      "https://openalex.org/W2064369146",
+      "https://openalex.org/W2067716683",
+      "https://openalex.org/W2079132877",
+      "https://openalex.org/W2172191543",
+      "https://openalex.org/W6684557208",
+      "https://openalex.org/W2032158286",
+      "https://openalex.org/W2046090148",
+      "https://openalex.org/W2087856807",
+      "https://openalex.org/W1607135580",
+      "https://openalex.org/W2149853382",
+      "https://openalex.org/W2006951698",
+      "https://openalex.org/W2079416873",
+      "https://openalex.org/W2022108395",
+      "https://openalex.org/W1987529569",
+      "https://openalex.org/W2059684863",
+      "https://openalex.org/W2125474642",
+      "https://openalex.org/W1991316028",
+      "https://openalex.org/W1536015903",
+      "https://openalex.org/W2067224456",
+      "https://openalex.org/W2226999514",
+      "https://openalex.org/W2029829519",
+      "https://openalex.org/W2115570439",
+      "https://openalex.org/W2063706685",
+      "https://openalex.org/W2021857928",
+      "https://openalex.org/W2143461406",
+      "https://openalex.org/W2117944864",
+      "https://openalex.org/W2059930381",
+      "https://openalex.org/W2061409039",
+      "https://openalex.org/W2036655503",
+      "https://openalex.org/W2066502432",
+      "https://openalex.org/W2083884362",
+      "https://openalex.org/W2166944113",
+      "https://openalex.org/W2127370427",
+      "https://openalex.org/W2099127967",
+      "https://openalex.org/W2083814433",
+      "https://openalex.org/W2078094108",
+      "https://openalex.org/W2137447704",
+      "https://openalex.org/W2079944345",
+      "https://openalex.org/W1988437478",
+      "https://openalex.org/W1969886260",
+      "https://openalex.org/W1966026137",
+      "https://openalex.org/W1980434555",
+      "https://openalex.org/W2166268582"
+    ],
+    "SJR": 1.448,
+    "SJR_Normalized": 0.8952713646500796,
+    "abstract": "abstract the contact pathway of coagulation consists of the proteins factor xi, factor xii, prekallikrein, and high-molecular-weight kininogen. activation of the contact system leads to procoagulant and proinflammatory reactions. the contact system is essential for surface-initiated coagulation, as exemplified by aptt, but there is probably no role for the contact system in initiating physiologic in vivo coagulation. however, over the last few years, there has been renewed interest, especially because of experimental evidence suggesting that the contact system contributes to thrombosis. knockout mice deficient in one of the contact proteins were protected against artificially induced thrombosis. furthermore, inhibiting agents such as monoclonal antibodies, antisense oligonucleotides, and small molecules were found to prevent thrombosis in rodents and primates in both venous and arterial vascular beds. although it remains to be established whether targeting the contact system will be effective in humans and which of the contact factors is the best target for anticoagulation, it would constitute a promising approach for future effective and safe antithrombotic therapy.",
+    "publication_info": {
+      "host_organization_name": "American Society of Hematology",
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "classification_path": "Medical and Health Science > Clinical Medicine > Internal Medicine > Cardiology"
+  }
+]

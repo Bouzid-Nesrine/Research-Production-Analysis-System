@@ -1,0 +1,1458 @@
+[
+  {
+    "id": "https://openalex.org/W1982702197",
+    "title": "audiovestibular disorders in 2 patients with relapsing polychondritis",
+    "publication_date": "2008-01-01",
+    "display_name": "Audiovestibular disorders in 2 patients with relapsing polychondritis",
+    "authorships": [
+      {
+        "name": "Kaori Kanaya",
+        "position": "first",
+        "institutions": [
+          "The University of Tokyo"
+        ],
+        "countries": [
+          "JP"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Shinichi Iwasaki",
+        "position": "middle",
+        "institutions": [
+          "The University of Tokyo"
+        ],
+        "countries": [
+          "JP"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Munetaka Ushio",
+        "position": "middle",
+        "institutions": [
+          "The University of Tokyo"
+        ],
+        "countries": [
+          "JP"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Akinori Ito",
+        "position": "middle",
+        "institutions": [
+          "Saitama Medical University"
+        ],
+        "countries": [
+          "JP"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Masahiro Mizuno",
+        "position": "middle",
+        "institutions": [
+          "Saitama Medical University"
+        ],
+        "countries": [
+          "JP"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Toshihisa Murofushi",
+        "position": "last",
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false
+      }
+    ],
+    "cited_by_count": 3,
+    "referenced_works": [
+      "https://openalex.org/W1969341031",
+      "https://openalex.org/W2132484136",
+      "https://openalex.org/W4231983706",
+      "https://openalex.org/W4293117573",
+      "https://openalex.org/W1993999996",
+      "https://openalex.org/W2042721577",
+      "https://openalex.org/W1987345455",
+      "https://openalex.org/W4230056937",
+      "https://openalex.org/W1969856721",
+      "https://openalex.org/W2028492653",
+      "https://openalex.org/W2050330386",
+      "https://openalex.org/W4235092192",
+      "https://openalex.org/W2050684276",
+      "https://openalex.org/W121114337",
+      "https://openalex.org/W2128172622",
+      "https://openalex.org/W2307685999",
+      "https://openalex.org/W2414926684",
+      "https://openalex.org/W2330493583",
+      "https://openalex.org/W1655107245",
+      "https://openalex.org/W2169902619"
+    ],
+    "SJR": 0.136,
+    "SJR_Normalized": 0.12751332029895962,
+    "abstract": "relapsing polychondritis (rp) is a multi-systemic inflammatory autoimmune disease that affects components of cartilage such as collagens and mucopolysaccharide. the most common findings of rp are auricular and nasal chondritis, whereas audiovestibular disorders are rarely noticed at first. we report two cases with relapsing polychondritis who first complained of audiovestibular symptoms. the first patient was a 19-year-old man, who suffered from repeated dizziness, vertigo and bilateral sensorineural hearing loss. one year later, he also had dyspnea caused by chondritis of the respiratory tract and otitis media with effusion. results of a caloric test and vestibular evoked myogenic potential (vemp) to clicks showed no response on either side, whereas vemp to galvanic stimulation showed normal response on both sides. the second patient was a 58-year-old man with repeated vertigo and dizziness. he also had progressive bilateral severe sensorineural hearing impairment. although he had undergone intravenous steroid therapy, his hearing did not recover. the results of neuro-otological examinations of our patients suggested that recurrent vertigo and dizziness in the patient with rp were mainly of labyrinthine origin.",
+    "publication_info": {
+      "host_organization_name": "Japan Society for Equilibrium Research",
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "classification_path": "Medical and Health Science > Clinical Medicine > Internal Medicine > Cardiology"
+  },
+  {
+    "id": "https://openalex.org/W1980230710",
+    "title": "b-cell deficiency and severe autoimmunity caused by deficiency of protein kinase c",
+    "publication_date": "2013-01-15",
+    "display_name": "B-cell deficiency and severe autoimmunity caused by deficiency of protein kinase C δ",
+    "authorships": [
+      {
+        "name": "Elisabeth Salzer",
+        "position": "first",
+        "institutions": [
+          "Austrian Academy of Sciences",
+          "CeMM Research Center for Molecular Medicine"
+        ],
+        "countries": [
+          "AT"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Elisangela Santos-Valente",
+        "position": "middle",
+        "institutions": [
+          "Austrian Academy of Sciences",
+          "CeMM Research Center for Molecular Medicine"
+        ],
+        "countries": [
+          "AT"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Stefanie Klaver",
+        "position": "middle",
+        "institutions": [
+          "Austrian Academy of Sciences",
+          "CeMM Research Center for Molecular Medicine",
+          "Universidade de São Paulo"
+        ],
+        "countries": [
+          "AT",
+          "BR"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Sol A. Ban",
+        "position": "middle",
+        "institutions": [
+          "Austrian Academy of Sciences",
+          "CeMM Research Center for Molecular Medicine"
+        ],
+        "countries": [
+          "AT"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Wolfgang Emminger",
+        "position": "middle",
+        "institutions": [
+          "Office of Adolescent Health"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Nina Kathrin Prengemann",
+        "position": "middle",
+        "institutions": [
+          "Austrian Academy of Sciences",
+          "CeMM Research Center for Molecular Medicine"
+        ],
+        "countries": [
+          "AT"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Wojciech Garncarz",
+        "position": "middle",
+        "institutions": [
+          "Austrian Academy of Sciences",
+          "CeMM Research Center for Molecular Medicine"
+        ],
+        "countries": [
+          "AT"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Leonhard Müllauer",
+        "position": "middle",
+        "institutions": [
+          "Institute of Clinical Research"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Renate Kain",
+        "position": "middle",
+        "institutions": [
+          "Institute of Clinical Research"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Heidrun Boztug",
+        "position": "middle",
+        "institutions": [
+          "Medical University of Vienna",
+          "St Anna Children's Hospital"
+        ],
+        "countries": [
+          "AT"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Andreas Heitger",
+        "position": "middle",
+        "institutions": [
+          "Medical University of Vienna",
+          "St Anna Children's Hospital"
+        ],
+        "countries": [
+          "AT"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Klaus Arbeiter",
+        "position": "middle",
+        "institutions": [
+          "Office of Adolescent Health"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Franz Eitelberger",
+        "position": "middle",
+        "institutions": [
+          "Klinikum Wels-Grieskirchen"
+        ],
+        "countries": [
+          "AT"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Markus G. Seidel",
+        "position": "middle",
+        "institutions": [
+          "Medical University of Vienna",
+          "St Anna Children's Hospital"
+        ],
+        "countries": [
+          "AT"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Wolfgang Holter",
+        "position": "middle",
+        "institutions": [
+          "Medical University of Vienna",
+          "St Anna Children's Hospital"
+        ],
+        "countries": [
+          "AT"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Arnold Pollak",
+        "position": "middle",
+        "institutions": [
+          "Office of Adolescent Health"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Winfried F. Pickl",
+        "position": "middle",
+        "institutions": [
+          "Medical University of Vienna"
+        ],
+        "countries": [
+          "AT"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Elisabeth Förster‐Waldl",
+        "position": "middle",
+        "institutions": [
+          "Office of Adolescent Health"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Kaan Boztuğ",
+        "position": "last",
+        "institutions": [
+          "Austrian Academy of Sciences",
+          "CeMM Research Center for Molecular Medicine",
+          "Office of Adolescent Health"
+        ],
+        "countries": [
+          "AT",
+          "US"
+        ],
+        "is_corresponding": false
+      }
+    ],
+    "cited_by_count": 134,
+    "referenced_works": [
+      "https://openalex.org/W2155827443",
+      "https://openalex.org/W1575665885",
+      "https://openalex.org/W2060850391",
+      "https://openalex.org/W6679385482",
+      "https://openalex.org/W2051947926",
+      "https://openalex.org/W2572233504",
+      "https://openalex.org/W2071606715",
+      "https://openalex.org/W2057785504",
+      "https://openalex.org/W2018625992",
+      "https://openalex.org/W2029033280",
+      "https://openalex.org/W2054899482",
+      "https://openalex.org/W2027259173",
+      "https://openalex.org/W2033646465",
+      "https://openalex.org/W1987496015",
+      "https://openalex.org/W2004208753",
+      "https://openalex.org/W2124369311",
+      "https://openalex.org/W2055177114",
+      "https://openalex.org/W1994045773",
+      "https://openalex.org/W2107501339",
+      "https://openalex.org/W1972920997",
+      "https://openalex.org/W2012255113",
+      "https://openalex.org/W2102617539",
+      "https://openalex.org/W2117776341",
+      "https://openalex.org/W2131200545",
+      "https://openalex.org/W2085074724",
+      "https://openalex.org/W2117403402"
+    ],
+    "SJR": 5.823,
+    "SJR_Normalized": 1.9202992578332867,
+    "abstract": "key points prkcd deficiency causes a novel primary immunodeficiency with b-cell deficiency and severe autoimmunity. protein kinase c may represent a key factor controlling immune homeostasis and autoimmunity.",
+    "publication_info": {
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "classification_path": "Medical and Health Science > Clinical Medicine > Internal Medicine > Cardiology"
+  },
+  {
+    "id": "https://openalex.org/W2144333906",
+    "title": "a large-scale survey of patients with relapsing polychondritis in japan",
+    "publication_date": "2014-01-01",
+    "display_name": "A large-scale survey of patients with relapsing polychondritis in Japan",
+    "authorships": [
+      {
+        "name": "Hiroshi Oka",
+        "position": "first",
+        "institutions": [
+          "St. Marianna University School of Medicine"
+        ],
+        "countries": [
+          "JP"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Yoshihisa Yamano",
+        "position": "middle",
+        "institutions": [
+          "St. Marianna University School of Medicine"
+        ],
+        "countries": [
+          "JP"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Jun Shimizu",
+        "position": "middle",
+        "institutions": [
+          "St. Marianna University School of Medicine"
+        ],
+        "countries": [
+          "JP"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Kazuo Yudoh",
+        "position": "middle",
+        "institutions": [
+          "St. Marianna University School of Medicine"
+        ],
+        "countries": [
+          "JP"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Noboru Suzuki",
+        "position": "last",
+        "institutions": [
+          "St. Marianna University School of Medicine"
+        ],
+        "countries": [
+          "JP"
+        ],
+        "is_corresponding": false
+      }
+    ],
+    "cited_by_count": 37,
+    "referenced_works": [
+      "https://openalex.org/W4231983706",
+      "https://openalex.org/W2015600753",
+      "https://openalex.org/W4253688038",
+      "https://openalex.org/W4242391808",
+      "https://openalex.org/W2034080795",
+      "https://openalex.org/W2046291370",
+      "https://openalex.org/W1965820076",
+      "https://openalex.org/W4293117573",
+      "https://openalex.org/W2012073098",
+      "https://openalex.org/W2099403318",
+      "https://openalex.org/W2005714512",
+      "https://openalex.org/W2020428382",
+      "https://openalex.org/W2118819878",
+      "https://openalex.org/W1967743868",
+      "https://openalex.org/W1979576574",
+      "https://openalex.org/W1567162299",
+      "https://openalex.org/W2051092894",
+      "https://openalex.org/W2060285264",
+      "https://openalex.org/W2055302602",
+      "https://openalex.org/W1990058318",
+      "https://openalex.org/W2116466933",
+      "https://openalex.org/W2149104751",
+      "https://openalex.org/W2123950401",
+      "https://openalex.org/W2326715074",
+      "https://openalex.org/W2107643935",
+      "https://openalex.org/W2010441293",
+      "https://openalex.org/W2056610563",
+      "https://openalex.org/W4243481630",
+      "https://openalex.org/W1540765293",
+      "https://openalex.org/W1969341031",
+      "https://openalex.org/W1977748839",
+      "https://openalex.org/W1992893650",
+      "https://openalex.org/W4249398440",
+      "https://openalex.org/W2002999184",
+      "https://openalex.org/W4245425998",
+      "https://openalex.org/W2161227730",
+      "https://openalex.org/W2018343805",
+      "https://openalex.org/W2110197529",
+      "https://openalex.org/W2124697301",
+      "https://openalex.org/W2138807803",
+      "https://openalex.org/W127811597",
+      "https://openalex.org/W189827732",
+      "https://openalex.org/W2063151609",
+      "https://openalex.org/W2169902619",
+      "https://openalex.org/W2472297145",
+      "https://openalex.org/W2016606231",
+      "https://openalex.org/W2409080164",
+      "https://openalex.org/W2338388367",
+      "https://openalex.org/W4285719527",
+      "https://openalex.org/W2409280743",
+      "https://openalex.org/W1849198501"
+    ],
+    "SJR": 1.726,
+    "SJR_Normalized": 1.002835333274341,
+    "abstract": "relapsing polychondritis (rp) is a multisystem disorder characterized by recurrent inflammation and destruction of cartilage. the aim of this study is to assess the clinical characteristics of patients with rp in japan, which remain unclear.a survey was sent to 395 experienced clinicians who worked in japanese major institutions. the questionnaire was designed to assess patients' profiles, clinical features, diagnosis, treatments and present complications. the response rate was 30.6% and 239 rp patient data were collected. the average age of onset diagnosis was 52.7 years (range, 3-97) and the male-to-female ratio was 1.1:1. clinical features of patients with rp in japan were similar to previous studies. airway and cardiac involvement, both of which were potentially serious complications of rp, were observed in 119 (49.8%) and 17 patients (7.1 %), respectively. four patients (1.7%) had myelodysplasia. in addition to oral prednisolone (91.6%), patients received methotrexate (19.7%), cyclophosphamide (12.6%) and cyclosporine (8.4%) with clinical response rates of 64.0%, 66.7% and 73.7%, respectively. 42 patients (17.6%) required and underwent tracheotomy, including 12 patients (5.0%) who were treated with prednisolone only. 22 patients (9.2%) underwent stent placement and/or tracheotomy. the overall mortality rate was 9.0% (22 patients) and respiratory failure and pulmonary infection were the leading causes of death in patients with rp.airway involvement of rp was fundamentally progressive and required frequent clinical checks and appropriate intervention with administration of both prednisolone and immunosuppressant. cardiac involvement of rp was less common in japan as compared with that in western countries.",
+    "publication_info": {
+      "host_organization_name": "BioMed Central",
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "classification_path": "Medical and Health Science > Clinical Medicine > Internal Medicine > Cardiology"
+  },
+  {
+    "id": "https://openalex.org/W3114503365",
+    "title": "biomarkers for inner ear disorders: scoping review on the role of biomarkers in hearing and balance disorders",
+    "publication_date": "2020-12-29",
+    "display_name": "Biomarkers for Inner Ear Disorders: Scoping Review on the Role of Biomarkers in Hearing and Balance Disorders",
+    "authorships": [
+      {
+        "name": "Nahla Gomaa",
+        "position": "first",
+        "institutions": [
+          "University of Alberta"
+        ],
+        "countries": [
+          "CA"
+        ],
+        "is_corresponding": true
+      },
+      {
+        "name": "Zaharadeen Jimoh",
+        "position": "middle",
+        "institutions": [
+          "University of Alberta"
+        ],
+        "countries": [
+          "CA"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Sandy Campbell",
+        "position": "middle",
+        "institutions": [
+          "University of Alberta"
+        ],
+        "countries": [
+          "CA"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Julianna Zenke",
+        "position": "middle",
+        "institutions": [
+          "University of Alberta"
+        ],
+        "countries": [
+          "CA"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Agnieszka J. Szczepek",
+        "position": "last",
+        "institutions": [
+          "Charité - Universitätsmedizin Berlin",
+          "Freie Universität Berlin",
+          "Humboldt-Universität zu Berlin",
+          "University of Zielona Góra"
+        ],
+        "countries": [
+          "DE",
+          "PL"
+        ],
+        "is_corresponding": true
+      }
+    ],
+    "cited_by_count": 28,
+    "referenced_works": [
+      "https://openalex.org/W2092034663",
+      "https://openalex.org/W2038721877",
+      "https://openalex.org/W4393296588",
+      "https://openalex.org/W2586517468",
+      "https://openalex.org/W2128172622",
+      "https://openalex.org/W2010672874",
+      "https://openalex.org/W2809026065",
+      "https://openalex.org/W2043751641",
+      "https://openalex.org/W2773157390",
+      "https://openalex.org/W2137406371",
+      "https://openalex.org/W2322070679",
+      "https://openalex.org/W2061198612",
+      "https://openalex.org/W112983693",
+      "https://openalex.org/W1964623417",
+      "https://openalex.org/W1988360920",
+      "https://openalex.org/W2736307756",
+      "https://openalex.org/W2990047847",
+      "https://openalex.org/W2005376943",
+      "https://openalex.org/W2944976548",
+      "https://openalex.org/W2313876005",
+      "https://openalex.org/W2110095516",
+      "https://openalex.org/W2947109846",
+      "https://openalex.org/W2146268686",
+      "https://openalex.org/W2001737257",
+      "https://openalex.org/W2082423330",
+      "https://openalex.org/W2002088339",
+      "https://openalex.org/W2144391334",
+      "https://openalex.org/W2628551399",
+      "https://openalex.org/W1978160093",
+      "https://openalex.org/W6640482741",
+      "https://openalex.org/W1971172095",
+      "https://openalex.org/W2063922933",
+      "https://openalex.org/W2150846886",
+      "https://openalex.org/W2039971267",
+      "https://openalex.org/W2168683474",
+      "https://openalex.org/W2517232175",
+      "https://openalex.org/W2027210468",
+      "https://openalex.org/W2144722311",
+      "https://openalex.org/W2888308585",
+      "https://openalex.org/W2066310842",
+      "https://openalex.org/W1932979971",
+      "https://openalex.org/W1983107482",
+      "https://openalex.org/W2102898694",
+      "https://openalex.org/W2079953346",
+      "https://openalex.org/W2026447286",
+      "https://openalex.org/W2075794950",
+      "https://openalex.org/W2080171898",
+      "https://openalex.org/W1973870877",
+      "https://openalex.org/W2097872536",
+      "https://openalex.org/W2047588981",
+      "https://openalex.org/W2018390308",
+      "https://openalex.org/W2069521331",
+      "https://openalex.org/W2106457189",
+      "https://openalex.org/W2589855044",
+      "https://openalex.org/W2319979901",
+      "https://openalex.org/W2006227380",
+      "https://openalex.org/W2164969010",
+      "https://openalex.org/W2790600367",
+      "https://openalex.org/W1999496656",
+      "https://openalex.org/W2017559108",
+      "https://openalex.org/W2036152185",
+      "https://openalex.org/W2139129545",
+      "https://openalex.org/W2057502749",
+      "https://openalex.org/W2134550847",
+      "https://openalex.org/W2950377142",
+      "https://openalex.org/W1824210888",
+      "https://openalex.org/W93346713",
+      "https://openalex.org/W2124047537",
+      "https://openalex.org/W2276262087",
+      "https://openalex.org/W6688787891",
+      "https://openalex.org/W1990728225",
+      "https://openalex.org/W2074692896",
+      "https://openalex.org/W2119300189",
+      "https://openalex.org/W2001435576",
+      "https://openalex.org/W2025047236",
+      "https://openalex.org/W2023858808",
+      "https://openalex.org/W2806773540",
+      "https://openalex.org/W2053736812",
+      "https://openalex.org/W1810382606",
+      "https://openalex.org/W2032596787",
+      "https://openalex.org/W2216609237",
+      "https://openalex.org/W4245445573",
+      "https://openalex.org/W2080730768",
+      "https://openalex.org/W2332126468",
+      "https://openalex.org/W2790588584",
+      "https://openalex.org/W2082047587",
+      "https://openalex.org/W6604605509",
+      "https://openalex.org/W2027406606",
+      "https://openalex.org/W2099458053",
+      "https://openalex.org/W2108852604",
+      "https://openalex.org/W2136260756",
+      "https://openalex.org/W2018197952",
+      "https://openalex.org/W2518614174",
+      "https://openalex.org/W2323586417",
+      "https://openalex.org/W2144856168",
+      "https://openalex.org/W2093767203",
+      "https://openalex.org/W1988077288",
+      "https://openalex.org/W2144148637",
+      "https://openalex.org/W2080549888",
+      "https://openalex.org/W2017177727",
+      "https://openalex.org/W2610130004"
+    ],
+    "SJR": 0.773,
+    "SJR_Normalized": 0.5726730270920708,
+    "abstract": "the diagnostics of inner ear diseases are primarily functional, but there is a growing interest in inner ear biomarkers. the present scoping review aimed to elucidate gaps in the literature regarding the definition, classification system, and an overview of the potential uses of inner ear biomarkers. relevant biomarkers were categorized, and their possible benefits were evaluated. the databases ovid medline, embase, ebsco coinahl, ca plus, wos biosis, wos core collection, proquest dissertations, theses global, prospero, cochrane library, and base were searched using the keywords biomarker and inner ear . of the initially identified 1502 studies, 34 met the inclusion criteria. the identified biomarkers were classified into diagnostic, prognostic, therapeutic, and pathognomonic; many were detected only in the inner ear or temporal bone. the inner-ear-specific biomarkers detected in peripheral blood included otolin-1, prestin, and matrilin-1. various serum antibodies correlated with inner ear diseases (e.g., anti-type ii collagen, antinuclear antibodies, antibodies against cytomegalovirus). further studies are advised to elucidate the clinical significance and diagnostic or prognostic usage of peripheral biomarkers for inner ear disorders, filling in the literature gaps with biomarkers pertinent to the otology clinical practice and integrating functional and molecular biomarkers. these may be the building blocks toward a well-structured guideline for diagnosing and managing some audio-vestibular disorders.",
+    "publication_info": {
+      "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "classification_path": "Medical and Health Science > Clinical Medicine > Internal Medicine > Cardiology"
+  },
+  {
+    "id": "https://openalex.org/W3111245828",
+    "title": "a clinical approach to hypertrophic pachymeningitis",
+    "publication_date": "2020-12-01",
+    "display_name": "A clinical approach to hypertrophic pachymeningitis",
+    "authorships": [
+      {
+        "name": "Fabiano Ferreira Abrantes",
+        "position": "first",
+        "institutions": [
+          "Universidade Federal de São Paulo"
+        ],
+        "countries": [
+          "BR"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Marianna Pinheiro Moraes de Moraes",
+        "position": "middle",
+        "institutions": [
+          "Universidade Federal de São Paulo"
+        ],
+        "countries": [
+          "BR"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Flávio Moura Rezende Filho",
+        "position": "middle",
+        "institutions": [
+          "Universidade Federal de São Paulo"
+        ],
+        "countries": [
+          "BR"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "José Luiz Pedroso",
+        "position": "middle",
+        "institutions": [
+          "Universidade Federal de São Paulo"
+        ],
+        "countries": [
+          "BR"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Orlando Graziani Póvoas Barsottini",
+        "position": "last",
+        "institutions": [
+          "Universidade Federal de São Paulo"
+        ],
+        "countries": [
+          "BR"
+        ],
+        "is_corresponding": false
+      }
+    ],
+    "cited_by_count": 28,
+    "referenced_works": [
+      "https://openalex.org/W2129189026",
+      "https://openalex.org/W2906169043",
+      "https://openalex.org/W4255010602",
+      "https://openalex.org/W1984958384",
+      "https://openalex.org/W2911939005",
+      "https://openalex.org/W2158718530",
+      "https://openalex.org/W2057951852",
+      "https://openalex.org/W2121778360",
+      "https://openalex.org/W2783380556",
+      "https://openalex.org/W2157029437",
+      "https://openalex.org/W2989890460",
+      "https://openalex.org/W2043532794",
+      "https://openalex.org/W2997949456",
+      "https://openalex.org/W2031517139",
+      "https://openalex.org/W2904575948",
+      "https://openalex.org/W2005655317",
+      "https://openalex.org/W2162170336",
+      "https://openalex.org/W2765555133",
+      "https://openalex.org/W2909154432",
+      "https://openalex.org/W2906910042",
+      "https://openalex.org/W4211150982",
+      "https://openalex.org/W2065639997",
+      "https://openalex.org/W4234585259",
+      "https://openalex.org/W2549955904",
+      "https://openalex.org/W2006096724",
+      "https://openalex.org/W2134603151",
+      "https://openalex.org/W1978425232",
+      "https://openalex.org/W4234414568",
+      "https://openalex.org/W2947252978",
+      "https://openalex.org/W2963432659",
+      "https://openalex.org/W2765164846",
+      "https://openalex.org/W2542054240",
+      "https://openalex.org/W2104405909",
+      "https://openalex.org/W2766414230",
+      "https://openalex.org/W2756249964",
+      "https://openalex.org/W6754869057",
+      "https://openalex.org/W6755753467",
+      "https://openalex.org/W2801729932",
+      "https://openalex.org/W2102357557",
+      "https://openalex.org/W1997553246",
+      "https://openalex.org/W2971264381",
+      "https://openalex.org/W2765151959",
+      "https://openalex.org/W2887988092",
+      "https://openalex.org/W2888794374",
+      "https://openalex.org/W2993448153",
+      "https://openalex.org/W2036070120",
+      "https://openalex.org/W1986754839",
+      "https://openalex.org/W3187285316",
+      "https://openalex.org/W2583492888",
+      "https://openalex.org/W2781686475",
+      "https://openalex.org/W2041315416",
+      "https://openalex.org/W2084934521",
+      "https://openalex.org/W2602785205",
+      "https://openalex.org/W2064089301",
+      "https://openalex.org/W2011261774",
+      "https://openalex.org/W1972789732",
+      "https://openalex.org/W2124929405",
+      "https://openalex.org/W3140754719",
+      "https://openalex.org/W2026711372",
+      "https://openalex.org/W2895231746",
+      "https://openalex.org/W4244847167",
+      "https://openalex.org/W2017856721",
+      "https://openalex.org/W4242142220",
+      "https://openalex.org/W2019675721",
+      "https://openalex.org/W4212893579",
+      "https://openalex.org/W1896260220"
+    ],
+    "SJR": 0.448,
+    "SJR_Normalized": 0.3701832939635246,
+    "abstract": "abstract importance: hypertrophic pachymeningitis (hp) is a non-usual manifestation of rheumatologic, infectious, and neoplastic diseases. etiological diagnosis is a challenge, but when made promptly it creates a window of opportunity for treatment, with the possibility of a total reversal of symptoms. observations: hp is an inflammatory process of the dura mater that can occur as a manifestation of sarcoidosis, granulomatosis with polyangiitis, and igg4-related disease. the hp case evaluation is extensive and includes central nervous system imaging, cerebrospinal fluid analysis, serology, rheumatologic tests, and systemic survey for other manifestations sites. after systemic investigation, meningeal biopsy might be necessary. etiology guides hp treatment, and autoimmune disorders are treated with corticosteroids alone or associated with an immunosuppressor. conclusion: hp is a manifestation of several diseases, and a precise etiological diagnosis is crucial because of the difference among treatments. an extensive investigation of patients with hp helps early diagnosis and correct treatment.",
+    "publication_info": {
+      "host_organization_name": "Thieme Medical Publishers (Germany)",
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "classification_path": "Medical and Health Science > Clinical Medicine > Internal Medicine > Cardiology"
+  },
+  {
+    "id": "https://openalex.org/W4394856693",
+    "title": "unveiling the clinical spectrum of relapsing polychondritis: insights into its pathogenesis, novel monogenic causes, and therapeutic strategies",
+    "publication_date": "2024-04-16",
+    "display_name": "Unveiling the clinical spectrum of relapsing polychondritis: insights into its pathogenesis, novel monogenic causes, and therapeutic strategies",
+    "authorships": [
+      {
+        "name": "Blanca Elena Ríos Gomes Bica",
+        "position": "first",
+        "institutions": [
+          "Hospital Universitário Clementino Fraga Filho",
+          "Universidade Federal do Rio de Janeiro"
+        ],
+        "countries": [
+          "BR"
+        ],
+        "is_corresponding": true
+      },
+      {
+        "name": "Alexandre Wagner Silva de Souza",
+        "position": "middle",
+        "institutions": [
+          "Universidade Federal de São Paulo"
+        ],
+        "countries": [
+          "BR"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Ivânio Alves Pereira",
+        "position": "last",
+        "institutions": [
+          "Universidade do Sul de Santa Catarina"
+        ],
+        "countries": [
+          "BR"
+        ],
+        "is_corresponding": false
+      }
+    ],
+    "cited_by_count": 12,
+    "referenced_works": [
+      "https://openalex.org/W4244882675",
+      "https://openalex.org/W6826589904",
+      "https://openalex.org/W1997728874",
+      "https://openalex.org/W2994187794",
+      "https://openalex.org/W2169902619",
+      "https://openalex.org/W4293117573",
+      "https://openalex.org/W4239090013",
+      "https://openalex.org/W2798221354",
+      "https://openalex.org/W4210995681",
+      "https://openalex.org/W6808154028",
+      "https://openalex.org/W2801352163",
+      "https://openalex.org/W2041089174",
+      "https://openalex.org/W6660895322",
+      "https://openalex.org/W3117611244",
+      "https://openalex.org/W4286566945",
+      "https://openalex.org/W4235240331",
+      "https://openalex.org/W3208045915",
+      "https://openalex.org/W2282312263",
+      "https://openalex.org/W3157784839",
+      "https://openalex.org/W2308460192",
+      "https://openalex.org/W4378233641",
+      "https://openalex.org/W1993999996",
+      "https://openalex.org/W6648922162",
+      "https://openalex.org/W2020428382",
+      "https://openalex.org/W2074479193",
+      "https://openalex.org/W2793856166",
+      "https://openalex.org/W2467162074",
+      "https://openalex.org/W2753316678",
+      "https://openalex.org/W2800631390",
+      "https://openalex.org/W7073569597",
+      "https://openalex.org/W3143140783",
+      "https://openalex.org/W7073675084",
+      "https://openalex.org/W4205263167",
+      "https://openalex.org/W3205502445",
+      "https://openalex.org/W3217725253",
+      "https://openalex.org/W4282545428",
+      "https://openalex.org/W4291377994",
+      "https://openalex.org/W3177305227",
+      "https://openalex.org/W3135320894",
+      "https://openalex.org/W4210783374",
+      "https://openalex.org/W3204033683",
+      "https://openalex.org/W4220898394",
+      "https://openalex.org/W3205550264",
+      "https://openalex.org/W3210450570",
+      "https://openalex.org/W4205861608",
+      "https://openalex.org/W4391465130",
+      "https://openalex.org/W4386007748",
+      "https://openalex.org/W2211320648"
+    ],
+    "SJR": 0.645,
+    "SJR_Normalized": 0.49774038421733524,
+    "abstract": "abstract relapsing polychondritis is a rare multisystem disease involving cartilaginous and proteoglycan-rich structures. the diagnosis of this disease is mainly suggested by the presence of flares of inflammation of the cartilage, particularly in the ears, nose or respiratory tract, and more rarely, in the presence of other manifestations. the spectrum of clinical presentations may vary from intermittent episodes of painful and often disfiguring auricular and nasal chondritis to an occasional organ or even life-threatening manifestations such as lower airway collapse. there is a lack of awareness about this disease is mainly due to its rarity. in 2020, vexas (vacuoles, e1 enzyme, x-linked, autoinflammatory, somatic) syndrome, a novel autoinflammatory syndrome, was described. vexas syndrome is attributed to somatic mutations in methionine-41 of uba1 , the major e1 enzyme that initiates ubiquitylation. this new disease entity connects seemingly unrelated conditions: systemic inflammatory syndromes (relapsing chondritis, sweet s syndrome, and neutrophilic dermatosis) and hematologic disorders (myelodysplastic syndrome or multiple myeloma). therefore, this article reviews the current literature on both disease entities.",
+    "publication_info": {
+      "host_organization_name": "BioMed Central",
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "classification_path": "Medical and Health Science > Clinical Medicine > Internal Medicine > Cardiology"
+  },
+  {
+    "id": "https://openalex.org/W2043214612",
+    "title": "upper airway manifestations of granulomatosis with polyangiitis",
+    "publication_date": "2012-11-01",
+    "display_name": "Upper airway manifestations of granulomatosis with polyangiitis",
+    "authorships": [
+      {
+        "name": "Daniel S. Alam",
+        "position": "first",
+        "institutions": [
+          "Cleveland Clinic"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Rahul Seth",
+        "position": "middle",
+        "institutions": [
+          "Cleveland Clinic"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Raj Sindwani",
+        "position": "middle",
+        "institutions": [
+          "Cleveland Clinic"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Erika Woodson",
+        "position": "middle",
+        "institutions": [
+          "Cleveland Clinic"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Karthik Rajasekaran",
+        "position": "last",
+        "institutions": [
+          "Cleveland Clinic"
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false
+      }
+    ],
+    "cited_by_count": 26,
+    "referenced_works": [
+      "https://openalex.org/W2042178780",
+      "https://openalex.org/W6771011196",
+      "https://openalex.org/W1984423607",
+      "https://openalex.org/W1980437549",
+      "https://openalex.org/W2091038632",
+      "https://openalex.org/W2052310121",
+      "https://openalex.org/W6711986646",
+      "https://openalex.org/W135159150",
+      "https://openalex.org/W1975643526",
+      "https://openalex.org/W2037284992",
+      "https://openalex.org/W2146335424",
+      "https://openalex.org/W2050611378",
+      "https://openalex.org/W1982995520",
+      "https://openalex.org/W12261253",
+      "https://openalex.org/W2142605112",
+      "https://openalex.org/W2138690758",
+      "https://openalex.org/W2164015972",
+      "https://openalex.org/W2037547791",
+      "https://openalex.org/W2127568483",
+      "https://openalex.org/W2050824002",
+      "https://openalex.org/W2103046969",
+      "https://openalex.org/W7073948666",
+      "https://openalex.org/W2025060860",
+      "https://openalex.org/W2163488378",
+      "https://openalex.org/W2112286189",
+      "https://openalex.org/W2147350349",
+      "https://openalex.org/W6663445632",
+      "https://openalex.org/W2160041258",
+      "https://openalex.org/W2110189582",
+      "https://openalex.org/W2126583107",
+      "https://openalex.org/W2121602116",
+      "https://openalex.org/W2151319492",
+      "https://openalex.org/W2006391960",
+      "https://openalex.org/W6699451581",
+      "https://openalex.org/W2119203999",
+      "https://openalex.org/W1966932360",
+      "https://openalex.org/W2006765980",
+      "https://openalex.org/W7074133529",
+      "https://openalex.org/W2055227937",
+      "https://openalex.org/W2134056866",
+      "https://openalex.org/W4244912099",
+      "https://openalex.org/W153719635",
+      "https://openalex.org/W2041371300",
+      "https://openalex.org/W2067260112",
+      "https://openalex.org/W2068050585",
+      "https://openalex.org/W6646727488",
+      "https://openalex.org/W1991528145",
+      "https://openalex.org/W1799090867",
+      "https://openalex.org/W6655819073",
+      "https://openalex.org/W2264075806",
+      "https://openalex.org/W1972331467",
+      "https://openalex.org/W1997342358",
+      "https://openalex.org/W2333082923",
+      "https://openalex.org/W2986316944",
+      "https://openalex.org/W2128603746",
+      "https://openalex.org/W2020345548",
+      "https://openalex.org/W1974405132",
+      "https://openalex.org/W208303",
+      "https://openalex.org/W4242743369",
+      "https://openalex.org/W2316785606",
+      "https://openalex.org/W38094700",
+      "https://openalex.org/W1984345266",
+      "https://openalex.org/W198593107",
+      "https://openalex.org/W1981778514",
+      "https://openalex.org/W1974322299",
+      "https://openalex.org/W2064405020",
+      "https://openalex.org/W1974697089",
+      "https://openalex.org/W2051534105",
+      "https://openalex.org/W2083297460",
+      "https://openalex.org/W2012901578",
+      "https://openalex.org/W2086462075",
+      "https://openalex.org/W2011309580",
+      "https://openalex.org/W4252871280",
+      "https://openalex.org/W4242577825",
+      "https://openalex.org/W4301140057",
+      "https://openalex.org/W2331223063",
+      "https://openalex.org/W2109774080",
+      "https://openalex.org/W2340321885",
+      "https://openalex.org/W1991531255",
+      "https://openalex.org/W2064179158",
+      "https://openalex.org/W75985149",
+      "https://openalex.org/W2051901093",
+      "https://openalex.org/W2100647327",
+      "https://openalex.org/W2020289065"
+    ],
+    "SJR": 0.577,
+    "SJR_Normalized": 0.45552430798090127,
+    "abstract": "upper airway manifestations, particularly sinonasal manifestations, are encountered frequently in granulomatosis with polyangiitis (gpa). nasal endoscopy often reveals crusting, friable erythematous mucosa, and granulation. up to 25% of patients may have a \"saddle-nose\" deformity as cartilage destruction worsens. treatment is often complicated by loss of mucociliary function and necrosis, leading to refractory symptoms. culture-directed antibiotics, topical antibiotic and saline irrigations, and occasional debridement of adherent crusts can reduce the frequency of sinonasal exacerbations and improve obstructive symptoms. surgery should be reserved for patients unresponsive to maximal medical therapy. saddle-nose reconstruction is possible in highly selected patients and can improve nasal breathing and resolve anosmia. up to 20% of patients with gpa have subglottic stenosis; patients with respiratory symptoms should undergo laryngoscopy to assess the presence of subglottic narrowing. although systemic manifestations of gpa are managed by immunosuppressive therapy, most patients with subglottic stenosis of gpa require surgical management (ie, endoscopic dilation, endoscopic or laser excision, surgical resection followed by reconstruction).",
+    "publication_info": {
+      "host_organization_name": "Cleveland Clinic",
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "classification_path": "Medical and Health Science > Clinical Medicine > Internal Medicine > Cardiology"
+  },
+  {
+    "id": "https://openalex.org/W2062117929",
+    "title": "relapsing polychondritis: case report and review of the literature",
+    "publication_date": "2014-08-06",
+    "display_name": "Relapsing Polychondritis: Case Report and Review of the Literature",
+    "authorships": [
+      {
+        "name": "Md Azizul Haque",
+        "position": "first",
+        "institutions": [
+          "Rajshahi Medical College"
+        ],
+        "countries": [
+          "BD"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Mohammad Hasan Tarik",
+        "position": "middle",
+        "institutions": [
+          "Rajshahi Medical College"
+        ],
+        "countries": [
+          "BD"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Md. Abdur Razzak",
+        "position": "middle",
+        "institutions": [
+          "Rajshahi Medical College"
+        ],
+        "countries": [
+          "BD"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "KM Ahasan Ahmed",
+        "position": "middle",
+        "institutions": [
+          "Rajshahi Medical College"
+        ],
+        "countries": [
+          "BD"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Ahmed Tareq Shams Chowdhury",
+        "position": "middle",
+        "institutions": [
+          "Rajshahi Medical College"
+        ],
+        "countries": [
+          "BD"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Md. Mokhlesur Rahman",
+        "position": "last",
+        "institutions": [
+          "Rajshahi Medical College"
+        ],
+        "countries": [
+          "BD"
+        ],
+        "is_corresponding": false
+      }
+    ],
+    "cited_by_count": 2,
+    "referenced_works": [
+      "https://openalex.org/W6826589904",
+      "https://openalex.org/W6813522458",
+      "https://openalex.org/W1969341031",
+      "https://openalex.org/W2169902619",
+      "https://openalex.org/W1993999996",
+      "https://openalex.org/W6654375470",
+      "https://openalex.org/W2411108734",
+      "https://openalex.org/W2074479193",
+      "https://openalex.org/W2015600753",
+      "https://openalex.org/W4214576196",
+      "https://openalex.org/W4230491836",
+      "https://openalex.org/W1969856721",
+      "https://openalex.org/W68574699",
+      "https://openalex.org/W2020428382"
+    ],
+    "SJR": 0.143,
+    "SJR_Normalized": 0.13365638481267358,
+    "abstract": "relapsing polychondritis is a rare, severe, episodic and progressive inflammatory disorder of unknown aetiology and autoimmune pathogenesis, causing recurrent inflammation of involving cartilaginous structures, predominantly those of the ears, nose, and laryngotracheobronchial tree. rarity of this disease, array of many possible presenting symptoms, lack of specific diagnostic investigation and episodic nature often causes significant delay in diagnosis. we are reporting a 55 year old woman presenting with recurrent episodes of pain, swelling, redness of nose, and both ear resulting in depressed nasal bridge and floppy pinna. relapsing polychondritis was diagnosed and she was treated with systemic corticosteroid successfully.doi: http://dx.doi.org/10.3329/jom.v15i1.19881 j medicine 2014; 15: 80-83",
+    "publication_info": {
+      "host_organization_name": null,
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "classification_path": "Medical and Health Science > Clinical Medicine > Internal Medicine > Cardiology"
+  },
+  {
+    "id": "https://openalex.org/W4313522029",
+    "title": "an unusual presentation of the external auditory canal mass",
+    "publication_date": "2023-01-03",
+    "display_name": "An unusual presentation of the external auditory canal mass",
+    "authorships": [
+      {
+        "name": "Prathiba Kishore",
+        "position": "first",
+        "institutions": [
+          "Indira Gandhi Medical College and Research Institute"
+        ],
+        "countries": [
+          "IN"
+        ],
+        "is_corresponding": true
+      },
+      {
+        "name": "Sophia Amalanathan",
+        "position": "middle",
+        "institutions": [
+          "Indira Gandhi Medical College and Research Institute"
+        ],
+        "countries": [
+          "IN"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Abinaya Rajendiran",
+        "position": "middle",
+        "institutions": [
+          "Indira Gandhi Medical College and Research Institute"
+        ],
+        "countries": [
+          "IN"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Kumaran Alias Ramesh Colbert",
+        "position": "last",
+        "institutions": [
+          "Indira Gandhi Medical College and Research Institute"
+        ],
+        "countries": [
+          "IN"
+        ],
+        "is_corresponding": false
+      }
+    ],
+    "cited_by_count": 2,
+    "referenced_works": [
+      "https://openalex.org/W2005291992",
+      "https://openalex.org/W2069979488",
+      "https://openalex.org/W2091746204",
+      "https://openalex.org/W3128331169"
+    ],
+    "SJR": 0.2,
+    "SJR_Normalized": 0.18232155679395462,
+    "abstract": "abstract background external auditory canal (eac) masses can arise secondary to a multitude of ear pathologies like congenital, inflammatory, infective, or malignancy. the most common causes of external auditory canal masses are due to otitis media squamous and mucosal types, tubercular otitis media, malignant otitis externa, and benign tumors like osteomas, exostosis, pleomorphic adenoma, tumors from the ceruminous and sebaceous glands; and malignant tumors like squamous cell carcinoma and rhabdomyosarcoma. the management of an external auditory canal mass will vary in each case, depending upon the underlying pathology and the extent of the involvement of the surrounding structures. case presentation in our case report, we report a neglected foreign body in the external auditory canal that presented as an eac mass and its management. conclusion hence, we suggest that we need to consider an underlying neglected foreign body as a cause, whenever masses of eac do not respond to appropriate medical treatment with antibiotics.",
+    "publication_info": {
+      "host_organization_name": "Springer Science+Business Media",
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "classification_path": "Medical and Health Science > Clinical Medicine > Internal Medicine > Cardiology"
+  },
+  {
+    "id": "https://openalex.org/W4392109061",
+    "title": "decoding the impact of autoinflammatory/autoimmune diseases on inner ear harmony and hearing loss",
+    "publication_date": "2024-02-22",
+    "display_name": "Decoding the impact of autoinflammatory/autoimmune diseases on inner ear harmony and hearing loss",
+    "authorships": [
+      {
+        "name": "Michail Athanasopoulos",
+        "position": "first",
+        "institutions": [
+          "Athens Medical Center"
+        ],
+        "countries": [
+          "GR"
+        ],
+        "is_corresponding": false
+      },
+      {
+        "name": "Pinelopi Samara",
+        "position": "middle",
+        "institutions": [
+          "Children's Hospital Agia Sophia"
+        ],
+        "countries": [
+          "GR"
+        ],
+        "is_corresponding": true
+      },
+      {
+        "name": "Ioannis Athanasopoulos",
+        "position": "last",
+        "institutions": [
+          "Athens Medical Center"
+        ],
+        "countries": [
+          "GR"
+        ],
+        "is_corresponding": false
+      }
+    ],
+    "cited_by_count": 2,
+    "referenced_works": [
+      "https://openalex.org/W1540298277",
+      "https://openalex.org/W3004242928",
+      "https://openalex.org/W2528445454",
+      "https://openalex.org/W3034441131",
+      "https://openalex.org/W2982603970",
+      "https://openalex.org/W2144391334",
+      "https://openalex.org/W2899480397",
+      "https://openalex.org/W2792419153",
+      "https://openalex.org/W2075286887",
+      "https://openalex.org/W2979337522",
+      "https://openalex.org/W4205803724",
+      "https://openalex.org/W2168734286",
+      "https://openalex.org/W4225751069",
+      "https://openalex.org/W2093767203",
+      "https://openalex.org/W3136877865",
+      "https://openalex.org/W1594375673",
+      "https://openalex.org/W2108644816",
+      "https://openalex.org/W2071067910",
+      "https://openalex.org/W4296688658",
+      "https://openalex.org/W2101593453",
+      "https://openalex.org/W2147107881",
+      "https://openalex.org/W2125493888",
+      "https://openalex.org/W2018058618",
+      "https://openalex.org/W2142125312",
+      "https://openalex.org/W1977458976",
+      "https://openalex.org/W3125757179",
+      "https://openalex.org/W2063772724",
+      "https://openalex.org/W2071543050",
+      "https://openalex.org/W2033281822",
+      "https://openalex.org/W2162457391",
+      "https://openalex.org/W2801819615",
+      "https://openalex.org/W4312065165",
+      "https://openalex.org/W2374560375",
+      "https://openalex.org/W2145920349",
+      "https://openalex.org/W4286560345",
+      "https://openalex.org/W3171822734",
+      "https://openalex.org/W1511463635",
+      "https://openalex.org/W2170793161",
+      "https://openalex.org/W2023612120",
+      "https://openalex.org/W4380087240",
+      "https://openalex.org/W1591479227",
+      "https://openalex.org/W1903103033",
+      "https://openalex.org/W2074385893",
+      "https://openalex.org/W3137868497",
+      "https://openalex.org/W2146273713",
+      "https://openalex.org/W1928978034",
+      "https://openalex.org/W2902579563",
+      "https://openalex.org/W4293088818",
+      "https://openalex.org/W2116383986",
+      "https://openalex.org/W3158699018"
+    ],
+    "SJR": 0.332,
+    "SJR_Normalized": 0.2866815721181974,
+    "abstract": "autoimmune and autoinflammatory diseases affecting the inner ear can cause symptoms such as hearing loss, imbalance, vertigo, and tinnitus, presenting demanding and often underdiagnosed conditions. diagnostic challenges arise due to their diverse manifestations, potential long-term consequences, and the absence of specific serological markers, necessitating a multidisciplinary approach combining clinical evaluation, audiological assessments, and imaging techniques. various autoimmune disorders, including systemic lupus erythematosus, rheumatoid arthritis, and sjogren s syndrome, have been implicated in immune-mediated damage to auditory structures, resulting in inner ear dysfunction. inflammatory processes in autoinflammatory diseases like cogan s syndrome and relapsing polychondritis can also affect the inner ear. while the exact mechanisms of inner ear involvement in these conditions are still being studied, immune-mediated inflammation, damage to auditory structures, and vascular involvement play significant roles in auditory impairments. treatment strategies primarily focus on immunomodulation and inflammation control using corticosteroids, immunosuppressants, and targeted biologic agents to ameliorate symptoms and preserve hearing function. hearing aids and cochlear implants may be also considered for severe hearing loss. individualized approaches are necessary due to patient response heterogeneity. this review provides a concise overview of key autoimmune and autoinflammatory diseases impacting the inner ear, highlighting clinical manifestations, diagnostics, pathophysiology, and treatment options. early recognition and appropriate management are crucial for optimizing patient outcomes. further research is needed to understand underlying mechanisms and identify novel therapeutic targets. collaboration between otolaryngologists, rheumatologists, and immunologists is crucial for improving the quality of life in these complex conditions.",
+    "publication_info": {
+      "host_organization_name": null,
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "classification_path": "Medical and Health Science > Clinical Medicine > Internal Medicine > Cardiology"
+  },
+  {
+    "id": "https://openalex.org/W2321744743",
+    "title": "renal disease in small-vessel vasculitis",
+    "publication_date": "2012-11-01",
+    "display_name": "Renal disease in small-vessel vasculitis",
+    "authorships": [
+      {
+        "name": "Kirsten de Groot",
+        "position": "first",
+        "institutions": [
+          "Sana Klinikum Offenbach"
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": true
+      }
+    ],
+    "cited_by_count": 7,
+    "referenced_works": [
+      "https://openalex.org/W2042178780",
+      "https://openalex.org/W6771011196",
+      "https://openalex.org/W1984423607",
+      "https://openalex.org/W1980437549",
+      "https://openalex.org/W2091038632",
+      "https://openalex.org/W2052310121",
+      "https://openalex.org/W6711986646",
+      "https://openalex.org/W135159150",
+      "https://openalex.org/W1975643526",
+      "https://openalex.org/W2037284992",
+      "https://openalex.org/W2146335424",
+      "https://openalex.org/W2050611378",
+      "https://openalex.org/W1982995520",
+      "https://openalex.org/W12261253",
+      "https://openalex.org/W2142605112",
+      "https://openalex.org/W2138690758",
+      "https://openalex.org/W2164015972",
+      "https://openalex.org/W2037547791",
+      "https://openalex.org/W2127568483",
+      "https://openalex.org/W2050824002",
+      "https://openalex.org/W2103046969",
+      "https://openalex.org/W7073948666",
+      "https://openalex.org/W2025060860",
+      "https://openalex.org/W2163488378",
+      "https://openalex.org/W2112286189",
+      "https://openalex.org/W2147350349",
+      "https://openalex.org/W6663445632",
+      "https://openalex.org/W2160041258",
+      "https://openalex.org/W2110189582",
+      "https://openalex.org/W2126583107",
+      "https://openalex.org/W2121602116",
+      "https://openalex.org/W2151319492",
+      "https://openalex.org/W2006391960",
+      "https://openalex.org/W6699451581",
+      "https://openalex.org/W2119203999",
+      "https://openalex.org/W1966932360",
+      "https://openalex.org/W2006765980",
+      "https://openalex.org/W7074133529",
+      "https://openalex.org/W2055227937",
+      "https://openalex.org/W2134056866",
+      "https://openalex.org/W4244912099",
+      "https://openalex.org/W153719635",
+      "https://openalex.org/W2041371300",
+      "https://openalex.org/W2067260112",
+      "https://openalex.org/W2068050585",
+      "https://openalex.org/W6646727488",
+      "https://openalex.org/W1991528145",
+      "https://openalex.org/W1799090867",
+      "https://openalex.org/W6655819073",
+      "https://openalex.org/W2086462075",
+      "https://openalex.org/W4252871280",
+      "https://openalex.org/W2986316944",
+      "https://openalex.org/W2020289065",
+      "https://openalex.org/W2316785606",
+      "https://openalex.org/W75985149",
+      "https://openalex.org/W208303",
+      "https://openalex.org/W4242743369",
+      "https://openalex.org/W1997342358",
+      "https://openalex.org/W2012901578",
+      "https://openalex.org/W1981778514",
+      "https://openalex.org/W1974697089",
+      "https://openalex.org/W2100647327",
+      "https://openalex.org/W2064405020",
+      "https://openalex.org/W2051534105",
+      "https://openalex.org/W4301140057",
+      "https://openalex.org/W2128603746",
+      "https://openalex.org/W2020345548",
+      "https://openalex.org/W1984345266",
+      "https://openalex.org/W2064179158",
+      "https://openalex.org/W2083297460",
+      "https://openalex.org/W2331223063",
+      "https://openalex.org/W2340321885",
+      "https://openalex.org/W4242577825",
+      "https://openalex.org/W1972331467"
+    ],
+    "SJR": 0.577,
+    "SJR_Normalized": 0.45552430798090127,
+    "abstract": "glomerulonephritis (gn) is a common manifestation of the antineutrophil cytoplasmic antibody-associated systemic vasculitides (aasv), which include granulomatosis with polyangiitis and microscopic polyangiitis. the level of renal involvement at presentation is highly predictive of survival and should be assessed early so that kidney function can be preserved. aasv patients with urinary sediment but normal function have a twofold greater risk of death than those with no renal involvement. those with impaired renal function at diagnosis have a fivefold greater risk of death. renal vasculitis is most prevalent in older patients, who have more severe disease and poorer prognoses. renal biopsy not only establishes diagnosis but provides information on severity of renal-function impairment and prognosis. induction of remission with cyclophosphamide is standard treatment. for patients with crescentic, rapidly progressive gn, adjunctive plasma exchange can promote renal recovery. renal failure occurs in one-fourth of aasv patients after 3 to 4 years; 60% of patients receiving dialysis for acute gn can recover independent renal function. renal transplant patients with vasculitis fare as well as renal transplant patients without vasculitis. lastly, renal vasculitis is an independent risk factor for cardiovascular events.",
+    "publication_info": {
+      "host_organization_name": "Cleveland Clinic",
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "classification_path": "Medical and Health Science > Clinical Medicine > Internal Medicine > Cardiology"
+  }
+]
