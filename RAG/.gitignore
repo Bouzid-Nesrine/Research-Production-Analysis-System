@@ -1,0 +1,37 @@
+# Database files
+chroma_db/
+*.sqlite3
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+logs/
+*.log
+
+# Model files (if any are downloaded)
+*.bin
+*.pt
+*.pth
+*.h5
+*.onnx
+models/
+
+# Environment
+.env
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Visualization outputs (optional - remove if you want to track them)
+*.png
+*.jpg
+*.jpeg
