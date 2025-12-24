@@ -7,7 +7,7 @@ from pathlib import Path
 
 # Paths
 PROJECT_ROOT = Path(__file__).parent.parent
-TAXONOMY_PATH = PROJECT_ROOT / "Taxonomy Building" / "final_alex_taxonomy.json"
+TAXONOMY_PATH = PROJECT_ROOT / "Taxonomy Building" / "preprocessed_taxonomy.json"
 CHROMA_DB_PATH = PROJECT_ROOT / "RAG" / "chroma_db"
 LOGS_PATH = PROJECT_ROOT / "RAG" / "logs"
 
