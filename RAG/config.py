@@ -17,20 +17,23 @@ LOGS_PATH.mkdir(parents=True, exist_ok=True)
 
 # Model Configuration
 EMBEDDING_MODEL_NAME = "all-mpnet-base-v2"  # Options: all-MiniLM-L6-v2, all-mpnet-base-v2, allenai-specter
-LLM_MODEL_NAME = "Qwen/Qwen2.5-14B-Instruct"
+LLM_MODEL_NAME = "gemini-2.0-flash"  # Options: gemini-2.0-flash-exp, gemini-2.5-pro, gemini-1.5-flash, gemini-1.5-pro
+
+# API Configuration (for Google AI Studio)
+# Set GOOGLE_API_KEY in .env file
+GOOGLE_API_BASE_URL = "https://generativelanguage.googleapis.com/v1beta/openai/"
 
 # RAG Configuration
 RAG_CONFIG = {
     # Retrieval parameters
-    "top_k": 10,  # Number of paths to retrieve (5-15 recommended)
-    "similarity_threshold": 0.7,  # Minimum similarity score (0-1)
+    "top_k": 5,  # Number of best paths to retrieve (no threshold filtering)
+    "similarity_threshold": 0.0,  # Disabled - always return top_k best matches
     "diversity_weight": 0.2,  # Weight for diversity in retrieval (0-1)
     
-    # LLM parameters
-    "temperature": 0.3,  # Lower = more deterministic (0.1-0.7)
-    "max_new_tokens": 256,  # Maximum tokens for LLM response
-    "top_p": 0.9,  # Nucleus sampling
-    "do_sample": True,
+    # LLM parameters (for Alibaba Cloud API)
+    "temperature": 0.3,  # Lower = more deterministic (0-2)
+    "max_tokens": 256,  # Maximum tokens for LLM response
+    "top_p": 0.9,  # Nucleus sampling (0-1)
     
     # Processing
     "batch_size": 8,  # For batch processing
@@ -41,12 +44,12 @@ RAG_CONFIG = {
     "embedding_function": None,  # Will be set at runtime
 }
 
-# LLM Loading Configuration
-LLM_LOAD_CONFIG = {
-    "torch_dtype": "auto",
-    "device_map": "auto",
-    "load_in_8bit": False,  # Set to True if GPU memory is limited
-    "trust_remote_code": True,
+# LLM API Configuration (for Google AI Studio)
+LLM_API_CONFIG = {
+    "model_name": LLM_MODEL_NAME,
+    "api_base_url": GOOGLE_API_BASE_URL,
+    "timeout": 60,  # Request timeout in seconds
+    "max_retries": 3,  # Number of retry attempts
 }
 
 # Logging Configuration

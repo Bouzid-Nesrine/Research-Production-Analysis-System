@@ -1,65 +1,52 @@
 """
-LLM Classifier - Interface for Qwen 2.5 Instruct 14B
+LLM Classifier - Interface for Google Gemini via AI Studio API
 """
 
-from transformers import AutoModelForCausalLM, AutoTokenizer
+import os
+import google.generativeai as genai
 from typing import Dict, Any, Optional, List
-import torch
 import logging
 import re
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 logger = logging.getLogger(__name__)
 
 
 class LLMClassifier:
-    """Qwen 2.5 Instruct 14B classifier for taxonomy classification"""
+    """Google Gemini classifier using AI Studio API"""
     
     def __init__(
         self,
-        model_name: str = "Qwen/Qwen2.5-14B-Instruct",
-        device_map: str = "auto",
-        load_in_8bit: bool = False,
-        torch_dtype: str = "auto"
+        api_key: Optional[str] = None,
+        model_name: str = "gemini-2.0-flash",
+        api_base_url: Optional[str] = None
     ):
         """
-        Initialize LLM classifier
+        Initialize LLM classifier with Google AI Studio API
         
         Args:
-            model_name: Hugging Face model name
-            device_map: Device mapping strategy
-            load_in_8bit: Use 8-bit quantization
-            torch_dtype: Torch data type
+            api_key: Google API key (or set GOOGLE_API_KEY env variable)
+            model_name: Model name (gemini-2.0-flash-exp, gemini-2.5-pro, gemini-1.5-flash, gemini-1.5-pro)
+            api_base_url: Not used (kept for compatibility)
         """
+        self.api_key = api_key or os.getenv('GOOGLE_API_KEY')
+        if not self.api_key:
+            raise ValueError(
+                "API key required. Set GOOGLE_API_KEY environment variable or pass api_key parameter."
+            )
+        
         self.model_name = model_name
         
-        logger.info(f"Loading LLM: {model_name}")
+        # Configure Google Generative AI
+        genai.configure(api_key=self.api_key)
         
-        # Load tokenizer
-        self.tokenizer = AutoTokenizer.from_pretrained(
-            model_name,
-            trust_remote_code=True
-        )
+        # Initialize the model
+        self.model = genai.GenerativeModel(model_name)
         
-        # Load model
-        load_kwargs = {
-            "device_map": device_map,
-            "trust_remote_code": True,
-        }
-        
-        if torch_dtype == "auto":
-            load_kwargs["torch_dtype"] = "auto"
-        else:
-            load_kwargs["torch_dtype"] = getattr(torch, torch_dtype)
-        
-        if load_in_8bit:
-            load_kwargs["load_in_8bit"] = True
-        
-        self.model = AutoModelForCausalLM.from_pretrained(
-            model_name,
-            **load_kwargs
-        )
-        
-        logger.info("LLM loaded successfully")
+        logger.info(f"Initialized LLM classifier with model: {model_name}")
     
     def create_classification_prompt(
         self,
@@ -118,66 +105,46 @@ Confidence: [High/Medium/Low]"""
         self,
         prompt: str,
         temperature: float = 0.3,
-        max_new_tokens: int = 256,
+        max_tokens: int = 256,
         top_p: float = 0.9,
-        do_sample: bool = True
+        **kwargs
     ) -> str:
         """
-        Generate classification using LLM
+        Generate classification using Google AI Studio API
         
         Args:
             prompt: Classification prompt
-            temperature: Sampling temperature (lower = more deterministic)
-            max_new_tokens: Maximum tokens to generate
-            top_p: Nucleus sampling parameter
-            do_sample: Whether to use sampling
+            temperature: Sampling temperature (lower = more deterministic, 0-2)
+            max_tokens: Maximum tokens to generate
+            top_p: Nucleus sampling parameter (0-1)
+            **kwargs: Additional API parameters
             
         Returns:
             LLM response text
         """
-        # Format as chat
-        messages = [
-            {
-                "role": "system",
-                "content": "You are an expert research article classifier with deep knowledge across all scientific domains."
-            },
-            {
-                "role": "user",
-                "content": prompt
-            }
-        ]
+        # Build system message + user prompt
+        full_prompt = "You are an expert research article classifier with deep knowledge across all scientific domains.\n\n" + prompt
         
-        # Apply chat template
-        text = self.tokenizer.apply_chat_template(
-            messages,
-            tokenize=False,
-            add_generation_prompt=True
-        )
-        
-        # Tokenize
-        model_inputs = self.tokenizer(
-            [text],
-            return_tensors="pt"
-        ).to(self.model.device)
-        
-        # Generate
-        with torch.no_grad():
-            generated_ids = self.model.generate(
-                **model_inputs,
-                max_new_tokens=max_new_tokens,
+        try:
+            # Configure generation parameters
+            generation_config = genai.GenerationConfig(
                 temperature=temperature,
                 top_p=top_p,
-                do_sample=do_sample,
-                pad_token_id=self.tokenizer.eos_token_id
+                max_output_tokens=max_tokens,
             )
-        
-        # Decode response
-        response = self.tokenizer.batch_decode(
-            generated_ids[:, model_inputs.input_ids.shape[1]:],
-            skip_special_tokens=True
-        )[0]
-        
-        return response.strip()
+            
+            # Generate response
+            response = self.model.generate_content(
+                full_prompt,
+                generation_config=generation_config
+            )
+            
+            # Extract text
+            return response.text.strip()
+                
+        except Exception as e:
+            logger.error(f"API request failed: {e}")
+            raise
     
     def parse_classification_response(
         self,
@@ -296,12 +263,11 @@ Confidence: [High/Medium/Low]"""
 
 def main():
     """Example usage"""
-    logger.basicConfig(level=logging.INFO)
+    logging.basicConfig(level=logging.INFO)
     
-    # Initialize classifier
+    # Initialize classifier (API key from environment)
     classifier = LLMClassifier(
-        model_name="Qwen/Qwen2.5-14B-Instruct",
-        load_in_8bit=False  # Set to True if GPU memory limited
+        model_name="gemini-2.5-flash-lite"  # Options: gemini-2.0-flash-exp, gemini-2.5-pro, gemini-1.5-flash, gemini-1.5-pro
     )
     
     # Example article

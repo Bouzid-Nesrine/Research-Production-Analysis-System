@@ -1,14 +1,14 @@
 # RAG-Based Taxonomy Classification System
 
-Efficient research article classification using Retrieval-Augmented Generation (RAG) with ChromaDB and Qwen 2.5 Instruct 14B.
+Efficient research article classification using Retrieval-Augmented Generation (RAG) with ChromaDB and Qwen 2.5 via Alibaba Cloud API.
 
 ## 🎯 Overview
 
 This system classifies research articles into a hierarchical taxonomy using:
-- **Vector Database (ChromaDB)**: Stores 700+ taxonomy paths as embeddings
+- **Vector Database (ChromaDB)**: Stores 4500+ taxonomy paths as embeddings
 - **Semantic Retrieval**: Finds top-k most relevant paths for each article
-- **LLM Classification**: Qwen 2.5 Instruct 14B selects the best path
-- **Performance**: 96-98% token reduction, 80-85% faster inference
+- **LLM Classification**: Qwen 2.5 (via Alibaba Cloud API) selects the best path
+- **Performance**: 96-98% token reduction, 80-85% faster inference, no GPU required
 
 ## 📊 Performance Benefits
 
@@ -18,6 +18,7 @@ This system classifies research articles into a hierarchical taxonomy using:
 | Inference time | 30-60s | 5-10s | **80-85% ↓** |
 | Accuracy | Baseline | +5-15% | **Better** |
 | Cost per 1K articles | $X | $0.02X | **98% ↓** |
+| GPU Required | Yes (28GB model) | No (API) | **Cloud-based** |
 
 ## 🚀 Quick Start
 
@@ -31,10 +32,22 @@ cd RAG
 pip install -r requirements.txt
 ```
 
-### 2. Setup Database
+### 2. Configure API Key
 
 ```bash
-# Initialize ChromaDB with taxonomy paths
+# Copy environment template
+cp .env.example .env
+
+# Edit .env and add your Alibaba Cloud API key
+# ALIBABA_API_KEY=sk-your-api-key-here
+```
+
+**📖 See [API_SETUP.md](API_SETUP.md) for detailed instructions on getting your API key**
+
+### 3. Setup Database
+
+```bash
+# Initialize ChromaDB with taxonomy paths (one-time setup)
 python setup_pipeline.py
 
 # To reset and rebuild database
@@ -42,18 +55,18 @@ python setup_pipeline.py --reset
 ```
 
 This will:
-- Parse taxonomy into 700+ hierarchical paths
-- Generate embeddings using sentence-transformers
+- Parse taxonomy into 4500+ hierarchical paths
+- Generate embeddings using sentence-transformers (CPU-friendly)
 - Store in ChromaDB for fast retrieval
 
-### 3. Classify Articles
+### 4. Classify Articles
 
 #### Python Script
 
 ```python
 from rag_pipeline import RAGClassificationPipeline
 
-# Initialize pipeline
+# Initialize pipeline (automatically uses Alibaba Cloud API)
 pipeline = RAGClassificationPipeline(auto_setup=True)
 
 # Classify single article
@@ -91,10 +104,12 @@ RAG/
 ├── config.py                   # Configuration settings
 ├── taxonomy_parser.py          # Parse taxonomy into paths
 ├── vector_db_manager.py        # ChromaDB interface
-├── llm_classifier.py           # Qwen LLM interface
+├── llm_classifier.py           # Qwen API interface
 ├── rag_pipeline.py             # Complete pipeline
 ├── setup_pipeline.py           # Database setup script
 ├── requirements.txt            # Dependencies
+├── .env.example                # Environment template
+├── API_SETUP.md                # API configuration guide
 ├── PIPELINE.md                 # Detailed documentation
 ├── README.md                   # This file
 ├── RAG_Classification_Demo.ipynb  # Interactive demo
@@ -113,13 +128,15 @@ Edit `config.py` to customize:
 RAG_CONFIG = {
     "top_k": 10,                    # Paths to retrieve (5-15)
     "similarity_threshold": 0.7,     # Min similarity (0-1)
-    "temperature": 0.3,              # LLM temperature
-    "max_new_tokens": 256,           # Max response length
+    "temperature": 0.3,              # LLM temperature (0-2)
+    "max_tokens": 256,               # Max response length
 }
 
 EMBEDDING_MODEL_NAME = "all-mpnet-base-v2"  # Embedding model
-LLM_MODEL_NAME = "Qwen/Qwen2.5-14B-Instruct"  # LLM model
+LLM_MODEL_NAME = "qwen-plus"  # API model: qwen-turbo, qwen-plus, qwen-max
 ```
+
+**📖 See [API_SETUP.md](API_SETUP.md) for API configuration options**
 
 ## 📖 Detailed Workflow
 
@@ -143,7 +160,7 @@ LLM_MODEL_NAME = "Qwen/Qwen2.5-14B-Instruct"  # LLM model
 
 2. **LLM Classification**
    - Format prompt with article + retrieved paths
-   - Query Qwen 2.5 Instruct 14B
+   - Query Qwen 2.5 via Alibaba Cloud API
    - Parse structured response
 
 3. **Validation**
@@ -166,14 +183,14 @@ pipeline = RAGClassificationPipeline(
 )
 ```
 
-### 8-bit Quantization (Save GPU Memory)
+### Different API Models
 
 ```python
-# Edit config.py
-LLM_LOAD_CONFIG = {
-    "load_in_8bit": True,  # Enable 8-bit quantization
-    "device_map": "auto",
-}
+# Faster, cheaper (high-volume classification)
+pipeline = RAGClassificationPipeline(llm_model="qwen-turbo")
+
+# Better accuracy (critical classifications)
+pipeline = RAGClassificationPipeline(llm_model="qwen-max")
 ```
 
 ### Hyperparameter Tuning

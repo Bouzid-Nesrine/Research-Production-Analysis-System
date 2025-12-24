@@ -1,0 +1,31 @@
+article_title,rank,path,similarity,domain,level
+Deep Learning for Medical Image Segmentation,1,Physical Sciences > Computer Science > Computer Vision and Pattern Recognition > Medical Image Segmentation Techniques,-0.05857419967651367,Physical Sciences,4
+Deep Learning for Medical Image Segmentation,2,"Health Sciences > Medicine > Radiology, Nuclear Medicine and Imaging > COVID-19 diagnosis using AI",-0.10007095336914062,Health Sciences,4
+Deep Learning for Medical Image Segmentation,3,"Health Sciences > Medicine > Radiology, Nuclear Medicine and Imaging > Radiomics and Machine Learning in Medical Imaging",-0.10348725318908691,Health Sciences,4
+Deep Learning for Medical Image Segmentation,4,Physical Sciences > Computer Science > Artificial Intelligence > AI in cancer detection,-0.21369612216949463,Physical Sciences,4
+Deep Learning for Medical Image Segmentation,5,Life Sciences > Neuroscience > Neurology > Brain Tumor Detection and Classification,-0.2970043420791626,Life Sciences,4
+Deep Learning for Medical Image Segmentation,6,"Health Sciences > Medicine > Radiology, Nuclear Medicine and Imaging > MRI in cancer diagnosis",-0.3276987075805664,Health Sciences,4
+Deep Learning for Medical Image Segmentation,7,Physical Sciences > Computer Science > Computer Vision and Pattern Recognition > Digital Imaging for Blood Diseases,-0.3767406940460205,Physical Sciences,4
+Deep Learning for Medical Image Segmentation,8,Physical Sciences > Computer Science > Artificial Intelligence > Machine Learning in Healthcare,-0.38228607177734375,Physical Sciences,4
+Deep Learning for Medical Image Segmentation,9,Physical Sciences > Computer Science > Computer Vision and Pattern Recognition > Generative Adversarial Networks and Image Synthesis,-0.4133491516113281,Physical Sciences,4
+Deep Learning for Medical Image Segmentation,10,"Health Sciences > Medicine > Public Health, Environmental and Occupational Health > Digital Imaging in Medicine",-0.43155813217163086,Health Sciences,4
+Climate Change Impact on Crop Productivity,1,"Life Sciences > Agricultural and Biological Sciences > Ecology, Evolution, Behavior and Systematics > Climate change impacts on agriculture",0.3582344055175781,Life Sciences,4
+Climate Change Impact on Crop Productivity,2,Life Sciences > Agricultural and Biological Sciences > Agronomy and Crop Science > Agricultural Productivity and Crop Improvement,0.19396615028381348,Life Sciences,4
+Climate Change Impact on Crop Productivity,3,Life Sciences > Agricultural and Biological Sciences > Agronomy and Crop Science > Crop Yield and Soil Fertility,0.10161161422729492,Life Sciences,4
+Climate Change Impact on Crop Productivity,4,Physical Sciences > Environmental Science > Ecology > Agriculture Sustainability and Environmental Impact,0.10037446022033691,Physical Sciences,4
+Climate Change Impact on Crop Productivity,5,Life Sciences > Agricultural and Biological Sciences > General Agricultural and Biological Sciences > Food Security and Socioeconomic Dynamics,0.06485068798065186,Life Sciences,4
+Climate Change Impact on Crop Productivity,6,"Social Sciences > Economics, Econometrics and Finance > Economics and Econometrics > Economics of Agriculture and Food Markets",0.03332090377807617,Social Sciences,4
+Climate Change Impact on Crop Productivity,7,Life Sciences > Agricultural and Biological Sciences > Agronomy and Crop Science > Agricultural Development and Policies,0.0332263708114624,Life Sciences,4
+Climate Change Impact on Crop Productivity,8,Social Sciences > Decision Sciences > Management Science and Operations Research > demographic modeling and climate adaptation,0.016027450561523438,Social Sciences,4
+Climate Change Impact on Crop Productivity,9,Physical Sciences > Environmental Science > Ecology > Remote Sensing in Agriculture,0.009692370891571045,Physical Sciences,4
+Climate Change Impact on Crop Productivity,10,Life Sciences > Agricultural and Biological Sciences > Plant Science > Greenhouse Technology and Climate Control,-0.009952306747436523,Life Sciences,4
+Quantum Algorithms for Optimization,1,Physical Sciences > Computer Science > Artificial Intelligence > Quantum Computing Algorithms and Architecture,0.12188708782196045,Physical Sciences,4
+Quantum Algorithms for Optimization,2,Physical Sciences > Computer Science > Artificial Intelligence > Quantum Information and Cryptography,0.05880284309387207,Physical Sciences,4
+Quantum Algorithms for Optimization,3,Physical Sciences > Computer Science > Computer Networks and Communications > Optimization and Search Problems,-0.12971293926239014,Physical Sciences,4
+Quantum Algorithms for Optimization,4,Physical Sciences > Computer Science > Computational Theory and Mathematics > Advanced Multi-Objective Optimization Algorithms,-0.1571863889694214,Physical Sciences,4
+Quantum Algorithms for Optimization,5,Physical Sciences > Computer Science > Artificial Intelligence > Metaheuristic Optimization Algorithms Research,-0.1659069061279297,Physical Sciences,4
+Quantum Algorithms for Optimization,6,Physical Sciences > Computer Science > Computer Networks and Communications > Constraint Satisfaction and Optimization,-0.17847657203674316,Physical Sciences,4
+Quantum Algorithms for Optimization,7,Physical Sciences > Mathematics > Numerical Analysis > Advanced Optimization Algorithms Research,-0.1917588710784912,Physical Sciences,4
+Quantum Algorithms for Optimization,8,Physical Sciences > Computer Science > Computational Theory and Mathematics > Quantum-Dot Cellular Automata,-0.2070009708404541,Physical Sciences,4
+Quantum Algorithms for Optimization,9,Physical Sciences > Engineering > Industrial and Manufacturing Engineering > Scheduling and Optimization Algorithms,-0.23624753952026367,Physical Sciences,4
+Quantum Algorithms for Optimization,10,Physical Sciences > Engineering > Industrial and Manufacturing Engineering > Vehicle Routing Optimization Methods,-0.2388474941253662,Physical Sciences,4
