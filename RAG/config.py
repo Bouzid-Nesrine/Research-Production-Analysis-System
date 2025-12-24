@@ -17,7 +17,7 @@ LOGS_PATH.mkdir(parents=True, exist_ok=True)
 
 # Model Configuration
 EMBEDDING_MODEL_NAME = "all-mpnet-base-v2"  # Options: all-MiniLM-L6-v2, all-mpnet-base-v2, allenai-specter
-LLM_MODEL_NAME = "gemini-2.0-flash"  # Options: gemini-2.0-flash-exp, gemini-2.5-pro, gemini-1.5-flash, gemini-1.5-pro
+LLM_MODEL_NAME = "gemini-2.5-flash-lite"  # Options: gemini-2.5-flash-lite, gemini-2.0-flash, gemini-1.5-flash
 
 # API Configuration (for Google AI Studio)
 # Set GOOGLE_API_KEY in .env file
