@@ -16,8 +16,9 @@ CHROMA_DB_PATH.mkdir(parents=True, exist_ok=True)
 LOGS_PATH.mkdir(parents=True, exist_ok=True)
 
 # Model Configuration
-EMBEDDING_MODEL_NAME = "all-mpnet-base-v2"  # Options: all-MiniLM-L6-v2, all-mpnet-base-v2, allenai-specter
-LLM_MODEL_NAME = "gemini-2.5-flash-lite"  # Options: gemini-2.5-flash-lite, gemini-2.0-flash, gemini-1.5-flash
+# Using lighter model for faster embeddings (all-MiniLM-L6-v2 is 5x faster than mpnet)
+EMBEDDING_MODEL_NAME = "all-MiniLM-L6-v2"  # Options: all-MiniLM-L6-v2 (fast), all-mpnet-base-v2 (accurate), allenai-specter
+LLM_MODEL_NAME = "gemini-2.5-flash-lite"  # Options: gemini-2.0-flash (fast), gemini-2.5-flash-lite, gemini-1.5-flash
 
 # API Configuration (for Google AI Studio)
 # Set GOOGLE_API_KEY in .env file
@@ -25,15 +26,15 @@ GOOGLE_API_BASE_URL = "https://generativelanguage.googleapis.com/v1beta/openai/"
 
 # RAG Configuration
 RAG_CONFIG = {
-    # Retrieval parameters
-    "top_k": 5,  # Number of best paths to retrieve (no threshold filtering)
+    # Retrieval parameters (optimized for speed)
+    "top_k": 5,  # Reduced from 5 - fewer paths = faster LLM processing
     "similarity_threshold": 0.0,  # Disabled - always return top_k best matches
-    "diversity_weight": 0.2,  # Weight for diversity in retrieval (0-1)
+    "diversity_weight": 0.1,  # Reduced for faster retrieval
     
-    # LLM parameters (for Alibaba Cloud API)
-    "temperature": 0.3,  # Lower = more deterministic (0-2)
-    "max_tokens": 256,  # Maximum tokens for LLM response
-    "top_p": 0.9,  # Nucleus sampling (0-1)
+    # LLM parameters (optimized for speed)
+    "temperature": 0.1,  # Lower = faster, more deterministic
+    "max_tokens": 150,  # Reduced from 256 - we only need path + confidence
+    "top_p": 0.8,  # Slightly reduced for faster generation
     
     # Processing
     "batch_size": 8,  # For batch processing
@@ -48,8 +49,8 @@ RAG_CONFIG = {
 LLM_API_CONFIG = {
     "model_name": LLM_MODEL_NAME,
     "api_base_url": GOOGLE_API_BASE_URL,
-    "timeout": 60,  # Request timeout in seconds
-    "max_retries": 3,  # Number of retry attempts
+    "timeout": 30,  # Reduced timeout for faster failure detection
+    "max_retries": 1,  # Reduced retries for speed
 }
 
 # Logging Configuration

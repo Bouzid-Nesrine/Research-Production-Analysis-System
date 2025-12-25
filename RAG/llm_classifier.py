@@ -53,10 +53,10 @@ class LLMClassifier:
         title: str,
         abstract: str,
         relevant_paths: List[str],
-        include_reasoning: bool = True
+        include_reasoning: bool = False  # Disabled by default for speed
     ) -> str:
         """
-        Create optimized prompt for classification
+        Create optimized prompt for classification (shortened for speed)
         
         Args:
             title: Article title
@@ -73,31 +73,26 @@ class LLMClassifier:
             for i, path in enumerate(relevant_paths)
         ])
         
-        # Build prompt
-        prompt = f"""You are an expert research article classifier. Your task is to classify the given article into the most appropriate category from the provided taxonomy paths.
+        # Truncate abstract if too long (save tokens)
+        max_abstract_len = 500
+        if len(abstract) > max_abstract_len:
+            abstract = abstract[:max_abstract_len] + "..."
+        
+        # Shortened prompt for faster processing
+        prompt = f"""Classify this research article into ONE taxonomy path from the list.
 
-Article Title: {title}
+Title: {title}
+Abstract: {abstract}
 
-Article Abstract: {abstract}
-
-Relevant Taxonomy Paths (ranked by relevance):
+Paths:
 {paths_text}
 
-Instructions:
-1. Carefully analyze the article's title and abstract to understand its main research focus
-2. Compare the article's content with each taxonomy path
-3. Select EXACTLY ONE path that best represents the article's primary research area
-4. The path must be chosen from the list above
-5. Provide your selection in the exact format specified below
-
-Response Format:
-Path: [Copy the complete path exactly as shown above]
+Reply with ONLY:
+Path: [exact path from list]
 Confidence: [High/Medium/Low]"""
         
         if include_reasoning:
-            prompt += "\nReasoning: [Brief explanation in 1-2 sentences why this path was chosen]\n"
-        
-        prompt += "\nYour classification:"
+            prompt += "\nReasoning: [1 sentence]"
         
         return prompt
     
