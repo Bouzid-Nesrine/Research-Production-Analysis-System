@@ -7,6 +7,7 @@ import google.generativeai as genai
 from typing import Dict, Any, Optional, List
 import logging
 import re
+import time
 from dotenv import load_dotenv
 
 # Load environment variables
@@ -16,11 +17,12 @@ logger = logging.getLogger(__name__)
 
 
 class LLMClassifier:
-    """Google Gemini classifier using AI Studio API"""
+    """Google Gemini classifier using AI Studio API with automatic key rotation"""
     
     def __init__(
         self,
         api_key: Optional[str] = None,
+        api_keys: Optional[List[str]] = None,
         model_name: str = "gemini-2.0-flash",
         api_base_url: Optional[str] = None
     ):
@@ -28,25 +30,63 @@ class LLMClassifier:
         Initialize LLM classifier with Google AI Studio API
         
         Args:
-            api_key: Google API key (or set GOOGLE_API_KEY env variable)
+            api_key: Single Google API key (legacy support)
+            api_keys: List of Google API keys for automatic rotation
             model_name: Model name (gemini-2.0-flash-exp, gemini-2.5-pro, gemini-1.5-flash, gemini-1.5-pro)
             api_base_url: Not used (kept for compatibility)
         """
-        self.api_key = api_key or os.getenv('GOOGLE_API_KEY')
-        if not self.api_key:
+        # Load API keys from environment or parameters
+        if api_keys:
+            self.api_keys = api_keys
+        elif os.getenv('GOOGLE_API_KEYS'):
+            # Multiple keys separated by comma
+            self.api_keys = [k.strip() for k in os.getenv('GOOGLE_API_KEYS').split(',') if k.strip()]
+        elif api_key:
+            self.api_keys = [api_key]
+        elif os.getenv('GOOGLE_API_KEY'):
+            self.api_keys = [os.getenv('GOOGLE_API_KEY')]
+        else:
             raise ValueError(
-                "API key required. Set GOOGLE_API_KEY environment variable or pass api_key parameter."
+                "API key required. Set GOOGLE_API_KEYS (comma-separated) or GOOGLE_API_KEY environment variable."
             )
         
         self.model_name = model_name
+        self.current_key_index = 0
+        self.key_failure_count = {i: 0 for i in range(len(self.api_keys))}
         
-        # Configure Google Generative AI
-        genai.configure(api_key=self.api_key)
+        # Configure with first API key
+        self._configure_api_key(self.api_keys[0])
         
-        # Initialize the model
-        self.model = genai.GenerativeModel(model_name)
+        logger.info(f"Initialized LLM classifier with {len(self.api_keys)} API key(s) and model: {model_name}")
+    
+    def _configure_api_key(self, api_key: str):
+        """Configure Google Generative AI with specific API key"""
+        genai.configure(api_key=api_key)
+        self.model = genai.GenerativeModel(self.model_name)
+        self.current_api_key = api_key
+    
+    def _rotate_api_key(self) -> bool:
+        """Rotate to next available API key"""
+        if len(self.api_keys) == 1:
+            logger.warning("Only one API key available, cannot rotate")
+            return False
         
-        logger.info(f"Initialized LLM classifier with model: {model_name}")
+        original_index = self.current_key_index
+        attempts = 0
+        
+        while attempts < len(self.api_keys):
+            self.current_key_index = (self.current_key_index + 1) % len(self.api_keys)
+            
+            # Skip keys that have failed too many times (more than 5 consecutive failures)
+            if self.key_failure_count[self.current_key_index] < 5:
+                self._configure_api_key(self.api_keys[self.current_key_index])
+                logger.info(f"Rotated to API key #{self.current_key_index + 1}")
+                return True
+            
+            attempts += 1
+        
+        logger.error("All API keys have failed multiple times")
+        return False
     
     def create_classification_prompt(
         self,
@@ -102,16 +142,18 @@ Confidence: [High/Medium/Low]"""
         temperature: float = 0.3,
         max_tokens: int = 256,
         top_p: float = 0.9,
+        max_retries: int = 3,
         **kwargs
     ) -> str:
         """
-        Generate classification using Google AI Studio API
+        Generate classification using Google AI Studio API with automatic key rotation
         
         Args:
             prompt: Classification prompt
             temperature: Sampling temperature (lower = more deterministic, 0-2)
             max_tokens: Maximum tokens to generate
             top_p: Nucleus sampling parameter (0-1)
+            max_retries: Maximum retry attempts with key rotation
             **kwargs: Additional API parameters
             
         Returns:
@@ -120,26 +162,62 @@ Confidence: [High/Medium/Low]"""
         # Build system message + user prompt
         full_prompt = "You are an expert research article classifier with deep knowledge across all scientific domains.\n\n" + prompt
         
-        try:
-            # Configure generation parameters
-            generation_config = genai.GenerationConfig(
-                temperature=temperature,
-                top_p=top_p,
-                max_output_tokens=max_tokens,
-            )
-            
-            # Generate response
-            response = self.model.generate_content(
-                full_prompt,
-                generation_config=generation_config
-            )
-            
-            # Extract text
-            return response.text.strip()
+        last_exception = None
+        
+        for attempt in range(max_retries):
+            try:
+                # Configure generation parameters
+                generation_config = genai.GenerationConfig(
+                    temperature=temperature,
+                    top_p=top_p,
+                    max_output_tokens=max_tokens,
+                )
                 
-        except Exception as e:
-            logger.error(f"API request failed: {e}")
-            raise
+                # Generate response
+                response = self.model.generate_content(
+                    full_prompt,
+                    generation_config=generation_config
+                )
+                
+                # Success - reset failure count for this key
+                self.key_failure_count[self.current_key_index] = 0
+                
+                # Extract text
+                return response.text.strip()
+                    
+            except Exception as e:
+                last_exception = e
+                error_msg = str(e).lower()
+                
+                # Increment failure count
+                self.key_failure_count[self.current_key_index] += 1
+                
+                # Check if it's a rate limit or quota error
+                is_rate_limit = any(keyword in error_msg for keyword in 
+                    ['rate limit', 'quota', 'resource exhausted', '429', 'quota exceeded'])
+                
+                if is_rate_limit:
+                    logger.warning(f"API key #{self.current_key_index + 1} hit rate limit: {e}")
+                    
+                    # Try to rotate to next key
+                    if attempt < max_retries - 1 and self._rotate_api_key():
+                        logger.info(f"Retrying with new API key (attempt {attempt + 2}/{max_retries})")
+                        time.sleep(0.5)  # Brief pause before retry
+                        continue
+                    else:
+                        logger.error("No more API keys available or all keys exhausted")
+                        break
+                else:
+                    # Other errors - log and retry with same key
+                    logger.error(f"API request failed (attempt {attempt + 1}/{max_retries}): {e}")
+                    if attempt < max_retries - 1:
+                        time.sleep(1)  # Brief pause before retry
+                    else:
+                        break
+        
+        # All retries failed
+        logger.error(f"All {max_retries} attempts failed. Last error: {last_exception}")
+        raise last_exception
     
     def parse_classification_response(
         self,
@@ -224,6 +302,29 @@ Confidence: [High/Medium/Low]"""
             'prompt_length': len(prompt),
             'response_length': len(response),
         }
+    
+    def get_api_key_status(self) -> Dict[str, Any]:
+        """
+        Get current status of all API keys
+        
+        Returns:
+            Dictionary with API key usage statistics
+        """
+        return {
+            'total_keys': len(self.api_keys),
+            'current_key_index': self.current_key_index + 1,
+            'current_key_prefix': self.current_api_key[:20] + '...',
+            'failure_counts': {
+                f'key_{i+1}': count 
+                for i, count in self.key_failure_count.items()
+            },
+            'healthy_keys': sum(1 for count in self.key_failure_count.values() if count < 5)
+        }
+    
+    def reset_key_failures(self):
+        """Reset failure counts for all API keys"""
+        self.key_failure_count = {i: 0 for i in range(len(self.api_keys))}
+        logger.info("Reset all API key failure counts")
     
     def batch_classify(
         self,

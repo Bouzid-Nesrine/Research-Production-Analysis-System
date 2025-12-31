@@ -7,7 +7,8 @@ Efficient research article classification using Retrieval-Augmented Generation (
 This system classifies research articles into a hierarchical taxonomy using:
 - **Vector Database (ChromaDB)**: Stores 4500+ taxonomy paths as embeddings
 - **Semantic Retrieval**: Finds top-k most relevant paths for each article
-- **LLM Classification**: Qwen 2.5 (via Alibaba Cloud API) selects the best path
+- **LLM Classification**: Google Gemini (via AI Studio API) selects the best path
+- **Automatic API Key Rotation**: Seamlessly switches between multiple API keys when rate limits are hit
 - **Performance**: 96-98% token reduction, 80-85% faster inference, no GPU required
 
 ## 📊 Performance Benefits
@@ -32,17 +33,22 @@ cd RAG
 pip install -r requirements.txt
 ```
 
-### 2. Configure API Key
+### 2. Configure API Keys
 
 ```bash
 # Copy environment template
 cp .env.example .env
 
-# Edit .env and add your Alibaba Cloud API key
-# ALIBABA_API_KEY=sk-your-api-key-here
+# Edit .env and add your Google AI Studio API keys
+# For single key:
+# GOOGLE_API_KEY=AIzaSy...
+
+# For multiple keys (recommended - automatic rotation):
+# GOOGLE_API_KEYS=AIzaSy...,AIzaSy...,AIzaSy...,AIzaSy...
 ```
 
-**📖 See [API_SETUP.md](API_SETUP.md) for detailed instructions on getting your API key**
+**📖 See [API_SETUP.md](API_SETUP.md) for getting API keys**  
+**📖 See [API_KEY_ROTATION.md](API_KEY_ROTATION.md) for multi-key setup**
 
 ### 3. Setup Database
 

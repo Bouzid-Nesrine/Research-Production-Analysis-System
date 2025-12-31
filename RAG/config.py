@@ -18,7 +18,7 @@ LOGS_PATH.mkdir(parents=True, exist_ok=True)
 # Model Configuration
 # Using lighter model for faster embeddings (all-MiniLM-L6-v2 is 5x faster than mpnet)
 EMBEDDING_MODEL_NAME = "all-MiniLM-L6-v2"  # Options: all-MiniLM-L6-v2 (fast), all-mpnet-base-v2 (accurate), allenai-specter
-LLM_MODEL_NAME = "gemini-2.5-flash-lite"  # Options: gemini-2.0-flash (fast), gemini-2.5-flash-lite, gemini-1.5-flash
+LLM_MODEL_NAME = "gemini-2.5-flash-lite"  # Options: gemini-2.0-flash-exp (fast, stable), gemini-1.5-flash, gemini-1.5-pro
 
 # API Configuration (for Google AI Studio)
 # Set GOOGLE_API_KEY in .env file

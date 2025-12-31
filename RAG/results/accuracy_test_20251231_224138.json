@@ -1,0 +1,135 @@
+{
+  "test_date": "2025-12-31T22:41:38.284647",
+  "test_data_file": "test_data_20_articles.json",
+  "metrics": {
+    "exact_match_accuracy": 0.0,
+    "domain_accuracy": 60.0,
+    "field_accuracy": 0.0,
+    "subfield_accuracy": 0.0,
+    "hierarchical_accuracies": {
+      "level_1": 60.0,
+      "level_2": 0.0,
+      "level_3": 0.0
+    },
+    "exact_matches": 0,
+    "total_evaluated": 10,
+    "avg_inference_time": 0.6444218635559082,
+    "confidence_distribution": {
+      "high": 9,
+      "medium": 0,
+      "low": 1
+    }
+  },
+  "detailed_results": [
+    {
+      "article_id": 1,
+      "title": "Two-Dimensional CH3NH3PbI3 with High Efficiency and Superior Carrier Mobility: A Theoretical Study",
+      "ground_truth": "Engineering and Technology > Material Engineering > Material Science > Nanomaterial",
+      "predicted": "Engineering and Technology > Nanotechnology > Nanomaterial > Two-Dimensional Material",
+      "confidence": "High",
+      "exact_match": false,
+      "inference_time": 0.9345963001251221,
+      "retrieved_paths": [],
+      "retrieval_scores": []
+    },
+    {
+      "article_id": 2,
+      "title": "Multimodal and Covert–Overt Convertible Structural Coloration Transformed by Mechanical Stress",
+      "ground_truth": "Engineering and Technology > Material Engineering > Material Science > Nanomaterial",
+      "predicted": "Natural Science > Physical Science > Material Science > Nanomaterial",
+      "confidence": "High",
+      "exact_match": false,
+      "inference_time": 0.6479709148406982,
+      "retrieved_paths": [],
+      "retrieval_scores": []
+    },
+    {
+      "article_id": 3,
+      "title": "2D–Materials‐Based Quantum Dots: Gateway Towards Next‐Generation Optical Devices",
+      "ground_truth": "Engineering and Technology > Material Engineering > Material Science > Nanomaterial",
+      "predicted": "Engineering and Technology > Nanotechnology > Nanomaterial > Quantum Dot",
+      "confidence": "High",
+      "exact_match": false,
+      "inference_time": 0.41126513481140137,
+      "retrieved_paths": [],
+      "retrieval_scores": []
+    },
+    {
+      "article_id": 4,
+      "title": "Intrinsic Ferroelasticity and/or Multiferroicity in Two-Dimensional Phosphorene and Phosphorene Analogues",
+      "ground_truth": "Engineering and Technology > Material Engineering > Material Science > Nanomaterial",
+      "predicted": "Engineering and Technology > Nanotechnology > Nanomaterial > Two-Dimensional Material",
+      "confidence": "High",
+      "exact_match": false,
+      "inference_time": 0.548527717590332,
+      "retrieved_paths": [],
+      "retrieval_scores": []
+    },
+    {
+      "article_id": 5,
+      "title": "2D/2D g-C3N4/MnO2 Nanocomposite as a Direct Z-Scheme Photocatalyst for Enhanced Photocatalytic Activity",
+      "ground_truth": "Engineering and Technology > Material Engineering > Material Science > Nanomaterial",
+      "predicted": "Engineering and Technology > Nanotechnology > Nanomaterial > Nanocomposite",
+      "confidence": "High",
+      "exact_match": false,
+      "inference_time": 0.9410851001739502,
+      "retrieved_paths": [],
+      "retrieval_scores": []
+    },
+    {
+      "article_id": 6,
+      "title": "Synthesis and Structure–Property Relationships of Polyimide Covalent Organic Frameworks for Carbon Dioxide Capture and (Aqueous) Sodium-Ion Batteries",
+      "ground_truth": "Engineering and Technology > Material Engineering > Material Science > Nanomaterial",
+      "predicted": "Natural Science > Chemical Science > Polymer Chemistry > Polymer Characterization",
+      "confidence": "High",
+      "exact_match": false,
+      "inference_time": 0.7791812419891357,
+      "retrieved_paths": [],
+      "retrieval_scores": []
+    },
+    {
+      "article_id": 7,
+      "title": "Facile Construction of Covalent Organic Framework Nanozyme for Colorimetric Detection of Uranium",
+      "ground_truth": "Engineering and Technology > Material Engineering > Material Science > Nanomaterial",
+      "predicted": "Natural Science > Chemical Science > Organic Chemistry > Organometallic Chemistry",
+      "confidence": "Low",
+      "exact_match": false,
+      "inference_time": 0.6974170207977295,
+      "retrieved_paths": [],
+      "retrieval_scores": []
+    },
+    {
+      "article_id": 8,
+      "title": "Nanocomposites of C3N4 with Layers of MoS2 and Nitrogenated RGO, Obtained by Covalent Cross-Linking: Synthesis, Characterization, and HER Activity",
+      "ground_truth": "Engineering and Technology > Material Engineering > Material Science > Nanomaterial",
+      "predicted": "Natural Science > Chemical Science > Green Chemistry > Catalysis",
+      "confidence": "High",
+      "exact_match": false,
+      "inference_time": 0.49082303047180176,
+      "retrieved_paths": [],
+      "retrieval_scores": []
+    },
+    {
+      "article_id": 9,
+      "title": "Energy, Phonon, and Dynamic Stability Criteria of Two-Dimensional Materials",
+      "ground_truth": "Engineering and Technology > Material Engineering > Material Science > Nanomaterial",
+      "predicted": "Engineering and Technology > Nanotechnology > Nanomaterial > Two-Dimensional Material",
+      "confidence": "High",
+      "exact_match": false,
+      "inference_time": 0.5360977649688721,
+      "retrieved_paths": [],
+      "retrieval_scores": []
+    },
+    {
+      "article_id": 10,
+      "title": "Piezoelectricity in Multilayer Black Phosphorus for Piezotronics and Nanogenerators",
+      "ground_truth": "Engineering and Technology > Material Engineering > Material Science > Nanomaterial",
+      "predicted": "Engineering and Technology > Nanotechnology > Nanomaterial > Two-Dimensional Material",
+      "confidence": "High",
+      "exact_match": false,
+      "inference_time": 0.45725440979003906,
+      "retrieved_paths": [],
+      "retrieval_scores": []
+    }
+  ]
+}
