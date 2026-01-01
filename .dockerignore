@@ -1,0 +1,71 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+ai_env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Git
+.git/
+.gitignore
+
+# Documentation
+*.md
+!README.md
+
+# Jupyter notebooks
+*.ipynb
+.ipynb_checkpoints/
+
+# Data files (not needed in production)
+fine_tuning/
+fine_tuning_new/
+Taxonomy Building/
+Taxonomy_correction/
+Data Collection/
+Data Preprocessing/
+Co-Citations/
+Annotation/
+article-extraction/
+evaluation/
+Scopus_english/
+
+# Testing
+test_*.py
+*_test.py
+tests/
+
+# Logs
+*.log
+logs/
+
+# Local database (will rebuild on Railway)
+RAG/chroma_db/
+
+# Uploads
+backend/uploads/
+
+# Scripts not needed in Docker
+start_system.sh
+stop_system.sh
+*.sh
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
