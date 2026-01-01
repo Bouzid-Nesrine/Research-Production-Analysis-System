@@ -117,13 +117,16 @@ else:
 # =============================================================================
 
 print("\n" + "=" * 60)
-print("EXAMPLE 2: Batch Classification")
+print("EXAMPLE 2: Batch Classification (1 article due to API limits)")
 print("=" * 60)
 
-print(f"\nClassifying {len(example_articles)} articles...")
+# Test only 1 article to avoid API limits
+test_batch = example_articles[:1]
+
+print(f"\nClassifying {len(test_batch)} article(s)...")
 
 results = pipeline.batch_classify(
-    example_articles,
+    test_batch,
     show_progress=True
 )
 
@@ -228,7 +231,7 @@ print("=" * 60)
 
 query = f"Title: {test_article['title']}\n\nAbstract: {test_article['abstract']}"
 
-retrieval_results = db_manager.retrieve_relevant_paths(
+retrieval_results = pipeline.db_manager.retrieve_relevant_paths(
     query_text=query,
     top_k=10
 )

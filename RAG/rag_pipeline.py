@@ -18,7 +18,7 @@ from config import (
     RAG_CONFIG,
     EMBEDDING_MODEL_NAME,
     LLM_MODEL_NAME,
-    LLM_LOAD_CONFIG,
+    LLM_API_CONFIG,
     LOGS_PATH
 )
 
@@ -123,10 +123,10 @@ class RAGClassificationPipeline:
     def _ensure_llm_loaded(self):
         """Lazy load LLM classifier"""
         if self.llm_classifier is None:
-            logger.info("Loading LLM classifier...")
+            logger.info("Initializing LLM classifier with Alibaba Cloud API...")
             self.llm_classifier = LLMClassifier(
                 model_name=self.llm_model_name,
-                **LLM_LOAD_CONFIG
+                api_base_url=LLM_API_CONFIG.get('api_base_url')
             )
     
     def classify_article(
@@ -198,7 +198,7 @@ class RAGClassificationPipeline:
                 abstract=abstract,
                 relevant_paths=relevant_paths,
                 temperature=temperature,
-                max_new_tokens=self.config['max_new_tokens'],
+                max_tokens=self.config.get('max_tokens', 256),
                 top_p=self.config['top_p']
             )
             
@@ -330,8 +330,10 @@ class RAGClassificationPipeline:
         output_path = Path(output_path)
         
         if format == 'json':
+            # Filter out None results
+            valid_results = [r for r in results if r is not None]
             with open(output_path, 'w', encoding='utf-8') as f:
-                json.dump(results, f, indent=2, ensure_ascii=False)
+                json.dump(valid_results, f, indent=2, ensure_ascii=False)
         
         elif format == 'jsonl':
             with open(output_path, 'w', encoding='utf-8') as f:
@@ -344,14 +346,34 @@ class RAGClassificationPipeline:
             # Flatten results for CSV
             flat_results = []
             for r in results:
-                flat = {
-                    'title': r['article']['title'],
-                    'abstract': r['article']['abstract'],
-                    'classified_path': r.get('classification', {}).get('path'),
-                    'confidence': r.get('classification', {}).get('confidence'),
-                    'valid': r.get('classification', {}).get('valid'),
-                    'error': r.get('error')
-                }
+                # Handle None or failed results
+                if r is None:
+                    flat = {
+                        'title': '',
+                        'abstract': '',
+                        'classified_path': '',
+                        'confidence': '',
+                        'valid': False,
+                        'error': 'No result'
+                    }
+                elif 'error' in r:
+                    flat = {
+                        'title': r.get('article', {}).get('title', '') if 'article' in r else '',
+                        'abstract': r.get('article', {}).get('abstract', '') if 'article' in r else '',
+                        'classified_path': '',
+                        'confidence': '',
+                        'valid': False,
+                        'error': r.get('error', 'Unknown error')
+                    }
+                else:
+                    flat = {
+                        'title': r.get('article', {}).get('title', ''),
+                        'abstract': r.get('article', {}).get('abstract', ''),
+                        'classified_path': r.get('classification', {}).get('path', ''),
+                        'confidence': r.get('classification', {}).get('confidence', ''),
+                        'valid': r.get('classification', {}).get('valid', False),
+                        'error': ''
+                    }
                 flat_results.append(flat)
             
             df = pd.DataFrame(flat_results)

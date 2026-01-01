@@ -1,75 +1,102 @@
 """
-LLM Classifier - Interface for Qwen 2.5 Instruct 14B
+LLM Classifier - Interface for Google Gemini via AI Studio API
 """
 
-from transformers import AutoModelForCausalLM, AutoTokenizer
+import os
+import google.generativeai as genai
 from typing import Dict, Any, Optional, List
-import torch
 import logging
 import re
+import time
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 logger = logging.getLogger(__name__)
 
 
 class LLMClassifier:
-    """Qwen 2.5 Instruct 14B classifier for taxonomy classification"""
+    """Google Gemini classifier using AI Studio API with automatic key rotation"""
     
     def __init__(
         self,
-        model_name: str = "Qwen/Qwen2.5-14B-Instruct",
-        device_map: str = "auto",
-        load_in_8bit: bool = False,
-        torch_dtype: str = "auto"
+        api_key: Optional[str] = None,
+        api_keys: Optional[List[str]] = None,
+        model_name: str = "gemini-2.0-flash",
+        api_base_url: Optional[str] = None
     ):
         """
-        Initialize LLM classifier
+        Initialize LLM classifier with Google AI Studio API
         
         Args:
-            model_name: Hugging Face model name
-            device_map: Device mapping strategy
-            load_in_8bit: Use 8-bit quantization
-            torch_dtype: Torch data type
+            api_key: Single Google API key (legacy support)
+            api_keys: List of Google API keys for automatic rotation
+            model_name: Model name (gemini-2.0-flash-exp, gemini-2.5-pro, gemini-1.5-flash, gemini-1.5-pro)
+            api_base_url: Not used (kept for compatibility)
         """
-        self.model_name = model_name
-        
-        logger.info(f"Loading LLM: {model_name}")
-        
-        # Load tokenizer
-        self.tokenizer = AutoTokenizer.from_pretrained(
-            model_name,
-            trust_remote_code=True
-        )
-        
-        # Load model
-        load_kwargs = {
-            "device_map": device_map,
-            "trust_remote_code": True,
-        }
-        
-        if torch_dtype == "auto":
-            load_kwargs["torch_dtype"] = "auto"
+        # Load API keys from environment or parameters
+        if api_keys:
+            self.api_keys = api_keys
+        elif os.getenv('GOOGLE_API_KEYS'):
+            # Multiple keys separated by comma
+            self.api_keys = [k.strip() for k in os.getenv('GOOGLE_API_KEYS').split(',') if k.strip()]
+        elif api_key:
+            self.api_keys = [api_key]
+        elif os.getenv('GOOGLE_API_KEY'):
+            self.api_keys = [os.getenv('GOOGLE_API_KEY')]
         else:
-            load_kwargs["torch_dtype"] = getattr(torch, torch_dtype)
+            raise ValueError(
+                "API key required. Set GOOGLE_API_KEYS (comma-separated) or GOOGLE_API_KEY environment variable."
+            )
         
-        if load_in_8bit:
-            load_kwargs["load_in_8bit"] = True
+        self.model_name = model_name
+        self.current_key_index = 0
+        self.key_failure_count = {i: 0 for i in range(len(self.api_keys))}
         
-        self.model = AutoModelForCausalLM.from_pretrained(
-            model_name,
-            **load_kwargs
-        )
+        # Configure with first API key
+        self._configure_api_key(self.api_keys[0])
         
-        logger.info("LLM loaded successfully")
+        logger.info(f"Initialized LLM classifier with {len(self.api_keys)} API key(s) and model: {model_name}")
+    
+    def _configure_api_key(self, api_key: str):
+        """Configure Google Generative AI with specific API key"""
+        genai.configure(api_key=api_key)
+        self.model = genai.GenerativeModel(self.model_name)
+        self.current_api_key = api_key
+    
+    def _rotate_api_key(self) -> bool:
+        """Rotate to next available API key"""
+        if len(self.api_keys) == 1:
+            logger.warning("Only one API key available, cannot rotate")
+            return False
+        
+        original_index = self.current_key_index
+        attempts = 0
+        
+        while attempts < len(self.api_keys):
+            self.current_key_index = (self.current_key_index + 1) % len(self.api_keys)
+            
+            # Skip keys that have failed too many times (more than 5 consecutive failures)
+            if self.key_failure_count[self.current_key_index] < 5:
+                self._configure_api_key(self.api_keys[self.current_key_index])
+                logger.info(f"Rotated to API key #{self.current_key_index + 1}")
+                return True
+            
+            attempts += 1
+        
+        logger.error("All API keys have failed multiple times")
+        return False
     
     def create_classification_prompt(
         self,
         title: str,
         abstract: str,
         relevant_paths: List[str],
-        include_reasoning: bool = True
+        include_reasoning: bool = False  # Disabled by default for speed
     ) -> str:
         """
-        Create optimized prompt for classification
+        Create optimized prompt for classification (shortened for speed)
         
         Args:
             title: Article title
@@ -86,31 +113,26 @@ class LLMClassifier:
             for i, path in enumerate(relevant_paths)
         ])
         
-        # Build prompt
-        prompt = f"""You are an expert research article classifier. Your task is to classify the given article into the most appropriate category from the provided taxonomy paths.
+        # Truncate abstract if too long (save tokens)
+        max_abstract_len = 500
+        if len(abstract) > max_abstract_len:
+            abstract = abstract[:max_abstract_len] + "..."
+        
+        # Shortened prompt for faster processing
+        prompt = f"""Classify this research article into ONE taxonomy path from the list.
 
-Article Title: {title}
+Title: {title}
+Abstract: {abstract}
 
-Article Abstract: {abstract}
-
-Relevant Taxonomy Paths (ranked by relevance):
+Paths:
 {paths_text}
 
-Instructions:
-1. Carefully analyze the article's title and abstract to understand its main research focus
-2. Compare the article's content with each taxonomy path
-3. Select EXACTLY ONE path that best represents the article's primary research area
-4. The path must be chosen from the list above
-5. Provide your selection in the exact format specified below
-
-Response Format:
-Path: [Copy the complete path exactly as shown above]
+Reply with ONLY:
+Path: [exact path from list]
 Confidence: [High/Medium/Low]"""
         
         if include_reasoning:
-            prompt += "\nReasoning: [Brief explanation in 1-2 sentences why this path was chosen]\n"
-        
-        prompt += "\nYour classification:"
+            prompt += "\nReasoning: [1 sentence]"
         
         return prompt
     
@@ -118,66 +140,84 @@ Confidence: [High/Medium/Low]"""
         self,
         prompt: str,
         temperature: float = 0.3,
-        max_new_tokens: int = 256,
+        max_tokens: int = 256,
         top_p: float = 0.9,
-        do_sample: bool = True
+        max_retries: int = 3,
+        **kwargs
     ) -> str:
         """
-        Generate classification using LLM
+        Generate classification using Google AI Studio API with automatic key rotation
         
         Args:
             prompt: Classification prompt
-            temperature: Sampling temperature (lower = more deterministic)
-            max_new_tokens: Maximum tokens to generate
-            top_p: Nucleus sampling parameter
-            do_sample: Whether to use sampling
+            temperature: Sampling temperature (lower = more deterministic, 0-2)
+            max_tokens: Maximum tokens to generate
+            top_p: Nucleus sampling parameter (0-1)
+            max_retries: Maximum retry attempts with key rotation
+            **kwargs: Additional API parameters
             
         Returns:
             LLM response text
         """
-        # Format as chat
-        messages = [
-            {
-                "role": "system",
-                "content": "You are an expert research article classifier with deep knowledge across all scientific domains."
-            },
-            {
-                "role": "user",
-                "content": prompt
-            }
-        ]
+        # Build system message + user prompt
+        full_prompt = "You are an expert research article classifier with deep knowledge across all scientific domains.\n\n" + prompt
         
-        # Apply chat template
-        text = self.tokenizer.apply_chat_template(
-            messages,
-            tokenize=False,
-            add_generation_prompt=True
-        )
+        last_exception = None
         
-        # Tokenize
-        model_inputs = self.tokenizer(
-            [text],
-            return_tensors="pt"
-        ).to(self.model.device)
+        for attempt in range(max_retries):
+            try:
+                # Configure generation parameters
+                generation_config = genai.GenerationConfig(
+                    temperature=temperature,
+                    top_p=top_p,
+                    max_output_tokens=max_tokens,
+                )
+                
+                # Generate response
+                response = self.model.generate_content(
+                    full_prompt,
+                    generation_config=generation_config
+                )
+                
+                # Success - reset failure count for this key
+                self.key_failure_count[self.current_key_index] = 0
+                
+                # Extract text
+                return response.text.strip()
+                    
+            except Exception as e:
+                last_exception = e
+                error_msg = str(e).lower()
+                
+                # Increment failure count
+                self.key_failure_count[self.current_key_index] += 1
+                
+                # Check if it's a rate limit or quota error
+                is_rate_limit = any(keyword in error_msg for keyword in 
+                    ['rate limit', 'quota', 'resource exhausted', '429', 'quota exceeded'])
+                
+                if is_rate_limit:
+                    logger.warning(f"API key #{self.current_key_index + 1} hit rate limit: {e}")
+                    
+                    # Try to rotate to next key
+                    if attempt < max_retries - 1 and self._rotate_api_key():
+                        logger.info(f"Retrying with new API key (attempt {attempt + 2}/{max_retries})")
+                        time.sleep(0.5)  # Brief pause before retry
+                        continue
+                    else:
+                        logger.error("No more API keys available or all keys exhausted")
+                        break
+                else:
+                    # Other errors - log and retry with same key
+                    logger.error(f"API request failed (attempt {attempt + 1}/{max_retries}): {e}")
+                    if attempt < max_retries - 1:
+                        time.sleep(1)  # Brief pause before retry
+                    else:
+                        break
         
-        # Generate
-        with torch.no_grad():
-            generated_ids = self.model.generate(
-                **model_inputs,
-                max_new_tokens=max_new_tokens,
-                temperature=temperature,
-                top_p=top_p,
-                do_sample=do_sample,
-                pad_token_id=self.tokenizer.eos_token_id
-            )
-        
-        # Decode response
-        response = self.tokenizer.batch_decode(
-            generated_ids[:, model_inputs.input_ids.shape[1]:],
-            skip_special_tokens=True
-        )[0]
-        
-        return response.strip()
+        # All retries failed
+        logger.error(f"All {max_retries} attempts failed. Last error: {last_exception}")
+        raise last_exception
     
     def parse_classification_response(
         self,
@@ -263,6 +303,29 @@ Confidence: [High/Medium/Low]"""
             'response_length': len(response),
         }
     
+    def get_api_key_status(self) -> Dict[str, Any]:
+        """
+        Get current status of all API keys
+        
+        Returns:
+            Dictionary with API key usage statistics
+        """
+        return {
+            'total_keys': len(self.api_keys),
+            'current_key_index': self.current_key_index + 1,
+            'current_key_prefix': self.current_api_key[:20] + '...',
+            'failure_counts': {
+                f'key_{i+1}': count 
+                for i, count in self.key_failure_count.items()
+            },
+            'healthy_keys': sum(1 for count in self.key_failure_count.values() if count < 5)
+        }
+    
+    def reset_key_failures(self):
+        """Reset failure counts for all API keys"""
+        self.key_failure_count = {i: 0 for i in range(len(self.api_keys))}
+        logger.info("Reset all API key failure counts")
+    
     def batch_classify(
         self,
         articles: List[Dict[str, Any]],
@@ -296,12 +359,11 @@ Confidence: [High/Medium/Low]"""
 
 def main():
     """Example usage"""
-    logger.basicConfig(level=logging.INFO)
+    logging.basicConfig(level=logging.INFO)
     
-    # Initialize classifier
+    # Initialize classifier (API key from environment)
     classifier = LLMClassifier(
-        model_name="Qwen/Qwen2.5-14B-Instruct",
-        load_in_8bit=False  # Set to True if GPU memory limited
+        model_name="gemini-2.5-flash-lite"  # Options: gemini-2.0-flash-exp, gemini-2.5-pro, gemini-1.5-flash, gemini-1.5-pro
     )
     
     # Example article

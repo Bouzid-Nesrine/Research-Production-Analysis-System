@@ -7,7 +7,7 @@ from pathlib import Path
 
 # Paths
 PROJECT_ROOT = Path(__file__).parent.parent
-TAXONOMY_PATH = PROJECT_ROOT / "Taxonomy Building" / "final_alex_taxonomy.json"
+TAXONOMY_PATH = PROJECT_ROOT / "Taxonomy Building" / "preprocessed_taxonomy.json"
 CHROMA_DB_PATH = PROJECT_ROOT / "RAG" / "chroma_db"
 LOGS_PATH = PROJECT_ROOT / "RAG" / "logs"
 
@@ -16,21 +16,25 @@ CHROMA_DB_PATH.mkdir(parents=True, exist_ok=True)
 LOGS_PATH.mkdir(parents=True, exist_ok=True)
 
 # Model Configuration
-EMBEDDING_MODEL_NAME = "all-mpnet-base-v2"  # Options: all-MiniLM-L6-v2, all-mpnet-base-v2, allenai-specter
-LLM_MODEL_NAME = "Qwen/Qwen2.5-14B-Instruct"
+# Using lighter model for faster embeddings (all-MiniLM-L6-v2 is 5x faster than mpnet)
+EMBEDDING_MODEL_NAME = "all-MiniLM-L6-v2"  # Options: all-MiniLM-L6-v2 (fast), all-mpnet-base-v2 (accurate), allenai-specter
+LLM_MODEL_NAME = "gemini-2.5-flash-lite"  # Options: gemini-2.0-flash-exp (fast, stable), gemini-1.5-flash, gemini-1.5-pro
+
+# API Configuration (for Google AI Studio)
+# Set GOOGLE_API_KEY in .env file
+GOOGLE_API_BASE_URL = "https://generativelanguage.googleapis.com/v1beta/openai/"
 
 # RAG Configuration
 RAG_CONFIG = {
-    # Retrieval parameters
-    "top_k": 10,  # Number of paths to retrieve (5-15 recommended)
-    "similarity_threshold": 0.7,  # Minimum similarity score (0-1)
-    "diversity_weight": 0.2,  # Weight for diversity in retrieval (0-1)
+    # Retrieval parameters (optimized for speed)
+    "top_k": 5,  # Reduced from 5 - fewer paths = faster LLM processing
+    "similarity_threshold": 0.0,  # Disabled - always return top_k best matches
+    "diversity_weight": 0.1,  # Reduced for faster retrieval
     
-    # LLM parameters
-    "temperature": 0.3,  # Lower = more deterministic (0.1-0.7)
-    "max_new_tokens": 256,  # Maximum tokens for LLM response
-    "top_p": 0.9,  # Nucleus sampling
-    "do_sample": True,
+    # LLM parameters (optimized for speed)
+    "temperature": 0.1,  # Lower = faster, more deterministic
+    "max_tokens": 150,  # Reduced from 256 - we only need path + confidence
+    "top_p": 0.8,  # Slightly reduced for faster generation
     
     # Processing
     "batch_size": 8,  # For batch processing
@@ -41,12 +45,12 @@ RAG_CONFIG = {
     "embedding_function": None,  # Will be set at runtime
 }
 
-# LLM Loading Configuration
-LLM_LOAD_CONFIG = {
-    "torch_dtype": "auto",
-    "device_map": "auto",
-    "load_in_8bit": False,  # Set to True if GPU memory is limited
-    "trust_remote_code": True,
+# LLM API Configuration (for Google AI Studio)
+LLM_API_CONFIG = {
+    "model_name": LLM_MODEL_NAME,
+    "api_base_url": GOOGLE_API_BASE_URL,
+    "timeout": 30,  # Reduced timeout for faster failure detection
+    "max_retries": 1,  # Reduced retries for speed
 }
 
 # Logging Configuration
