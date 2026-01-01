@@ -50,9 +50,16 @@ tests/
 # Logs
 *.log
 logs/
+RAG/logs/
 
 # Local database (will rebuild on Railway)
 RAG/chroma_db/
+
+# Large test files
+RAG/test_taxonomy_paths.json
+RAG/test_embeddings_visualization.png
+RAG/test_retrieval_visualization.png
+RAG/results/
 
 # Uploads
 backend/uploads/
@@ -69,3 +76,10 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp
+
+# Demo files
+*demo*.py
+*Demo*.ipynb
+
+# Pinecone
+RAG/vector_db_pinecone.py
