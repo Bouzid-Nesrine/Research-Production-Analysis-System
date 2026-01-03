@@ -19,6 +19,7 @@ logs/
 *.h5
 *.onnx
 models/
+best_models/final_model/
 
 # Environment
 .env

@@ -11,7 +11,7 @@ from functools import lru_cache
 
 from taxonomy_parser import TaxonomyParser
 from vector_db_manager import VectorDBManager
-from llm_classifier import LLMClassifier
+from RAG.llm_classifier_api import LLMClassifier
 from config import (
     TAXONOMY_PATH,
     CHROMA_DB_PATH,

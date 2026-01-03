@@ -43,7 +43,7 @@ def test_llm_import():
     print("="*60)
     
     try:
-        from llm_classifier import LLMClassifier
+        from RAG.llm_classifier_api import LLMClassifier
         print("✓ PASSED: LLMClassifier imported successfully")
         return True
     except ImportError as e:
@@ -59,7 +59,7 @@ def test_llm_initialization():
     print("="*60)
     
     try:
-        from llm_classifier import LLMClassifier
+        from RAG.llm_classifier_api import LLMClassifier
         
         # Use Google Gemini model
         classifier = LLMClassifier(model_name="gemini-2.5-flash-lite")

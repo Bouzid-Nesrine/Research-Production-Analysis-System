@@ -186,5 +186,5 @@ if __name__ == "__main__":
     generate_hierarchy_paths(output_file, paths_file)
     
     print("\n" + "=" * 50)
-    print("All done! 🎉")
+    print("All done! ")
     print("=" * 50)

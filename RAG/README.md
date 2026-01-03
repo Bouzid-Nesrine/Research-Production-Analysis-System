@@ -1,25 +1,26 @@
 # RAG-Based Taxonomy Classification System
 
-Efficient research article classification using Retrieval-Augmented Generation (RAG) with ChromaDB and Qwen 2.5 via Alibaba Cloud API.
+Efficient research article classification using Retrieval-Augmented Generation (RAG) with ChromaDB and a fine-tuned SciBERT model.
 
-## 🎯 Overview
+##  Overview
 
 This system classifies research articles into a hierarchical taxonomy using:
-- **Vector Database (ChromaDB)**: Stores 4500+ taxonomy paths as embeddings
+- **Vector Database (ChromaDB)**: Stores 1,449 taxonomy paths as embeddings
 - **Semantic Retrieval**: Finds top-k most relevant paths for each article
-- **LLM Classification**: Google Gemini (via AI Studio API) selects the best path
-- **Automatic API Key Rotation**: Seamlessly switches between multiple API keys when rate limits are hit
-- **Performance**: 96-98% token reduction, 80-85% faster inference, no GPU required
+- **Fine-tuned SciBERT Model**: Re-ranks candidates using domain-specific knowledge
+- **LoRA Adaptation**: Efficient fine-tuning on 862 scientific domain classes
+- **Local Inference**: CPU-based inference, no API costs or rate limits
 
 ## 📊 Performance Benefits
 
 | Metric | Without RAG | With RAG | Improvement |
 |--------|-------------|----------|-------------|
-| Tokens per classification | 14,000+ | 200-500 | **96-98% ↓** |
-| Inference time | 30-60s | 5-10s | **80-85% ↓** |
-| Accuracy | Baseline | +5-15% | **Better** |
-| Cost per 1K articles | $X | $0.02X | **98% ↓** |
-| GPU Required | Yes (28GB model) | No (API) | **Cloud-based** |
+| Accuracy (F1) | 27.00% | 34.54% | **+7.54%** |
+| Relative Improvement | - | - | **+27.9%** |
+| Inference time | ~0.15s | ~0.85s | Per article |
+| Retrieval Recall@5 | N/A | 41.00% | - |
+| Re-ranking Effectiveness | N/A | 61.8% | When correct in top-5 |
+| Cost | Free | Free | **Local inference** |
 
 ## 🚀 Quick Start
 
@@ -33,22 +34,15 @@ cd RAG
 pip install -r requirements.txt
 ```
 
-### 2. Configure API Keys
+### 2. Download Fine-tuned Model
+
+The system uses a fine-tuned SciBERT model with LoRA adapters:
 
 ```bash
-# Copy environment template
-cp .env.example .env
-
-# Edit .env and add your Google AI Studio API keys
-# For single key:
-# GOOGLE_API_KEY=AIzaSy...
-
-# For multiple keys (recommended - automatic rotation):
-# GOOGLE_API_KEYS=AIzaSy...,AIzaSy...,AIzaSy...,AIzaSy...
+# Model is located in:
+# RAG/best_models/scibert_lora_final/
+# (Should be already present in the repository)
 ```
-
-**📖 See [API_SETUP.md](API_SETUP.md) for getting API keys**  
-**📖 See [API_KEY_ROTATION.md](API_KEY_ROTATION.md) for multi-key setup**
 
 ### 3. Setup Database
 
@@ -72,7 +66,7 @@ This will:
 ```python
 from rag_pipeline import RAGClassificationPipeline
 
-# Initialize pipeline (automatically uses Alibaba Cloud API)
+# Initialize pipeline (uses local fine-tuned SciBERT model)
 pipeline = RAGClassificationPipeline(auto_setup=True)
 
 # Classify single article
@@ -83,6 +77,7 @@ result = pipeline.classify_article(
 
 print(f"Path: {result['classification']['path']}")
 print(f"Confidence: {result['classification']['confidence']}")
+print(f"Model Score: {result['classification']['model_score']}")
 ```
 
 #### Batch Processing
@@ -110,19 +105,20 @@ RAG/
 ├── config.py                   # Configuration settings
 ├── taxonomy_parser.py          # Parse taxonomy into paths
 ├── vector_db_manager.py        # ChromaDB interface
-├── llm_classifier.py           # Qwen API interface
+├── local_model_classifier.py   # Fine-tuned SciBERT classifier
 ├── rag_pipeline.py             # Complete pipeline
 ├── setup_pipeline.py           # Database setup script
+├── evaluate_rag_accuracy.py    # Evaluation script
 ├── requirements.txt            # Dependencies
-├── .env.example                # Environment template
-├── API_SETUP.md                # API configuration guide
+├── EVALUATION_REPORT.md        # Performance analysis
 ├── PIPELINE.md                 # Detailed documentation
 ├── README.md                   # This file
-├── RAG_Classification_Demo.ipynb  # Interactive demo
 │
+├── best_models/
+│   └── scibert_lora_final/     # Fine-tuned SciBERT with LoRA
 ├── chroma_db/                  # ChromaDB storage (created after setup)
 ├── logs/                       # Classification logs
-├── results/                    # Output results
+├── evaluation_results/         # Evaluation outputs
 └── taxonomy_paths.json         # Extracted paths (created after setup)
 ```
 
@@ -132,17 +128,14 @@ Edit `config.py` to customize:
 
 ```python
 RAG_CONFIG = {
-    "top_k": 10,                    # Paths to retrieve (5-15)
-    "similarity_threshold": 0.7,     # Min similarity (0-1)
-    "temperature": 0.3,              # LLM temperature (0-2)
-    "max_tokens": 256,               # Max response length
+    "top_k": 5,                      # Paths to retrieve (5-15)
+    "model_weight": 0.6,             # Weight for model score (0.6)
+    "retrieval_weight": 0.4,         # Weight for retrieval similarity (0.4)
 }
 
-EMBEDDING_MODEL_NAME = "all-mpnet-base-v2"  # Embedding model
-LLM_MODEL_NAME = "qwen-plus"  # API model: qwen-turbo, qwen-plus, qwen-max
+EMBEDDING_MODEL_NAME = "all-MiniLM-L6-v2"  # Embedding model (384 dims)
+LOCAL_MODEL_PATH = "best_models/scibert_lora_final"  # Fine-tuned SciBERT with LoRA
 ```
-
-**📖 See [API_SETUP.md](API_SETUP.md) for API configuration options**
 
 ## 📖 Detailed Workflow
 
@@ -159,19 +152,19 @@ LLM_MODEL_NAME = "qwen-plus"  # API model: qwen-turbo, qwen-plus, qwen-max
 
 ### Phase 2: Online Classification (Per Article)
 
-1. **Retrieve Relevant Paths**
+1. **Retrieve Relevant Paths** (~0.024s)
    - Embed article (title + abstract)
-   - Query ChromaDB for top-k similar paths
+   - Query ChromaDB for top-k similar paths (k=5)
    - Return similarity scores
 
-2. **LLM Classification**
-   - Format prompt with article + retrieved paths
-   - Query Qwen 2.5 via Alibaba Cloud API
-   - Parse structured response
+2. **Neural Re-ranking** (~0.83s)
+   - For each candidate path, create input: `[Article] [SEP] [Path]`
+   - Score with fine-tuned SciBERT model
+   - Combine: 0.6 × model_score + 0.4 × retrieval_similarity
 
-3. **Validation**
-   - Verify path exists in retrieved set
-   - Return classification with confidence
+3. **Final Selection**
+   - Select path with highest combined score
+   - Return classification with confidence and scores
 
 ## 🎛️ Advanced Usage
 
@@ -189,14 +182,20 @@ pipeline = RAGClassificationPipeline(
 )
 ```
 
-### Different API Models
+### Score Fusion Tuning
 
 ```python
-# Faster, cheaper (high-volume classification)
-pipeline = RAGClassificationPipeline(llm_model="qwen-turbo")
+# Adjust model vs retrieval weights
+from local_model_classifier import LocalModelClassifier
 
-# Better accuracy (critical classifications)
-pipeline = RAGClassificationPipeline(llm_model="qwen-max")
+classifier = LocalModelClassifier()
+result = classifier.classify_with_paths(
+    title=title,
+    abstract=abstract,
+    candidate_paths=retrieved_paths,
+    model_weight=0.7,      # Emphasize model more
+    retrieval_weight=0.3   # De-emphasize retrieval
+)
 ```
 
 ### Hyperparameter Tuning
@@ -211,12 +210,15 @@ for k in [5, 10, 15, 20]:
     )
     # Evaluate results...
 
-# Test different temperatures
-for temp in [0.1, 0.3, 0.5, 0.7]:
-    result = pipeline.classify_article(
+# Test different score weights
+for model_w in [0.5, 0.6, 0.7, 0.8]:
+    retrieval_w = 1.0 - model_w
+    result = classifier.classify_with_paths(
         title=title,
         abstract=abstract,
-        temperature=temp
+        candidate_paths=paths,
+        model_weight=model_w,
+        retrieval_weight=retrieval_w
     )
 ```
 
@@ -372,35 +374,10 @@ result = pipeline.classify_article(
 4. **GPU Utilization**: Use CUDA for both embedding and LLM inference
 5. **Embedding Cache**: Embeddings are cached automatically (LRU cache)
 
-## 🔄 Updating Taxonomy
-
-If taxonomy changes:
-
-```bash
-# Update preprocessed_taxonomy.json
-# Then rebuild database
-python setup_pipeline.py --reset
-```
-
 ## 📦 Requirements
 
 - Python 3.8+
-- CUDA-capable GPU (recommended)
-- 16GB+ RAM
-- 20GB+ GPU VRAM (or use 8-bit quantization)
+- CPU-only inference supported (no GPU required)
+- 8GB+ RAM
+- Dependencies: transformers, peft, torch, sentence-transformers, chromadb
 
-## 📄 License
-
-[Your License]
-
-## 🤝 Contributing
-
-[Contributing guidelines]
-
-## 📧 Contact
-
-[Your contact information]
-
----
-
-**Need Help?** Check [PIPELINE.md](PIPELINE.md) for detailed documentation or open an issue.
