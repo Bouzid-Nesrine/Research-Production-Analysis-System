@@ -107,7 +107,7 @@ This will:
 ### 4. Run Backend Server
 
 ```bash
-cd backend
+cd nlp-backend/rag_backend
 python app.py
 ```
 
@@ -149,10 +149,11 @@ Research-Production-Analysis-System/
 ├── README.md                          # This file
 ├── requirements.txt                   # Python dependencies
 │
-├── backend/                           # Flask REST API
-│   ├── app.py                        # Main server application
-│   ├── pdf_parser.py                 # GROBID PDF processing
-│   └── routes/                       # API endpoints
+├── nlp-backend/                       # Backend services
+│   └── rag_backend/                  # Flask REST API
+│       ├── app.py                    # Main server application
+│       ├── pdf_parser.py             # GROBID PDF processing
+│       └── routes/                   # API endpoints
 │
 ├── nlp-platform-ui/                  # React frontend
 │   ├── src/
@@ -240,7 +241,7 @@ POST /api/classify
 
 ### Backend Configuration
 
-Edit `backend/config.py`:
+Edit `nlp-backend/rag_backend/config.py`:
 ```python
 # Server settings
 HOST = "127.0.0.1"
@@ -344,7 +345,7 @@ curl -X POST http://localhost:5000/api/classify \
 
 ```bash
 # Backend tests
-cd backend
+cd nlp-backend/rag_backend
 pytest
 
 # RAG tests
@@ -354,7 +355,7 @@ python test_rag_pipeline.py
 
 ### Adding New Features
 
-1. **Backend**: Add routes in `backend/routes/`
+1. **Backend**: Add routes in `nlp-backend/rag_backend/routes/`
 2. **Frontend**: Add components in `nlp-platform-ui/src/components/`
 3. **RAG**: Modify pipeline in `RAG/rag_pipeline.py`
 
@@ -372,7 +373,7 @@ lsof -i :5000
 kill -9 <PID>
 
 # Restart backend
-cd backend
+cd nlp-backend/rag_backend
 python app.py
 ```
 
@@ -401,7 +402,7 @@ The system will work without GROBID for manual text input. To enable PDF parsing
 ```bash
 # Install and run GROBID (see documentation)
 # Or start backend with --no-grobid flag
-cd backend
+cd nlp-backend/rag_backend
 python app.py --no-grobid
 ```
 

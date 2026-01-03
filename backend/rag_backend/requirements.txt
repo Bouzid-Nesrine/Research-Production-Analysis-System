@@ -1,0 +1,28 @@
+# Backend API Dependencies
+# Research Paper Classification API
+
+# Flask and web framework
+flask>=2.3.0
+flask-cors>=4.0.0
+werkzeug>=2.3.0
+
+# PDF processing with GROBID
+requests>=2.31.0
+lxml>=4.9.0
+
+# RAG Pipeline dependencies (inherited from RAG folder)
+# These are needed if RAG is imported
+sentence-transformers>=2.2.0
+chromadb>=0.4.0
+openai>=1.0.0
+python-dotenv>=1.0.0
+
+# Utilities
+tqdm>=4.65.0
+pandas>=2.0.0
+
+# Production WSGI server
+gunicorn>=21.2.0
+
+# Development
+python-dotenv>=1.0.0
