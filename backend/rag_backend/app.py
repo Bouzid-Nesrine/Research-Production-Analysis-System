@@ -17,19 +17,27 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 from werkzeug.utils import secure_filename
 
-# Add RAG folder to path
-RAG_PATH = Path(__file__).parent.parent / "RAG"
-sys.path.insert(0, str(RAG_PATH))
+# Add project root to path so RAG can be imported as a package
+# Path: backend/rag_backend/app.py -> go up 2 levels to project root
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
+print(f"PROJECT_ROOT: {PROJECT_ROOT}")
+print(f"RAG folder exists: {(PROJECT_ROOT / 'RAG').exists()}")
 
 from pdf_extractor import PDFExtractor, GrobidManager
 
 # Import RAG components
 try:
-    from rag_pipeline import RAGClassificationPipeline
+    from RAG.rag_pipeline import RAGClassificationPipeline
     RAG_AVAILABLE = True
 except ImportError as e:
     print(f"Warning: RAG pipeline not available: {e}")
     RAG_AVAILABLE = False
+    # Define a dummy class for type hints
+    class RAGClassificationPipeline:
+        pass
 
 # Configure logging
 logging.basicConfig(

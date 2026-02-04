@@ -9,18 +9,29 @@ import logging
 from datetime import datetime
 from functools import lru_cache
 
-from taxonomy_parser import TaxonomyParser
-from vector_db_manager import VectorDBManager
-from RAG.llm_classifier_api import LLMClassifier
-from config import (
-    TAXONOMY_PATH,
-    CHROMA_DB_PATH,
-    RAG_CONFIG,
-    EMBEDDING_MODEL_NAME,
-    LLM_MODEL_NAME,
-    LLM_API_CONFIG,
-    LOGS_PATH
-)
+try:
+    from taxonomy_parser import TaxonomyParser
+    from vector_db_manager import VectorDBManager
+    from local_model_classifier import LocalModelClassifier
+    from config import (
+        TAXONOMY_PATH,
+        CHROMA_DB_PATH,
+        RAG_CONFIG,
+        EMBEDDING_MODEL_NAME,
+        LOGS_PATH
+    )
+except ImportError:
+    from RAG.taxonomy_parser import TaxonomyParser
+    from RAG.vector_db_manager import VectorDBManager
+    from RAG.local_model_classifier import LocalModelClassifier
+    from RAG.config import (
+        TAXONOMY_PATH,
+        CHROMA_DB_PATH,
+        RAG_CONFIG,
+        EMBEDDING_MODEL_NAME,
+        LOGS_PATH
+    )
+
 
 # Configure logging
 logging.basicConfig(
@@ -62,7 +73,7 @@ class RAGClassificationPipeline:
         self.taxonomy_path = taxonomy_path or TAXONOMY_PATH
         self.db_path = db_path or CHROMA_DB_PATH
         self.embedding_model_name = embedding_model or EMBEDDING_MODEL_NAME
-        self.llm_model_name = llm_model or LLM_MODEL_NAME
+        self.llm_model_name = llm_model or "SciBERT-LoRA (local)"
         self.config = config or RAG_CONFIG
         
         # Initialize components
@@ -117,17 +128,22 @@ class RAGClassificationPipeline:
         else:
             logger.info(f"Using existing database with {current_count} paths")
         
-        # 4. Initialize LLM (lazy loading - only when needed)
-        logger.info("Pipeline setup complete (LLM will be loaded on first use)")
+        # 4. Initialize local model classifier
+        logger.info("Initializing local model classifier...")
+        try:
+            self.llm_classifier = LocalModelClassifier()
+            logger.info("Local model classifier loaded successfully")
+        except Exception as e:
+            logger.error(f"Failed to load local model: {e}")
+            self.llm_classifier = None
+        
+        logger.info("Pipeline setup complete")
     
     def _ensure_llm_loaded(self):
-        """Lazy load LLM classifier"""
+        """Ensure LLM classifier is loaded"""
         if self.llm_classifier is None:
-            logger.info("Initializing LLM classifier with Alibaba Cloud API...")
-            self.llm_classifier = LLMClassifier(
-                model_name=self.llm_model_name,
-                api_base_url=LLM_API_CONFIG.get('api_base_url')
-            )
+            logger.info("Loading local model classifier...")
+            self.llm_classifier = LocalModelClassifier()
     
     def classify_article(
         self,
@@ -187,6 +203,9 @@ class RAGClassificationPipeline:
             relevant_paths = [
                 p['path'] for p in retrieval_result['retrieved_paths']
             ]
+            retrieval_similarities = [
+                p['similarity'] for p in retrieval_result['retrieved_paths']
+            ]
             
             # Step 2: Classify with LLM
             self._ensure_llm_loaded()
@@ -197,6 +216,7 @@ class RAGClassificationPipeline:
                 title=title,
                 abstract=abstract,
                 relevant_paths=relevant_paths,
+                retrieval_similarities=retrieval_similarities,
                 temperature=temperature,
                 max_tokens=self.config.get('max_tokens', 256),
                 top_p=self.config['top_p']
@@ -225,11 +245,11 @@ class RAGClassificationPipeline:
                         ]
                     },
                     'classification': {
-                        'model': self.llm_model_name,
+                        'model': self.llm_classifier.model_name if hasattr(self.llm_classifier, 'model_name') else 'local_model',
                         'temperature': temperature,
                         'classification_time': classification_time,
-                        'prompt_length': llm_result['prompt_length'],
-                        'response_length': llm_result['response_length']
+                        'prompt_length': llm_result.get('prompt_length', 0),
+                        'response_length': llm_result.get('response_length', 0)
                     },
                     'total_time': retrieval_time + classification_time
                 }
